@@ -1,0 +1,13 @@
+body{ background: #fff;}
+.logo_box a{ display: block; margin: 20% auto 5%; width: 100%; text-align: center;}
+.form_box{ text-align: center;}
+.form_box .mobile{ border-bottom:1px solid #ebebeb; padding: 10px 0px 10px 0px; width: 80%; margin: 0 auto; text-align: left;}
+.form_box .mobile input{ border:none; background: none; background: url(../images/icon_phone.png) no-repeat left; background-size: 18px auto; padding: 0px 0px 0px 35px; color: #333; height: 35px; width: 80%; font-size: 18px;}
+.form_box .code{ border-bottom:1px solid #ebebeb; padding: 10px 0px 10px 0px; width: 80%; margin: 0 auto; text-align: left;}
+.form_box .code input{ border:none; background: none; background: url(../images/icon_password.png) no-repeat left; background-size: 18px auto; padding: 0px 0px 0px 35px; color: #333; height: 35px; width: 40%; font-size: 18px;}
+.form_box .code button{ background: none; color: #656565; font-size: 16px; float: right; margin: 8px 0 0 0;}
+.form_box .code button.disabled{ color: #e5e5e5; pointer-events: none;}
+.form_box .password{ border-bottom:1px solid #ebebeb; padding: 10px 0px 10px 0px; width: 80%; margin: 0 auto; text-align: left;}
+.form_box .password input{ border:none; background: none; background: url(../images/icon_password.png) no-repeat left; background-size: 18px auto; padding: 0px 0px 0px 35px; color: #333; height: 35px; width: 80%; font-size: 18px;}
+.form_box .submit{ width: 80%; text-align: center; color: #fff; font-size: 18px; background: #f3711a; padding: 10px 0px 10px 0px; margin: 40px 0px 0px 0px;}
+.form_box label.error{ background: #fff; font-size: 18px; color: #333; position: fixed; bottom: 20%; margin-left: -250px; width: 500px; text-align: center; display: none;}

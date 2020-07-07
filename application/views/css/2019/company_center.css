@@ -1,0 +1,209 @@
+
+.type_tab_box{ float: left; width: 100%; background: #fff; overflow-x: scroll; overflow-y: hidden; position: relative;}
+ .type_tab_box ul.tab_ul{ float: left; width: 120%;}
+ .type_tab_box ul.tab_ul li{ float: left; position: relative; padding: 15px 10px;}
+ .type_tab_box ul.tab_ul li span{ font-size: 14px; color: #999; font-weight: bold;}
+ .type_tab_box ul.tab_ul li i{ display: inline-block; width: 20px; height: 3px; background: #188eee; position: absolute; bottom: 0px; left: 50%; margin: 0px 0px 0px -10px; opacity: 0;}
+ .type_tab_box ul.tab_ul li.hover span{ color: #188eee;}
+ .type_tab_box ul.tab_ul li.hover i{ opacity: 1;}
+ .type_tab_box .more_do{ width: 15px; height: 11px; position: fixed; right: 15px; top: 20px; background: url(../../images/2019/company_center/more.png) no-repeat; background-color: #fff; background-size: 15px 11px; z-index: 10;}
+ .type_tab_box .bg2{  border: 15px solid rgba(255, 255, 255, 0.5); width: 15px; height: 11px; position: fixed; top: 5px; right: 0px; border-right: 15px solid rgba(255, 255, 255, 1);}
+ .type_tab_box .more_do .box{ display: none;}
+ .type_tab_box .more_do ul{ position: absolute; top: 30px; right: -5px; width: 110px; background: #999;}
+ .type_tab_box .more_do ul li{ padding: 10px 0px 10px 10px; height: 18px; }
+ .type_tab_box .more_do ul li i{ display: inline-block; width: 18px; height: 18px; float: left; margin: 0px 10px 0px 0px;}
+ .type_tab_box .more_do ul li span{ float: left; color: #ebebeb; line-height: 18px;}
+ .type_tab_box .more_do ul li.manage{ border-bottom: 1px solid #ededed;}
+ .type_tab_box .more_do ul li.manage i{ background: url(../../images/2019/company_center/manage_icon.png) no-repeat; background-size: 18px;}
+ .type_tab_box .more_do ul li.jobs i{ background: url(../../images/2019/company_center/select.png) no-repeat; background-size: 18px;}
+ .type_tab_box .more_do .bg{  position: absolute; background: url(../../images/2019/company_center/more_do_bg.png) no-repeat;  top: 20px; right: 3px; width: 15px; height: 10px; background-size: 15px 10px;}
+
+
+.type_tab_box2{ float: left; width: 100%; background: #fff; overflow: hidden; border-bottom: 1px solid #ededed;}
+ .type_tab_box2 ul.tab_ul{ float: left;}
+ .type_tab_box2 ul.tab_ul li{ float: left; position: relative; padding: 15px 10px;}
+ .type_tab_box2 ul.tab_ul li span{ font-size: 14px; color: #999; font-weight: bold;}
+ .type_tab_box2 ul.tab_ul li i{ display: inline-block; width: 20px; height: 3px; background: #188eee; position: absolute; bottom: 0px; left: 50%; margin: 0px 0px 0px -10px; opacity: 0;}
+ .type_tab_box2 ul.tab_ul li.hover span{ color: #188eee;}
+ .type_tab_box2 ul.tab_ul li.hover i{ opacity: 1;}
+ .type_tab_box2 .more_do{ float: right; margin: 15px 15px 0px 0px; width: 20px; height: 20px;}
+ .type_tab_box2 .more_do input.manage{ display: inline-block; background: url(../../images/2019/company_center/manage_icon2.png) no-repeat; background-size: 20px; width: 20px; height: 20px;}
+ .type_tab_box2 .more_do input.hover{ background: url(../../images/2019/company_center/manage_icon3.png) no-repeat; background-size: 20px;}
+
+
+#apply_jobs{ background: #ededed; padding: 0px 0px 80px 0px;}
+
+#apply_jobs ul.list{ padding: 15px 15px 0px 15px; float: left; width: calc(100% - 30px);}
+
+
+#apply_jobs ul.list li{ width: 100%; background: #fff; position: relative; margin: 0px 0px 15px 0px; float: left;}
+#apply_jobs ul.list li div.left{ width: 30px; height: 100%; text-align: center; background: #ededed; line-height: 100%; position: absolute; top:0; left: -15px; display: none;}
+#apply_jobs ul.list li div.left input{ display: inline-block; width: 15px; height: 15px; background: url(../../images/2019/checkbox.png) no-repeat; background-size: 15px; position: relative; top: 50%; left: 0; margin: -10px 0px 0px 0px;}
+#apply_jobs ul.list li div.left input:checked{ background: url(../../images/2019/checked.png) no-repeat; background-size: 15px;}
+#apply_jobs ul.list li div.left input.checked{ background: url(../../images/2019/checked.png) no-repeat; background-size: 15px;}
+#apply_jobs ul.list li div.right{ width: calc(100% - 20px); padding: 15px 10px 15px 10px; overflow: hidden; position: relative;}
+#apply_jobs ul.list li div.header_box{ width: 40px; height: 40px; float: left; position: relative; margin: 0px 10px 0px 0px;}
+#apply_jobs ul.list li div.header_box img{ width: 40px; height: 40px; border-radius: 50px;}
+#apply_jobs ul.list li div.header_box div.no_look{ width: 5px; height: 5px; border-radius: 100px; border: 1px solid #fff; background: red; position: absolute; top: -2px; right: -2px;}
+#apply_jobs ul.list li div.info_box{ width: calc(100% - 50px); height: 40px; float: left; }
+#apply_jobs ul.list li div.info_box .top{ width: 100%; float: left; margin: 0px 0px 5px 0px;}
+#apply_jobs ul.list li div.info_box p.name{ float: left; font-size: 16px; color: #202020; max-width: 130px; height: 22px; overflow: hidden;}
+#apply_jobs ul.list li div.info_box span.time{ float: right; color: #999;}
+#apply_jobs ul.list li div.info_box p.job{ color: #999; height: 16px; overflow: hidden;}
+
+
+
+#download{ background: #ededed; padding: 0px 0px 80px 0px;}
+
+#download ul.list{ padding: 15px 15px 0px 15px; float: left; width: calc(100% - 30px);}
+
+
+#download ul.list li{ width: 100%; background: #fff; position: relative; margin: 0px 0px 15px 0px; float: left;}
+#download ul.list li div.left{ width: 30px; height: 100%; text-align: center; background: #ededed; line-height: 100%; position: absolute; top:0; left: -15px; display: none;}
+#download ul.list li div.left input{ display: inline-block; width: 15px; height: 15px; background: url(../../images/2019/checkbox.png) no-repeat; background-size: 15px; position: relative; top: 50%; left: 0; margin: -10px 0px 0px 0px;}
+#download ul.list li div.left input:checked{ background: url(../../images/2019/checked.png) no-repeat; background-size: 15px;}
+#download ul.list li div.left input.checked{ background: url(../../images/2019/checked.png) no-repeat; background-size: 15px;}
+#download ul.list li div.right{ width: calc(100% - 20px); padding: 15px 10px 15px 10px; overflow: hidden; position: relative;}
+#download ul.list li div.header_box{ width: 40px; height: 40px; float: left; position: relative; margin: 0px 10px 0px 0px;}
+#download ul.list li div.header_box img{ width: 40px; height: 40px; border-radius: 50px;}
+#download ul.list li div.info_box{ width: calc(100% - 50px); height: 40px; float: left; }
+#download ul.list li div.info_box .top{ width: 100%; float: left; margin: 0px 0px 5px 0px;}
+#download ul.list li div.info_box p.name{ float: left; font-size: 16px; color: #202020;}
+#download ul.list li div.info_box span.time{ float: right; color: #999;}
+#download ul.list li div.info_box p.info{ color: #999;}
+
+
+
+
+#favorites{ background: #ededed; padding: 0px 0px 80px 0px;}
+
+#favorites ul.list{ padding: 15px 15px 0px 15px; float: left; width: calc(100% - 30px);}
+#favorites ul.list li{ width: 100%; background: #fff; position: relative; margin: 0px 0px 15px 0px; float: left;}
+#favorites ul.list li div.left{ width: 30px; height: 100%; text-align: center; background: #ededed; line-height: 100%; position: absolute; top:0; left: -15px; display: none;}
+#favorites ul.list li div.left input{ display: inline-block; width: 15px; height: 15px; background: url(../../images/2019/checkbox.png) no-repeat; background-size: 15px; position: relative; top: 50%; left: 0; margin: -10px 0px 0px 0px;}
+#favorites ul.list li div.left input:checked{ background: url(../../images/2019/checked.png) no-repeat; background-size: 15px;}
+#favorites ul.list li div.left input.checked{ background: url(../../images/2019/checked.png) no-repeat; background-size: 15px;}
+#favorites ul.list li div.right{ width: calc(100% - 20px); padding: 15px 10px 15px 10px; overflow: hidden; position: relative;}
+#favorites ul.list li div.header_box{ width: 40px; height: 40px; float: left; position: relative; margin: 0px 10px 0px 0px;}
+#favorites ul.list li div.header_box img{ width: 40px; height: 40px; border-radius: 50px;}
+#favorites ul.list li div.info_box{ width: calc(100% - 50px); height: 40px; float: left; }
+#favorites ul.list li div.info_box .top{ width: 100%; float: left; margin: 0px 0px 5px 0px;}
+#favorites ul.list li div.info_box p.name{ float: left; font-size: 16px; color: #202020;}
+#favorites ul.list li div.info_box span.time{ float: right; color: #999;}
+#favorites ul.list li div.info_box p.info{ color: #999;}
+
+
+
+#interview{ background: #ededed; padding: 0px 0px 80px 0px;}
+
+#interview ul.list{ padding: 15px 15px 0px 15px; float: left; width: calc(100% - 30px);}
+#interview ul.list li{ width: 100%; background: #fff; position: relative; margin: 0px 0px 15px 0px; float: left;}
+#interview ul.list li div.left{ width: 30px; height: 100%; text-align: center; background: #ededed; line-height: 100%; position: absolute; top:0; left: -15px; display: none;}
+#interview ul.list li div.left input{ display: inline-block; width: 15px; height: 15px; background: url(../../images/2019/checkbox.png) no-repeat; background-size: 15px; position: relative; top: 50%; left: 0; margin: -10px 0px 0px 0px;}
+#interview ul.list li div.left input:checked{ background: url(../../images/2019/checked.png) no-repeat; background-size: 15px;}
+#interview ul.list li div.left input.checked{ background: url(../../images/2019/checked.png) no-repeat; background-size: 15px;}
+#interview ul.list li div.right{ width: calc(100% - 20px); padding: 15px 10px 15px 10px; overflow: hidden; position: relative;}
+#interview ul.list li div.header_box{ width: 40px; height: 40px; float: left; position: relative; margin: 0px 10px 0px 0px;}
+#interview ul.list li div.header_box img{ width: 40px; height: 40px; border-radius: 50px;}
+#interview ul.list li div.header_box div.no_look{ width: 5px; height: 5px; border-radius: 100px; border: 1px solid #fff; background: red; position: absolute; top: -2px; right: -2px;}
+#interview ul.list li div.info_box{ width: calc(100% - 50px); height: 40px; float: left; }
+#interview ul.list li div.info_box .top{ width: 100%; float: left; margin: 0px 0px 5px 0px;}
+#interview ul.list li div.info_box p.name{ float: left; font-size: 16px; color: #202020;}
+#interview ul.list li div.info_box span.time{ float: right; color: #999;}
+#interview ul.list li div.info_box p.job{ color: #999;}
+
+
+
+#company_jobs{ background: #ededed; padding: 0px 0px 80px 0px;}
+#company_jobs ul.list{ padding: 15px 15px 0px 15px; float: left; width:calc(100% - 30px)}
+#company_jobs ul.list li{ background: #fff; float: left; border-radius: 5px; margin: 0px 0px 10px 0px; position: relative; width: 100%;}
+#company_jobs ul.list li div.left{ width: 30px; height: 100%; text-align: center; background: #ededed; line-height: 100%; position: absolute; top:0; left: -15px; display: none;}
+#company_jobs ul.list li div.left input{ display: inline-block; width: 15px; height: 15px; background: url(../../images/2019/checkbox.png) no-repeat; background-size: 15px; position: relative; top: 50%; left: 0; margin: -10px 0px 0px 0px;}
+#company_jobs ul.list li div.left input:checked{ background: url(../../images/2019/checked.png) no-repeat; background-size: 15px;}
+#company_jobs ul.list li div.left input.checked{ background: url(../../images/2019/checked.png) no-repeat; background-size: 15px;}
+#company_jobs ul.list li div.right{ width: calc(100% - 20px); padding: 15px 10px 15px 10px; overflow: hidden; position: relative;}
+#company_jobs ul.list li div.right p.job_name{ font-size: 16px; line-height: 22px; color: #333; font-weight: bold; margin: 0px 0px 10px 0px;}
+#company_jobs ul.list li div.right p.info{ color: #999; float: left; display: inline-block; max-width: calc(100% - 70px); height: 22px; line-height: 22px;  overflow: hidden;}
+#company_jobs ul.list li div.right span.date{ color: #999; float: right;line-height: 22px;}
+#company_jobs ul.list li div.right p.result{ color: #999; float: left;line-height: 15px; margin: 0px 0px 5px 0px;}
+
+
+#my_index{ background:#f0f1f2;}
+#my_index .top_box{ background:#188eee; position: relative; width: 100%; height: 70px;}
+#my_index .top_box .box{ position: absolute; top: 35px; width: 100%; left: 0; }
+#my_index .top_box .logo_box{ background: #ffff; width: 84%; border-radius: 5px;  box-shadow: 1px 1px 3px 0px #666; padding: 10px 0px 10px 0px; margin: 0 auto; position: relative;}
+#my_index .top_box .logo_box img{ float: left; margin: 0px 0px 0px 10px;}
+#my_index .top_box .logo_box input.up_logo{ width: 100%; height: 100%; position: absolute; left: 0; top: 0; opacity: 0;}
+#my_index .top_box .logo_box .right{ position: absolute; top: 50%; right: 0px; margin: -8px 5px 0px 0px;}
+#my_index .top_box .logo_box .right p{ color: #999; float: left; margin: 0px 5px 0px 0px; font-size: 14px; max-width: 100px; height: 20px; overflow: hidden;}
+#my_index .top_box .logo_box .right i{ display: inline-block; width: 6px; height: 10px; background: url(../../images/2019/to_right3.png) no-repeat; background-size: 6px 10px; margin: 5px 0px 0px 0px;}
+#my_index .function_list { float:left; width: 100%; padding: 30px 0px 10px 0px;}
+#my_index .function_list li{ float:left; width: 100%; padding: 10px 0px 10px 0px; background: #fff; margin: 0px 0px 5px 0px;}
+#my_index .function_list li i{ float:left; width: 20px; height: 27px; margin: 0px 10px 0px 15px;}
+#my_index .function_list li span{ float:left; font-size: 14px; color: #202020; margin: 5px 0px 0px 0px;}
+#my_index .function_list li.account i{ background: url(../../images/2019/company_center/account.png) no-repeat; background-size: 20px 27px;}
+#my_index .function_list li.message i{ background: url(../../images/2019/company_center/message.png) no-repeat; background-size: 20px 27px;}
+#my_index .function_list li.info i{ background: url(../../images/2019/company_center/info.png) no-repeat; background-size: 20px 27px;}
+#my_index .function_list li i.to_right{ float: right; display: inline-block; width: 6px; height: 10px; background: url(../../images/2019/to_right3.png) no-repeat; background-size: 6px 10px; margin: 10px 15px 0px 0px;}
+#my_index .logout_box { float:left; width: 100%; padding: 10px 0px 10px 0px; background: #fff; margin: 0px 0px 5px 0px;}
+#my_index .logout_box i{ float:left; width: 20px; height: 27px; margin: 0px 10px 0px 15px; background: url(../../images/2019/company_center/logout.png) no-repeat; background-size: 20px 27px;}
+#my_index .logout_box span{ float:left; font-size: 14px; color: #202020; margin: 5px 0px 0px 0px;}
+#my_index .logout_box i.to_right{ float: right; display: inline-block; width: 6px; height: 10px; background: url(../../images/2019/to_right3.png) no-repeat; background-size: 6px 10px; margin: 10px 15px 0px 0px;}
+
+
+#my_account{ background:#f0f1f2; padding: 0px 0px 80px 0px;}
+#my_account .top_box{ background:#188eee; width: 100%; height: 70px; position: relative;}
+#my_account .top_box .setmeal_box{ background: #ffff; width: 84%; border-radius: 5px;  box-shadow: 1px 1px 3px 0px #666; padding: 10px 0px 10px 0px; position: absolute; top: 35px; left: 50%; margin: 0px 0px 0px -42%; text-align: center;}
+#my_account .top_box .setmeal_box p{ text-align: center; color: #202020; font-weight: bolder; font-size: 16px; margin: 0px 0px 10px 0px;}
+#my_account .top_box .setmeal_box div.date_box{ margin: 0 auto; display: inline-block;}
+#my_account .top_box .setmeal_box div.date_box span{ float: left; color: #999;}
+#my_account .top_box .setmeal_box div.date_box i{ float: left; display: inline-block; width: 10px; height: 3px; background: url(../../images/2019/to_right4.png) no-repeat; background-size: 10px 3px; margin: 6px 10px 0px 10px;}
+#my_account .count_list { float:left; width: 100%; padding: 50px 0px 30px 0px;}
+#my_account .count_list li{ float:left; width: 100%; padding: 10px 0px 10px 0px; background: #fff; margin: 0px 0px 5px 0px;}
+#my_account .count_list li label{ float:left; font-size: 14px; color: #666; margin: 0px 0px 0px 15px;}
+#my_account .count_list li span{ float: right; font-size: 14px; color: #999; margin: 0px 15px 0px 0px;}
+
+#my_message{ background: #f0f1f2; padding: 0px 0px 80px 0px;}
+#my_message .type_tab_box{ float: left; width: 100%; background: #fff;}
+#my_message .type_tab_box div{ float: left; position: relative; padding: 15px;}
+#my_message .type_tab_box div span{ font-size: 14px; color: #999; font-weight: bold;}
+#my_message .type_tab_box div i{ display: inline-block; width: 20px; height: 3px; background: #188eee; position: absolute; bottom: 0px; left: 50%; margin: 0px 0px 0px -10px; opacity: 0;}
+#my_message .type_tab_box div.hover span{ color: #188eee;}
+#my_message .type_tab_box div.hover i{ opacity: 1;}
+#my_message .type_tab_box div.manage{ float: right; position: relative; padding: 0; width: 20px; height: 20px; background: url(../../images/2019/manage.png) no-repeat; background-size: 20px; margin: 15px 15px 0px 0px;}
+#my_message .type_tab_box div.manage_hover{ background: url(../../images/2019/manage_h.png) no-repeat; background-size: 20px;}
+#my_message ul.list{ padding: 15px 15px 0px 15px; float: left; width: calc(100% - 30px);}
+#my_message ul.list li{ width: 100%; background: #fff; position: relative; margin: 0px 0px 15px 0px; float: left;}
+#my_message ul.list li div.left{ width: 30px; height: 100%; text-align: center; background: #ededed; line-height: 100%; position: absolute; top:0; left: -15px; display: none;}
+#my_message ul.list li div.left input{ display: inline-block; width: 15px; height: 15px; background: url(../../images/2019/checkbox.png) no-repeat; background-size: 15px; position: relative; top: 50%; left: 0; margin: -10px 0px 0px 0px;}
+#my_message ul.list li div.left input:checked{ background: url(../../images/2019/checked.png) no-repeat; background-size: 15px;}
+#my_message ul.list li div.left input.checked{ background: url(../../images/2019/checked.png) no-repeat; background-size: 15px;}
+#my_message ul.list li div.right{ width: calc(100% - 20px); padding: 5px 10px 15px 10px; overflow: hidden; position: relative;}
+#my_message ul.list li div.right i{ display: inline-block; width: 5px; height: 5px; border-radius: 50px;}
+#my_message ul.list li div.right i.no_read{ background: red;}
+#my_message ul.list li div.right p{ color: #999; line-height: 18px;}
+#my_message ul.list li div.right span{ float: right; color: #999;}
+
+
+#my_info div.submit_box { text-align: center; margin: 30px 0px 30px 0px;}
+#my_info div.submit_box .submit_big{ width: 220px; height: 40px; line-height: 40px; text-align: center; font-size: 14px; color: #fff; background: #188eee;}
+#my_info ul.edit_ul{ background: #fff; padding: 0px 15px 0px 15px; float: left; width: calc(100% - 30px); }
+#my_info ul.edit_ul li{ background: #fff; padding: 20px 0px 20px 0px; float: left; width: 100%; border-bottom: 1px solid #ededed;}
+#my_info ul.edit_ul li label{ font-size: 14px; color: #666666;}
+#my_info ul.edit_ul li span.left{ color: #f3711a; margin: 2px 0px 0px 2px;}
+#my_info ul.edit_ul li input{ text-align: right; font-size: 14px; color: #999;}
+#my_info ul.edit_ul li .right{ max-width: 60%; overflow: hidden;}
+#my_info ul.edit_ul li .right span{ float: left; font-size: 14px; color: #999;}
+#my_info ul.edit_ul li .right i{ float: left; display: inline-block; background: url(../../images/2019/to_right3.png) no-repeat; width: 7px; height: 13px; background-size: 7px 13px; margin: 4px 0 0 5px;}
+
+.all_box{ position: fixed; height: 55px; width: 100%; background: #fff; border-top: 1px solid #ebebeb; z-index: 6; bottom: 0; left: 0; display: none;}
+.all_box input.all_check{ display: inline-block; width: 15px; height: 15px; background: url(../../images/2019/checkbox.png) no-repeat; background-size: 15px; float: left; margin: 20px 10px 0px 10px;}
+.all_box input.checked{  background: url(../../images/2019/checked.png) no-repeat; background-size: 15px;}
+.all_box .right input.button{ display: inline-block; padding: 0px 20px 0px 20px; height: 38px; line-height: 38px; border: 1px solid #f3711a; color: #f3711a; font-size: 16px; background: #fff; border-radius: 1px; margin: 10px 15px 0px 0px;}
+.all_box .right input.submit{ display: inline-block; width: 68px; height: 38px; line-height: 38px;  text-align: center; border: 1px solid #f3711a; color: #ffff; font-size: 16px; background: #f3711a; border-radius: 1px; margin: 10px 15px 0px 0px; }
+.all_box span.total{ display: inline-block; width: 30px; font-size: 14px; color: #999; float: left; margin: 10px 0px 0px 10px;}
+.all_box span.total b{ font-size: 14px; color: #999;}
+.all_box input.submit{ display: inline-block; width: calc(100% - 110px); height: 40px; line-height: 40px; color: #fff; background: #f3711a; float:right; margin: 10px 15px 0px 10px; border-radius: 5px; font-size: 16px}
+
+
+

@@ -1,0 +1,108 @@
+*{ margin:0; padding:0; list-style:none; text-decoration:none; font-size:12px; font-family:"Microsoft YaHei"; border:none; border-radius: 0; font-weight: initial; -webkit-appearance:none; outline:none}
+a{ cursor: pointer;}
+
+.clear{ clear:both;}
+.left{ float:left;}
+.right{ float:right;}
+.nopadding{ padding:0 !important;}
+.nomargin{ margin:0 !important;}
+.main_box{ width:1200px; margin:0 auto;}
+.no_display{ display:none;}
+
+#header_box{ width: calc(100% - 40px); height: 15px; padding: 10px 20px 15px 20px; background: #188eee;}
+#header_box a.go_back{ display: inline-block; float: left; background: url(../images/to_left2.png) no-repeat; width: 13px; height: 20px; background-size: 13px 20px; margin: 0px 6px 0px 0px;}
+#header_box p{ display: inline-block; float: left; height: 20px; line-height: 20px; color: #fff; text-align: center; width: calc(100% - 38px); font-size: 1.4rem;}
+#header_box a.go_home{ display: inline-block; float: right; background: url(../images/header_box_home.png) no-repeat; width: 19px; height: 20px; background-size: 19px 20px;}
+
+#bottom_menu{ width: 100%; height: 60px; background: #fff; border-top: 1px solid #dbdcdd; position: fixed; bottom: 0;}
+#bottom_menu ul{}
+#bottom_menu ul li{ float: left; width: 33%; height: 70px;}
+#bottom_menu ul li a{ display:block; text-align: center; padding: 10px 0px 10px 0px;}
+#bottom_menu ul li a i{ display: inline-block; height: 20px;}
+#bottom_menu ul li a span{ font-size: 1rem; color: #313131; display: inline-block; width: 100%;}
+
+#bottom_menu ul li.jobs { width: 33%;}
+#bottom_menu ul li.jobs i{ background: url(../images/bottom_menu_jobs.png) no-repeat; width: 23px; background-size: 23px 20px;}
+
+#bottom_menu ul li.news { width: 34%;}
+#bottom_menu ul li.news i{ background: url(../images/bottom_menu_news.png) no-repeat; width: 17px; background-size: 17px 20px;}
+
+#bottom_menu ul li.my { width: 33%;}
+#bottom_menu ul li.my i{ background: url(../images/bottom_menu_my.png) no-repeat; width: 17px; background-size: 17px 20px;}
+
+#bottom_menu ul li.jobs_c { width: 33%;}
+#bottom_menu ul li.jobs_c i{ background: url(../images/bottom_menu_jobs_h.png) no-repeat; width: 23px; background-size: 23px 20px;}
+
+#bottom_menu ul li.news_c { width: 34%;}
+#bottom_menu ul li.news_c i{ background: url(../images/bottom_menu_news_h.png) no-repeat; width: 17px; background-size: 17px 20px;}
+
+#bottom_menu ul li.my_c { width: 33%;}
+#bottom_menu ul li.my_c i{ background: url(../images/bottom_menu_my_h.png) no-repeat; width: 17px; background-size: 17px 20px;}
+
+
+
+#company_menu{ position:fixed; bottom: 0; width: 100%; border-top: 1px solid #dbdcdd; background: #fff; height: 60px;}
+#company_menu li{ float: left; width: 25%; height: 60px; text-align: center; overflow: hidden;}
+#company_menu li a{ display: block; width: 100%; height: 60px; text-align: center;}
+#company_menu li a i{ display: inline-block; height: 20px; margin: 10px 0px 0px 0px;}
+#company_menu li a span{ font-size: 1rem; color: #313131; display: inline-block; width: 100%;}
+
+#company_menu li.resume i{ background: url(../images/company_center/menu_resume.png) no-repeat; width: 16px; background-size: 16px 20px;}
+#company_menu li.resume_c i{ background: url(../images/company_center/menu_resume_h.png) no-repeat; width: 16px; background-size: 16px 20px;}
+#company_menu li.jobs i{ background: url(../images/company_center/menu_jobs.png) no-repeat; width: 23px; background-size: 23px 20px;}
+#company_menu li.jobs_c i{ background: url(../images/company_center/menu_jobs_h.png) no-repeat; width: 23px; background-size: 23px 20px;}
+#company_menu li.search i{ background: url(../images/company_center/menu_search.png) no-repeat; width: 23px; background-size: 23px 20px;}
+#company_menu li.search_c i{ background: url(../images/company_center/menu_search_h.png) no-repeat; width: 23px; background-size: 23px 20px;}
+#company_menu li.my i{ background: url(../images/company_center/menu_my.png) no-repeat; width: 20px; background-size: 20px 20px;}
+#company_menu li.my_c i{ background: url(../images/company_center/menu_my_h.png) no-repeat; width: 20px; background-size: 20px 20px;}
+
+#select_box{ position: fixed; top: 0; left: 0px; width: 100%; height: 100%; display: none;}
+#select_box .select{ margin: 0; position: absolute; bottom: 0; left: 0; width: 100%; height: 40%; background: #fff; z-index: 10; display: none; padding: 0 0 20px 0;}
+#select_box .select .title{ width: 100%; position: relative; height: 10%; padding: 3% 0 0 0; border-bottom: 1px solid #ccc;}
+#select_box .select .title p{ font-size: 1.2rem; text-align: center; color: #333; display: block; line-height: 1.25rem;}
+#select_box .select .title i{ cursor: pointer; display: inline-block; width: 10px; height: 10px; background: url(../images/close.png) no-repeat center; background-size: 10px 10px; position: absolute; right: 0px; top: 15%; padding: 10px;}
+#select_box .select ul{ width: 100%; height:90%; overflow-y: scroll; margin: 0px;}
+#select_box .select ul li{ padding: 5px; border-bottom: 1px solid #ccc; margin: 0; width: calc(100% - 10px); float: none; background: none;}
+#select_box .select ul li p{ color: #333; font-size: 1.2rem; padding: 10px 0px 10px 10px; margin: 0;}
+#select_box .bg{ background: #000; opacity: 0.6; width: 100%; height: 100%; z-index: 9; display: none;}
+
+
+#select_box2{ position: fixed; top: 0; left: 0px; width: 100%; height: 100%; display: none;}
+#select_box2 .select{ position: absolute; bottom: 0; left: 0; width: 100%; height: 40%; background: #fff; z-index: 10; padding: 0px 0px 10px 0px; display: none;}
+#select_box2 .select .title{ width: calc(100% - 20px); padding: 10px 10px 0 10px; position: relative; height: 10%;}
+#select_box2 .select .title a{ font-size: 1.2rem; color: #999999;}
+#select_box2 .select .title a.right{ color: #f3711a;}
+#select_box2 .select ul{ height:90%; overflow-y: scroll; margin: 10px 0px 0px 0px;}
+#select_box2 .select ul li{ width :calc(100% - 10px); padding: 5px;}
+#select_box2 .select ul li p{ color: #333; font-size: 1.2rem; padding: 0px 0px 10px 10px;}
+#select_box2 .select ul li.hover p{ color: #f3711a;}
+#select_box2 .select ul.left{ width: 35%}
+#select_box2 .select ul.right{ width: 65%;display: none;}
+#select_box2 .bg{ background: #000; opacity: 0.6; width: 100%; height: 100%; z-index: 9; display: none;}
+
+#empty_box{ position: absolute; top: 30%; left: 50%; margin: 0 0 0px -150px; display: table-cell; float: left; width: 300px; text-align: center;}
+#empty_box i{ display: inline-block; width: 100px; height: 130px; background: url(../images/empty_image.png); background-size: 100px 130px; }
+#empty_box p{ display: block; width: 100%; font-size: 14px; color: #999; margin: 10px 0 0 0;}
+#empty_box p a{ font-size: 14px; color: #00aaee;}
+
+
+
+#loading_box{ width: 100px; height: 100px; position: fixed; top: 30%; left: 50%; margin: -50px 0 0 -50px; border-radius: 10px; overflow: hidden; text-align: center; display: none; z-index: 10;}
+#loading_box img{ position: relative; z-index: 2; margin: 15px 0 0 0;}
+#loading_box p{ text-align: center; font-size: 1rem; color: #fff; position: relative; z-index: 2;}
+#loading_box .bg{ background: #000; opacity: 0.6; width: 100%; height: 100%; position: absolute; z-index: 1; top: 0; left: 0;}
+
+#page_box{ width: 100%; background: #fff; padding: 10px 0px 10px 0px; position: relative;}
+#page_box a.left{ display: inline-block; width: calc(35% - 5px); background: url(../images/to_left.png) no-repeat right; background-size: 14px 25px; height: 25px; margin: 0 5px 0 0;}
+#page_box a.right{ display: inline-block; width: calc(35% - 5px); background: url(../images/to_right.png) no-repeat left; background-size: 14px 25px; height: 25px; margin: 0 0 0 5px;}
+#page_box a.left_disable{ background: url(../images/to_left_disable.png) no-repeat right; background-size: 14px 25px;}
+#page_box a.right_disable{ background: url(../images/to_right_disable.png) no-repeat left; background-size: 14px 25px;}
+#page_box p{ display: inline-block; width: 30%; text-align: center; height: 25px; line-height: 25px; float: left;}
+#page_box p span{  color: #333; font-size: 14px; line-height: 25px;}
+#page_box p i{ display: inline-block; height: 8px; width: 12px; background: url(../images/to_down.png) no-repeat; background-size: 12px 8px; margin: 0 0 0 5px;}
+#page_box select{ display: inline-block; width: 30%; position: absolute; left: 35%; top: 10px; opacity: 0; height: 25px;}
+
+label.error{ position: fixed; top: 30%; left: 50%; width: 30%; height: 40px; background: #313131; z-index: 10; border-radius: 5px; margin: 0 0 0 -15%; overflow: hidden; color: #fff; font-size: 1rem; text-align: center; line-height: 40px; display: block; padding: 0px 5px 0px 5px;}
+
+#service_box{ padding: 30px 0px 30px 0px; text-align: center;}
+#service_box a{ padding: 5px 20px 5px 20px; border-radius: 20px; border:1px solid #706f6f; text-align: center; color: #393a3e; margin: 0px 5px 0px 5px;}

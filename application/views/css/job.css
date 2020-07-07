@@ -1,0 +1,86 @@
+#job_detail{ background: #f5f6f8; padding: 0px 0px 70px 0px;}
+#job_detail .job_info_box{ background:#fff; padding: 20px 10px; border-bottom: 1px solid #f3f3f4; float: left; width: calc(100% - 20px)}
+#job_detail .job_info_box h1{ color: #313131; font-size: 20px; line-height: 25px; margin: 0px 0px 10px 0px; }
+#job_detail .job_info_box .info{ width: 100%; height: 110px;}
+#job_detail .job_info_box .info .left{ width: 50%;}
+#job_detail .job_info_box .info div{ height: 20px; margin: 0px 0px 10px 0px;}
+#job_detail .job_info_box .info .left i{ display: inline-block; float: left; margin: 0px 5px 0px 0px;}
+#job_detail .job_info_box .info .left span{ display: inline-block; float: left; color: #333; line-height: 20px;}
+#job_detail .job_info_box .info .left .wage i{ background: url(../images/wage.png) no-repeat; width: 15px; height: 15px; background-size: 15px 15px; margin: 2px 8px 0 7px}
+#job_detail .job_info_box .info .left .wage span{ color: #f3711a;}
+#job_detail .job_info_box .info .left .education i{ background: url(../images/education.png) no-repeat; width: 18px; height: 15px; background-size: 18px 15px; margin: 2px 6px 0 6px}
+#job_detail .job_info_box .info .left .sex i{ background: url(../images/sex.png) no-repeat; width: 15px; height: 15px; background-size: 15px 15px; margin: 2px 8px 0 7px}
+#job_detail .job_info_box .info .left .district i{ background: url(../images/district.png) no-repeat; width: 13px; height: 15px; background-size: 13px 15px; margin: 2px 9px 0 8px}
+
+#job_detail .job_info_box .info .right{ width: 50%;}
+#job_detail .job_info_box .info .right i{ display: inline-block; float: left;}
+#job_detail .job_info_box .info .right span{ display: inline-block; float: left; color: #333; line-height: 20px;}
+#job_detail .job_info_box .info .right .amount i{ background: url(../images/amount.png) no-repeat; width: 14px; height: 15px; background-size: 14px 15px; margin: 2px 8px 0 8px}
+#job_detail .job_info_box .info .right .experience i{ background: url(../images/experience.png) no-repeat; width: 16px; height: 15px; background-size: 16px 15px; margin: 2px 7px 0 7px}
+#job_detail .job_info_box .info .right .time i{ background: url(../images/time.png) no-repeat; width: 15px; height: 15px; background-size: 15px 15px; margin: 2px 8px 0 7px}
+#job_detail .job_info_box .info .right .read i{ background: url(../images/eye.png) no-repeat; width: 17px; height: 12px; background-size: 17px 12px; margin: 4px 7px 0 6px}
+#job_detail .job_info_box div.other{ width: 100%;}
+#job_detail .job_info_box div.other p{ display: inline-block; float: left; margin: 10px 5px 0px 0px; color: #999;}
+#job_detail .job_info_box div.other p span{ color: #f3711a;}
+#job_detail .company_box { background:#fff; padding: 20px 10px; float: left;  width: calc(100% - 20px); position: relative;}
+#job_detail .company_box div.logo{ width:48px; height:48px; background:#fff; display: table-cell; text-align: center; border: 1px solid #ccc; max-width: 100%; vertical-align: middle; overflow: visible; padding: 5px;}
+#job_detail .company_box div.logo img{  max-width: 100%; vertical-align: middle;}
+#job_detail .company_box div.company{ float: left; margin: 0 0 0 5px; width: calc(100% - 80px);}
+#job_detail .company_box div.company h2{ font-size: 16px; color: #313131; line-height: 20px;}
+#job_detail .company_box div.company p{ color: #999999; margin: 3px 0px 0px 0px;}
+#job_detail .company_box div.more{ height: 100%; position:absolute; top:0px; right:10px; width: 10px;}
+#job_detail .company_box div.more a{ background: url(../images/to_right_disable.png) no-repeat; display: inline-block; width: 10px; height: 18px; background-size: 10px 18px; position: relative; top: 50%; left: 0px; margin: -9px 0px 0px 0px;}
+#job_detail .describe_box{ background:#fff; padding: 20px 10px 10px; float: left;  width: calc(100% - 20px); margin: 10px 0px 0px 0px;}
+#job_detail .describe_box hr{ height:1px; border:none; border-top:1px solid #313131; width: 60%; margin: 0 auto;}
+#job_detail .describe_box p.box_title{ text-align: center; width: 100px; color: #313131; font-size: 16px; margin: 0px 0px 10px -50px; position: relative; top: -12px;  left: 50%;  background: #fff;}
+#job_detail .describe_box table *{ color: #999; font-size: 14px; line-height: 25px; max-width: 100%;}
+
+#job_detail .delivery_box { position: fixed; bottom: 0; left: 0; width: 100%; height: 65px; background: #fff; border-top: 1px solid #f1f1f1;}
+#job_detail .delivery_box .share{ float: left; position: relative; z-index: 2; margin: 25px 0px 0px 10px;}
+#job_detail .delivery_box .share i{ float: left; display: inline-block; width: 21px; height: 20px; background: url(../images/share_icon.png) no-repeat; background-size: 21px 20px;}
+#job_detail .delivery_box .share span{ float: left; display: inline-block; height: 20px; line-height: 20px; font-size: 14px; color: #188eee; margin: 0 0 0 5px;}
+#job_detail .delivery_box .favorites{ float: left; position: relative; z-index: 2; margin: 25px 0px 0px 15px;}
+#job_detail .delivery_box .favorites i{ float: left; display: inline-block; width: 21px; height: 20px; background: url(../images/favorites_icon.png) no-repeat; background-size: 21px 20px;}
+#job_detail .delivery_box .favorites span{ float: left; display: inline-block; height: 20px; line-height: 20px; font-size: 14px; color: #999; margin: 0 0 0 5px;}
+#job_detail .delivery_box .hover i{ background: url(../images/favorites_icon_h.png) no-repeat; background-size: 21px 20px;}
+#job_detail .delivery_box .hover span{  color: #f3711a;}
+#job_detail .delivery_box .delivery { float: right;  width: calc(100% - 160px); position: relative; z-index: 2; margin: 10px 10px 0px 0px;}
+#job_detail .delivery_box .delivery input{ width: 100%; display: inline-block; height: 45px; line-height: 45px; color: #fff; text-align: center; background: #f3711a; border-radius: 2px; overflow: hidden; font-size: 20px;}
+#job_detail .delivery_box .disable input{  background: #c5c5c5;}
+
+
+
+#job_list{ background: #f5f6f8; padding:0 0 70px 0;}
+#job_list .search_box{ height: 25px; width: 100%; padding: 10px 0px 10px 0px; background: #188eee;}
+#job_list .search_box .district{ margin:0px 0px 0px 10px; position: relative; text-align: center; height: 25px; line-height: 25px; float: left; width: 90px;}
+#job_list .search_box .district span{ color: #fff; font-size: 14px; max-width: 70px; height: 25px; line-height: 25px; overflow: hidden; display: inline-block;}
+#job_list .search_box .district i{ display: inline-block; background: url(../images/to_down2.png) no-repeat; height: 8px; width: 12px; background-size: 12px 8px; position: relative; top: 0px; left: 0;}
+#job_list .search_box .district select{ position: absolute; top: 0; left: 0px; display: block; height: 100%; width: 100%; opacity: 0;}
+#job_list .search_box .search{ margin:0px 10px 0px 0px; height: 25px; float: right; width: calc(100% - 120px);}
+#job_list .search_box .search input.key{ height: 25px; line-height: 25px; border-radius: 10px; background: #fff; float: left; font-size: 14px; color: #333; width: calc(100% - 45px); padding: 0 5px 0px 5px;}
+#job_list .search_box .search input.submit{ height: 25px; line-height: 25px; text-align: center; width: 30px; background: none; float: right; font-size: 14px; color: #fff;}
+#job_list .select_box{ width: 100%; position: fixed; top: 45px; left: 0px; z-index: 1; float: left; height: 100%; display: none;}
+#job_list .select_box .bg{ width: 100%; height: 100%; background: #000; opacity: 0.6;}
+#job_list .select_box .select{  background: #fff; padding: 0px 0px 10px 0px;}
+#job_list .select_box .hover{ color: #f3711a}
+#job_list .select_box label{ display: inline-block; margin: 10px 0px 5px 10px; font-size: 14px; width: calc(100% - 20px)}
+#job_list .select_box a{ display: inline-block; margin: 0px 0px 0px 10px;}
+#job_list .select_box ul{ float: left; width: calc(100% - 20px); margin: 0 0 0 10px;}
+#job_list .select_box ul li{ float: left; width: 25%; margin: 0 0 5px 0px; color: #999;}
+#job_list .select_box a.sure{ float: right; color: #f3711a; font-size: 14px; font-weight: bold; margin: 0px 10px 0px 0px;}
+#job_list .job_list li{ width:calc(100% - 20px); background: #fff; float: left; margin: 0px 0px 10px 0px; padding: 10px;}
+#job_list .job_list li div.job_name{ width: 100%; margin: 0px 0px 5px 0px;}
+#job_list .job_list li div.job_name a{ line-height: 25px; font-size: 16px; color: #313131;}
+#job_list .job_list li div.job_name i{ display: none; position: relative; top: 5px; left: 5px;}
+#job_list .job_list li div.job_name i.recommend{ display: inline-block; width: 18px; height: 18px; background: url(../images/recommend.png) no-repeat; background-size: 18px;}
+#job_list .job_list li div.job_name i.emergency{ display: inline-block; width: 22px; height: 18px; background: url(../images/emergency.png) no-repeat; background-size: 22px 18px;}
+#job_list .job_list li div.job_wage{ width: 100%; margin: 0px 0px 5px 0px; float: left;}
+#job_list .job_list li div.job_wage p{ float: left; color: #f3711a;}
+#job_list .job_list li div.job_wage span{ float: left; color: #999; margin: 0px 0px 0px 10px;}
+#job_list .job_list li div.company_name{ width: 100%;}
+#job_list .job_list li div.company_name a{ max-width: calc(100% - 80px); color: #999; float: left; display: inline-block; height: 20px; line-height: 20px; overflow: hidden;}
+#job_list .job_list li div.company_name span{ display: inline-block; width: 70px; height: 20px; line-height: 20px; color: #999; float: right;}
+
+
+
+#select_box .select{ bottom: 50px;}

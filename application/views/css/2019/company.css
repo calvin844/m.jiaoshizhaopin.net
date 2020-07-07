@@ -1,0 +1,53 @@
+#company_detail #header{ position: fixed; top: 0;  left: 0px; width: 100%; border-bottom: 1px solid #dcdcdc;  z-index: 10;}
+#company_detail{ background: #f0f1f2; padding: 52px 0px 0px 0px;}
+#company_detail .top{ background: #fff; position: relative; height: 185px; overflow: hidden;}
+#company_detail .top .bg_img{ position: absolute; top: 0; left: 0;}
+#company_detail .top .info_box{ position: absolute; background: #fff; width: 100%; height: 100px; bottom: 0; left: 0;}
+#company_detail .top .logo_box{ position: absolute; background: url(../../images/2019/company_top.png) no-repeat; width: 100%; height: 60px; top: -30px; left: 0;}
+#company_detail .top .logo_box img{ position: absolute;  top: -25px; left: 15px;}
+#company_detail .top .name_box{ position: absolute;  top: 10px; left: 15px;}
+#company_detail .top .name_box h1{ font-size: 18px; font-weight: bold; color: #202020;}
+#company_detail .top .name_box p{ color: #999; margin: 10px 0px 0px 0px;}
+
+#company_detail .middle{ background:#fff; padding: 15px 0px 0; float: left;  margin: 10px 0px 0px 0px; width: 100%;}
+#company_detail .middle p.box_title{ font-size: 14px; color: #313131; margin: 15px 0px 15px 0px;}
+#company_detail .middle p.box_title i{ display: inline-block; width: 15px; height: 15px; background: url(../../images/2019/title_icon.png) no-repeat; background-size: 15px; margin: 0px 5px 0px 0px;}
+#company_detail .middle div.tab{ background:#fff; border-bottom: 1px solid #dbdcdd;}
+#company_detail .middle div.tab p{ display: inline-block; width: 50%; text-align: center; float: left; position: relative; padding: 0px 0px 15px 0px;}
+#company_detail .middle div.tab p i{ display: inline-block; height: 3px; width: 20px; background: #fff; position: absolute; bottom: 0px; left: 50%; margin: 0px 0px 0px -10px;}
+#company_detail .middle div.tab p span{ display: inline-block; height: 16px; color: #808080; font-size: 14px;}
+
+#company_detail .middle div.tab .hover i{  background: #188eee;}
+#company_detail .middle div.tab .hover span{  color: #188eee;}
+
+#company_detail .middle div.content{ padding: 15px 15px;}
+#company_detail .middle div.content table *{ color: #999; font-size: 14px; line-height: 25px; max-width: 100%;}
+#company_detail .middle div.address{ position: relative;}
+#company_detail .middle div.address i{ display: inline-block; width: 9px; height: 11px; background: url( ../../images/2019/district_icon2.png) no-repeat; background-size: 9px 11px; float: left; margin: 5px 4px 0px 0px;}
+#company_detail .middle div.address span{ display: inline-block; max-width: 90%; color: #999; line-height: 20px; font-size: 14px;}
+#company_detail .middle div.address a{ display: inline-block; width: 6px; height: 9px; background: url(../../images/2019/to_right3.png) no-repeat; background-size: 6px 9px; position: absolute; right: 0px; top: 50%; margin: -5px 0 0 0;}
+
+#company_detail .middle .jobs{ display: none;}
+#company_detail .middle .jobs ul{ padding: 0 15px; background: #fff;}
+#company_detail .middle .jobs ul li{ padding: 15px 0; border-bottom: 1px solid #ededed;}
+#company_detail .middle .jobs ul li:last-child{ border-bottom: none;}
+#company_detail .middle .jobs ul li a.left{ font-size: 16px; color: #202020; max-width: 75%;}
+#company_detail .middle .jobs ul li span.right{ font-size: 14px; color: #f3711a; max-width: 35%; font-weight: bold;}
+#company_detail .middle .jobs ul li p{ color: #999; margin: 10px 0px 0px 0px;}
+
+
+
+
+#company_detail .img_box{ background: #fff;}
+#company_detail .img_box .main_visual{height:200px; overflow:hidden; position:relative; left: 5%; background: #fff;  width: 90%;}
+#company_detail .img_box .main_image{height:200px; overflow:hidden; position:relative;}
+#company_detail .img_box .main_image ul{width:9999px;height:200px;overflow:hidden;position:absolute;top:0;left:0}
+#company_detail .img_box .main_image li{float:left; width: 100%;height:200px; text-align: center;}
+#company_detail .img_box .main_image li img{ max-width: 268px; max-height:200px; vertical-align: middle;}
+#company_detail .img_box .main_image li a{ max-width:268px;max-height:200px;padding: 8px; line-height: 200px;}
+
+
+
+#company_map .map{ width: 100%; height: 500px; position: relative; left: 0; top: 0px;}
+
+

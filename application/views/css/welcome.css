@@ -1,0 +1,124 @@
+body{ background: #f5f6f8; padding: 0px 0px 65px 0px;}
+/**
+.welcome_header{ height:35px; width: 100%; text-align: center; background: #fff; padding: 10px 0px 10px 0px; position: relative;}
+.welcome_header .logo{ position: absolute; left: 10px; top: 10px; display: inline-block; width: 35px; height: 35px;}
+.welcome_header .welcome_type_box{ height: 35px; width: 124px; margin: 0 auto;}
+.welcome_header .welcome_type_box a.jobs{ height: 33px; width: 61px; float: left; display: inline-block; text-align: center; border-radius: 5px 0 0 5px; line-height: 33px; border: 1px solid #706f6f; color: #393a3e;}
+.welcome_header .welcome_type_box a.article{ height: 33px; width: 60px; float: right; display: inline-block; text-align: center; border-radius: 0px 5px 5px 0px; line-height: 33px; border: 1px solid #706f6f; border-left: none; color: #393a3e;}
+.welcome_header .welcome_type_box a.hover{ background: #393a3e; color: #cccccc;}
+.welcome_header .district_box{ position: absolute; right: 0px; top: 18px;}
+.welcome_header .district_box a{ float: left;}
+.welcome_header .district_box a span{ float: left; color: #cccccc; display: inline-block; max-width: 36px; height: 25px; line-height: 20px; overflow: hidden;}
+.welcome_header .district_box a b{ float: left; color: #393a3e; line-height: 19px;}
+**/
+
+#header{ background: #fff; height: 50px; line-height: 50px;}
+#header a.logo{ float: left; display: inline-block; width: 87px; height: 23px; background: url(../images/2019/logo.png) no-repeat; background-size: 87px 23px; margin: 13px 0px 0px 14px;}
+#header div.login_box{ float: right; max-width: 50%; overflow: hidden; margin: 0px 15px 0px 0px;}
+#header div.login_box a{ float: left; color: #999999; font-size: 16px;}
+#header div.login_box i{ float: left; display: inline-block; width: 1px; height: 18px; margin: 17px 7px 0px 7px; background: #999999;}
+.top_box{ position: relative;}
+
+
+/* main_img */
+
+.img_gallery{border-top:1px solid #d7d7d7;overflow:hidden;position:relative;}
+.main_img{overflow:hidden;position:relative;}
+.main_img ul{width:9999px;height:160px;overflow:hidden;position:absolute;top:0;left:0}
+.main_img li{float:left;width:100%;}
+.main_img li span{display:block;width:100%;}
+.main_img li a{display:block;width:100%;}
+
+div.point{position:absolute;bottom:5px;left:50%;z-index:2;width:140px;height:21px;margin:0 0 0 -50px;}
+div.point a{float:left;width:21px;height:21px;margin:0;padding:0;background:url('../images/2019/btn_main_img.png') 0 0 no-repeat;display:block;text-indent:-1000px}
+div.point a.on{background-position:0 -21px}
+
+.search_box{ position: absolute; top: 10px; left: 13px; width: 93%; height: 35px; border-radius: 17px; overflow: hidden; background: #fff; z-index: 3;}
+.search_box input.key{ color: #202020; float: left; padding: 10px; width: calc(100% - 50px); height: 35px; line-height: 35px; background: #fff;}
+.search_box input.submit{ float: right; width: 20px; height: 20px; line-height: 35px; text-align: center; background: url(../images/2019/search.png); background-size: 20px; text-indent: 9999px; margin: 7px 10px 0px 0px;}
+
+.top_box .select_box{ width: 100%; height: 37px; float: left; background: #fff; position: relative; z-index: 2; margin: 0px 0px 10px 0px; border-bottom: 1px solid #e5e5e5;}
+
+.top_box .select_box div.select_bt{ float: left; width: 50%; height:37px; text-align: center; line-height: 37px;}
+.top_box .select_box div.select_bt span{ font-size: 14px; color: #999;}
+.top_box .select_box div.select_bt i{ display: inline-block; width: 8px; height: 5px; background: url(../images/2019/to_down2.png) no-repeat; background-size: 8px 5px; margin: 0px 0px 0px 5px;}
+.top_box .select_box div.hover span{ color: #188eee;}
+.top_box .select_box div.hover i{ background: url(../images/2019/to_up2.png) no-repeat; background-size: 8px 5px;}
+
+
+.data_box{ height:2px; width: 100%; text-align: center; background: #fff; padding: 15px 0px 15px 0px; position: relative;}
+.data_box hr{ height:1px; width: 90%; background: #808080; margin: 0 auto;}
+.data_box p{ position: absolute; top: 7px; left: 50%; margin: 0 0 0 -115px; padding: 0px 5px 0px 5px; color: #393a3e; background: #fff; width: 220px;}
+.data_box p span{ color: #f3711a;}
+.article_list { margin: 10px 0px 0px 0px;}
+.article_list li{ width:calc(100% - 20px); background: #fff; float: left; margin: 0px 0px 10px 0px; padding: 10px;}
+.article_list li div.article_title{ width: 100%; margin: 0px 0px 5px 0px;}
+.article_list li div.article_title a{ line-height: 25px; font-size: 16px; color: #313131;}
+.article_list li div.article_info{ width: 100%; margin: 0px 0px 5px 0px; float: left;}
+.article_list li div.article_info p{ color: #999;}
+.article_list li div.article_info span{ color: #f3711a;}
+
+
+
+.jobs_list { margin: 10px 0px 0px 0px;}
+.jobs_list li{ width:calc(100% - 20px); background: #fff; float: left; margin: 0px 0px 10px 0px; padding: 10px;}
+.jobs_list li div.job_name{ width: 100%; margin: 0px 0px 5px 0px;}
+.jobs_list li div.job_name a{ line-height: 25px; font-size: 16px; color: #313131;}
+.jobs_list li div.job_name i{ display: none; position: relative; top: 5px; left: 5px;}
+.jobs_list li div.job_name i.recommend{ display: inline-block; width: 18px; height: 18px; background: url(../images/recommend.png) no-repeat; background-size: 18px;}
+.jobs_list li div.job_name i.emergency{ display: inline-block; width: 22px; height: 18px; background: url(../images/emergency.png) no-repeat; background-size: 22px 18px;}
+.jobs_list li div.job_wage{ width: 100%; margin: 0px 0px 5px 0px; float: left;}
+.jobs_list li div.job_wage p{ float: left; color: #f3711a;}
+.jobs_list li div.job_wage span{ float: left; color: #999; margin: 0px 0px 0px 10px;}
+.jobs_list li div.company_name{ width: 100%;}
+.jobs_list li div.company_name a{ max-width: calc(100% - 80px); color: #999; float: left; display: inline-block; height: 20px; line-height: 20px; overflow: hidden;}
+.jobs_list li div.company_name span{ display: inline-block; width: 70px; height: 20px; line-height: 20px; color: #999; float: right; text-align: right;}
+
+li.ad { text-align: center;}
+li.ad a:nth-child(1){ margin: 0px 5px 0px 0px;}
+li.ad img{  width:calc(50% - 10px); border: 1px solid #d5d5d5;}
+
+#welcome_district{ background: #fff;}
+#welcome_district .title_box{ width: 100%; padding: 5px 0px 5px 0px; border-top: 1px solid #dbdcdd; border-bottom: 1px solid #dbdcdd; }
+#welcome_district .title_box p{ padding: 0px 0px 0px 10px; color: #999999;}
+#welcome_district .list_box ul{ float: left; margin: 5px 0px 5px 0px; width: 100%;}
+#welcome_district .list_box li{ text-align: center; width: 33.3%; float: left; margin: 15px 0px 15px 0px;}
+#welcome_district .display_none{ display: none;}
+
+#welcome_service{ background: #fff; text-align: center;}
+#welcome_service p.info{ font-size: 18px; color: #393a3e; margin: 30px 0px 0px 0px; line-height: 30px;}
+#welcome_service p.info a{ font-size: 18px; color: #393a3e;}
+
+
+#bottom_help_box { padding: 15px 0px 15px 0px; text-align: center;}
+#bottom_help_box i{ margin: 0px 10px 0px 10px; display: inline-block; width: 1px; height: 8px; background: #7b7b7b;}
+#bottom_help_box a{color: #7b7b7b;}
+#bottom_help_box p.copyright{ margin: 10px 0px 0px 0px; color: #7b7b7b;}
+
+#bottom_menu_box{ width: 100%; height: 55px; background: #f7f9fa; position: fixed; bottom: 0;  box-shadow: 3px 3px 3px 3px #eae7e7; z-index: 5;}
+#bottom_menu_box ul li{ float: left; width: 25%; height: 55px;}
+#bottom_menu_box ul li a{ display:block; text-align: center; padding: 10px 0px 10px 0px;}
+#bottom_menu_box ul li a i{ display: inline-block; height: 20px; width: 20px;}
+#bottom_menu_box ul li a span{ font-size: 1rem; color: #999; display: inline-block; width: 100%;}
+
+#bottom_menu_box ul li.home i{ background: url(../images/2019/bottom_menu_home.png) no-repeat; background-size: 20px;}
+
+#bottom_menu_box ul li.jobs i{ background: url(../images/2019/bottom_menu_jobs.png) no-repeat; background-size: 20px;}
+
+#bottom_menu_box ul li.article i{ background: url(../images/2019/bottom_menu_article.png) no-repeat; background-size: 20px;}
+
+#bottom_menu_box ul li.my i{ background: url(../images/2019/bottom_menu_my.png) no-repeat; background-size: 20px;}
+
+#bottom_menu_box ul li.home_c i{ background: url(../images/2019/bottom_menu_home_hover.png) no-repeat; background-size: 20px;}
+#bottom_menu_box ul li.home_c span{ color: #313131;}
+
+#bottom_menu_box ul li.jobs_c i{ background: url(../images/2019/bottom_menu_jobs_hover.png) no-repeat; background-size: 20px;}
+#bottom_menu_box ul li.jobs_c span{ color: #313131;}
+
+#bottom_menu_box ul li.article_c i{ background: url(../images/2019/bottom_menu_article_hover.png) no-repeat; background-size: 20px;}
+#bottom_menu_box ul li.article_c span{ color: #313131;}
+
+#bottom_menu_box ul li.my_c i{ background: url(../images/2019/bottom_menu_my_hover.png) no-repeat; background-size: 20px;}
+#bottom_menu_box ul li.my_c span{ color: #313131;}
+
+#back_top { width: 33px; height: 33px; position: fixed; bottom: 20%; right: 10px; border-radius: 50px; overflow: hidden; background: url(../images/2019/back_to_top.png) no-repeat; background-size: 33px;}

@@ -1,0 +1,130 @@
+*{ margin:0; padding:0; list-style:none; text-decoration:none; font-size:12px; font-family:"Microsoft YaHei"; border:none; border-radius: 0; font-weight: initial; -webkit-appearance:none; outline:none}
+a{ cursor: pointer;}
+
+.clear{ clear:both;}
+.left{ float:left;}
+.right{ float:right;}
+.nopadding{ padding:0 !important;}
+.nomargin{ margin:0 !important;}
+.main_box{ width:1200px; margin:0 auto;}
+.no_display{ display:none;}
+
+
+
+#header{ background: #fff; height: 50px; line-height: 50px;}
+#header a.logo{ float: left; display: inline-block; width: 87px; height: 23px; background: url(../../images/2019/logo.png) no-repeat; background-size: 87px 23px; margin: 13px 0px 0px 14px;}
+#header div.login_box{ float: right; max-width: 50%; overflow: hidden; margin: 0px 15px 0px 0px;}
+#header div.login_box a{ float: left; color: #999999; font-size: 16px;}
+#header div.login_box i{ float: left; display: inline-block; width: 1px; height: 18px; margin: 17px 7px 0px 7px; background: #999999;}
+
+#bottom_help_box { padding: 15px 0px 15px 0px; text-align: center;}
+#bottom_help_box i{ margin: 0px 10px 0px 10px; display: inline-block; width: 1px; height: 8px; background: #7b7b7b;}
+#bottom_help_box a{color: #7b7b7b;}
+#bottom_help_box p.copyright{ margin: 10px 0px 0px 0px; color: #7b7b7b;}
+
+#bottom_menu_box{ width: 100%; height: 55px; background: #f7f9fa; position: fixed; bottom: 0;  box-shadow: 3px 3px 3px 3px #eae7e7; z-index: 5;}
+#bottom_menu_box ul li{ float: left; width: 25%; height: 55px;}
+#bottom_menu_box ul li a{ display:block; text-align: center; padding: 10px 0px 10px 0px;}
+#bottom_menu_box ul li a i{ display: inline-block; height: 20px; width: 20px;}
+#bottom_menu_box ul li a span{ font-size: 1rem; color: #999; display: inline-block; width: 100%;}
+
+#bottom_menu_box ul li.home i{ background: url(../../images/2019/bottom_menu_home.png) no-repeat; background-size: 20px;}
+
+#bottom_menu_box ul li.jobs i{ background: url(../../images/2019/bottom_menu_jobs.png) no-repeat; background-size: 20px;}
+
+#bottom_menu_box ul li.article i{ background: url(../../images/2019/bottom_menu_article.png) no-repeat; background-size: 20px;}
+
+#bottom_menu_box ul li.my i{ background: url(../../images/2019/bottom_menu_my.png) no-repeat; background-size: 20px;}
+
+#bottom_menu_box ul li.home_c i{ background: url(../../images/2019/bottom_menu_home_hover.png) no-repeat; background-size: 20px;}
+#bottom_menu_box ul li.home_c span{ color: #313131;}
+
+#bottom_menu_box ul li.jobs_c i{ background: url(../../images/2019/bottom_menu_jobs_hover.png) no-repeat; background-size: 20px;}
+#bottom_menu_box ul li.jobs_c span{ color: #313131;}
+
+#bottom_menu_box ul li.article_c i{ background: url(../../images/2019/bottom_menu_article_hover.png) no-repeat; background-size: 20px;}
+#bottom_menu_box ul li.article_c span{ color: #313131;}
+
+#bottom_menu_box ul li.my_c i{ background: url(../../images/2019/bottom_menu_my_hover.png) no-repeat; background-size: 20px;}
+#bottom_menu_box ul li.my_c span{ color: #313131;}
+
+
+#company_bottom_menu_box{ width: 100%; height: 55px; background: #f7f9fa; position: fixed; bottom: 0;  box-shadow: 3px 3px 3px 3px #eae7e7; z-index: 5;}
+#company_bottom_menu_box ul li{ float: left; width: 25%; height: 55px;}
+#company_bottom_menu_box ul li a{ display:block; text-align: center; padding: 10px 0px 10px 0px;}
+#company_bottom_menu_box ul li a i{ display: inline-block; height: 20px; width: 20px;}
+#company_bottom_menu_box ul li a span{ font-size: 1rem; color: #999; display: inline-block; width: 100%;}
+
+#company_bottom_menu_box ul li.resume i{ background: url(../../images/2019/company_center/menu_resume.png) no-repeat; background-size: 20px;}
+
+#company_bottom_menu_box ul li.jobs i{ background: url(../../images/2019/company_center/menu_job.png) no-repeat; background-size: 20px;}
+
+#company_bottom_menu_box ul li.search i{ background: url(../../images/2019/company_center/menu_search.png) no-repeat; background-size: 20px;}
+
+#company_bottom_menu_box ul li.my i{ background: url(../../images/2019/company_center/menu_my.png) no-repeat; background-size: 20px;}
+
+#company_bottom_menu_box ul li.resume_c i{ background: url(../../images/2019/company_center/menu_resume_h.png) no-repeat; background-size: 20px;}
+#company_bottom_menu_box ul li.resume_c span{ color: #313131;}
+
+#company_bottom_menu_box ul li.jobs_c i{ background: url(../../images/2019/company_center/menu_job_h.png) no-repeat; background-size: 20px;}
+#company_bottom_menu_box ul li.jobs_c span{ color: #313131;}
+
+#company_bottom_menu_box ul li.search_c i{ background: url(../../images/2019/company_center/menu_search_h.png) no-repeat; background-size: 20px;}
+#company_bottom_menu_box ul li.search_c span{ color: #313131;}
+
+#company_bottom_menu_box ul li.my_c i{ background: url(../../images/2019/company_center/menu_my_h.png) no-repeat; background-size: 20px;}
+#company_bottom_menu_box ul li.my_c span{ color: #313131;}
+
+#back_top { width: 33px; height: 33px; position: fixed; bottom: 20%; right: 10px; border-radius: 50px; overflow: hidden; background: url(../../images/2019/back_to_top.png) no-repeat; background-size: 33px; z-index: 10; opacity: 0;}
+
+
+#select_box{ position: fixed; top: 0; left: 0px; width: 100%; height: 100%; display: none;}
+#select_box .select{ margin: 0; position: absolute; bottom: 0; left: 0; width: 100%; height: 40%; background: #fff; z-index: 10; display: none; padding: 0 0 20px 0;}
+#select_box .select .title{ width: 100%; position: relative; height: 10%; padding: 3% 0 0 0; border-bottom: 1px solid #ccc;}
+#select_box .select .title p{ font-size: 1.2rem; text-align: center; color: #333; display: block; line-height: 1.25rem;}
+#select_box .select .title i{ cursor: pointer; display: inline-block; width: 10px; height: 10px; background: url(../../images/2019/close.png) no-repeat center; background-size: 10px 10px; position: absolute; right: 0px; top: 15%; padding: 10px;}
+#select_box .select ul{ width: 100%; height:90%; overflow-y: scroll; margin: 0px;}
+#select_box .select ul li{ padding: 5px; border-bottom: 1px solid #ccc; margin: 0; width: calc(100% - 10px); float: none; background: none;}
+#select_box .select ul li p{ color: #333; font-size: 1.2rem; padding: 10px 0px 10px 10px; margin: 0;}
+#select_box .bg{ background: #000; opacity: 0.6; width: 100%; height: 100%; z-index: 9; display: none;}
+
+
+#select_box2{ position: fixed; top: 0; left: 0px; width: 100%; height: 100%; display: none;}
+#select_box2 .select{ position: absolute; bottom: 0; left: 0; width: 100%; height: 40%; background: #fff; z-index: 10; padding: 0px 0px 10px 0px; display: none;}
+#select_box2 .select .title{ width: calc(100% - 20px); padding: 10px 10px 0 10px; position: relative; height: 10%;}
+#select_box2 .select .title a{ font-size: 1.2rem; color: #999999;}
+#select_box2 .select .title a.right{ color: #f3711a;}
+#select_box2 .select ul{ height:90%; overflow-y: scroll; margin: 10px 0px 0px 0px;}
+#select_box2 .select ul li{ width :calc(100% - 10px); padding: 5px;}
+#select_box2 .select ul li p{ color: #333; font-size: 1.2rem; padding: 0px 0px 10px 10px;}
+#select_box2 .select ul li.hover p{ color: #f3711a;}
+#select_box2 .select ul.left{ width: 35%}
+#select_box2 .select ul.right{ width: 65%;display: none;}
+#select_box2 .bg{ background: #000; opacity: 0.6; width: 100%; height: 100%; z-index: 9; display: none;}
+label.error{ position: fixed; top: 30%; left: 50%; width: 30%; height: 40px; background: #313131; z-index: 10; border-radius: 5px; margin: 0 0 0 -15%; overflow: hidden; color: #fff; font-size: 1rem; text-align: center; line-height: 40px; display: block; padding: 0px 5px 0px 5px;}
+
+#page_box { margin: 18px 0px 18px 0px; text-align: center;}
+#page_box div{ display: inline-block; background: #fff; padding: 7px 20px 7px 20px; margin: 0px 5px 0px 5px;}
+#page_box div span{ color: #313131;}
+#page_box div a span{ color: #188eee;}
+#page_box div i{ display: inline-block; width: 10px; height: 10px;}
+#page_box div.per i{ background: url(../../images/2019/to_left2.png) no-repeat; background-size: 10px 10px; margin: 0px 2px 0px 0px;}
+#page_box div.next i{ background: url(../../images/2019/to_right2.png) no-repeat; background-size: 10px 10px; margin: 0px 0px 0px 2px;}
+#page_box div.cur { position: relative;}
+#page_box div.cur select{ position: absolute; top: 0; left: 0px; width: 100%; height: 100%; opacity: 0;}
+#page_box div.cur i{ width: 14px; height: 8px; background: url(../../images/2019/to_down3.png) no-repeat; background-size: 14px 8px; margin: 0px 0px 0px 5px;}
+#page_box div.next_disable i{ background: url(../../images/2019/to_right.png) no-repeat; background-size: 10px 10px; margin: 0px 0px 0px 2px;}
+#page_box div.next_disable a span{ color: #999;}
+#page_box div.per_disable i{ background: url(../../images/2019/to_left.png) no-repeat; background-size: 10px 10px; margin: 0px 0px 0px 2px;}
+#page_box div.per_disable a span{ color: #999;}
+
+#loading_box{ width: 100px; height: 100px; position: fixed; top: 30%; left: 50%; margin: -50px 0 0 -50px; border-radius: 10px; overflow: hidden; text-align: center; display: none; z-index: 10;}
+#loading_box img{ position: relative; z-index: 2; margin: 15px 0 0 0;}
+#loading_box p{ text-align: center; font-size: 1rem; color: #fff; position: relative; z-index: 2;}
+#loading_box .bg{ background: #000; opacity: 0.6; width: 100%; height: 100%; position: absolute; z-index: 1; top: 0; left: 0;}
+
+#empty_box{ text-align: center; width: 100%; padding: 20px 0px 20px 0px;}
+#empty_box i{ }
+#empty_box p{ font-size: 14px; color: #999;}
+#empty_box p a{ font-size: 14px; color: #188eee;}
+

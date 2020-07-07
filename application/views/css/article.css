@@ -1,0 +1,75 @@
+#article_detail{ background: #f5f6f8; padding: 0px 0px 70px 0px;}
+#article_detail .article_info_box{ background: #fff; float: left; padding: 20px 10px; width: calc(100% - 20px);}
+#article_detail .article_info_box h1{ font-size: 18px; color: #313131; line-height: 25px;  margin: 0px 0px 10px 0px;}
+#article_detail .article_info_box div.left p{ color: #999; margin: 0 5px 0 0;}
+#article_detail .article_info_box div.left p span{ color: #f3711a; }
+#article_detail .article_info_box div.right span{ color: #999;}
+
+#article_detail .content_box{ background:#fff; padding: 20px 0px; float: left;  margin: 10px 0px 0px 0px; width: 100%;}
+#article_detail .content_box div.tab{ background:#fff; padding: 0px 0px 15px 0; border-bottom: 1px solid #dbdcdd;}
+#article_detail .content_box div.tab .content_tab{ display: inline-block; width: 50%; text-align: center; float: left;}
+#article_detail .content_box div.tab .content_tab i{ display: inline-block; height: 16px; width: 16px; background: url(../images/article_content.png) no-repeat; background-size: 16px 16px;}
+#article_detail .content_box div.tab .content_tab span{ display: inline-block; height: 16px; color: #808080; position: relative; top: -3px; left: 5px; font-size: 14px;}
+
+#article_detail .content_box div.tab .jobs_tab{ display: inline-block; width: 50%; text-align: center; float: left;}
+#article_detail .content_box div.tab .jobs_tab i{ display: inline-block; height: 16px; width: 11px; background: url(../images/article_jobs.png) no-repeat; background-size: 11px 16px;}
+#article_detail .content_box div.tab .jobs_tab span{ display: inline-block; height: 16px; color: #808080; position: relative; top: -3px; left: 5px; font-size: 14px;}
+
+
+#article_detail .content_box div.tab p.content_tab.hover i{ background: url(../images/article_content_h.png) no-repeat; background-size: 16px 16px;}
+#article_detail .content_box div.tab p.jobs_tab.hover i{ background: url(../images/article_jobs_h.png) no-repeat; background-size: 11px 16px;}
+#article_detail .content_box div.tab .hover span{ color: #188eee;}
+#article_detail .content_box div.content{ padding: 20px 10px;}
+#article_detail .content_box div.content table *{ color: #999; font-size: 14px; line-height: 25px; max-width: 100%;}
+#article_detail .content_box div.content table strong{ font-weight: bolder;}
+#article_detail .content_box div.jobs{ display: none;}
+#article_detail .content_box div.jobs ul li{ float: left; width: calc(100% - 20px); border-bottom: 1px dashed #e4e5e5; padding: 10px;}
+#article_detail .content_box div.jobs ul li p.left{ display: inline-block; width: calc(100% - 100px); font-size: 14px; color: #313131; height: 20px; line-height: 20px; overflow: hidden;}
+#article_detail .content_box div.jobs ul li p.right{ display: inline-block;  width: 100px; font-size: 14px; color: #f3711a; text-align: right;}
+
+#article_detail .contact_box{ background:#fff; padding: 20px 10px 20px; float: left;  width: calc(100% - 20px); margin: 10px 0px 10px 0px;}
+#article_detail .contact_box hr{ height:1px; border:none; border-top:1px solid #313131; width: 60%; margin: 0 auto;}
+#article_detail .contact_box p.box_title{ text-align: center; width: 100px; color: #313131; font-size: 16px; margin: 0px 0px 10px -50px; position: relative; top: -12px;  left: 50%;  background: #fff;}
+#article_detail .contact_box p.login_tip{ padding: 10px 0px 15px 0px; font-size: 16px; color: #313131; text-align: center;}
+#article_detail .contact_box p.login_tip a{ font-size: 16px; color: #188eee;}
+#article_detail .contact_box li { margin: 0px 0px 5px 0px;}
+#article_detail .contact_box li b{ color: #313131; font-size: 14px;}
+#article_detail .contact_box li span{ color: #999; font-size: 14px; line-height: 25px;}
+
+
+
+#article_detail .delivery_box { position: fixed; bottom: 0; left: 0; width: 100%; height: 65px; background: #fff; border-top: 1px solid #f1f1f1;}
+#article_detail .delivery_box .share{ float: left; position: relative; z-index: 2; margin: 25px 0px 0px 10px;}
+#article_detail .delivery_box .share i{ float: left; display: inline-block; width: 21px; height: 20px; background: url(../images/share_icon.png) no-repeat; background-size: 21px 20px;}
+#article_detail .delivery_box .share span{ float: left; display: inline-block; height: 20px; line-height: 20px; font-size: 14px; color: #188eee; margin: 0 0 0 5px;}
+#article_detail .delivery_box .favorites{ float: left; position: relative; z-index: 2; margin: 25px 0px 0px 15px;}
+#article_detail .delivery_box .favorites i{ float: left; display: inline-block; width: 21px; height: 20px; background: url(../images/favorites_icon.png) no-repeat; background-size: 21px 20px;}
+#article_detail .delivery_box .favorites span{ float: left; display: inline-block; height: 20px; line-height: 20px; font-size: 14px; color: #999; margin: 0 0 0 5px;}
+#article_detail .delivery_box .hover i{ background: url(../images/favorites_icon_h.png) no-repeat; background-size: 21px 20px;}
+#article_detail .delivery_box .hover span{  color: #f3711a;}
+#article_detail .delivery_box .delivery { float: right;  width: calc(100% - 160px); position: relative; z-index: 2; margin: 10px 10px 0px 0px;}
+#article_detail .delivery_box .delivery input{ width: 100%; display: inline-block; height: 45px; line-height: 45px; color: #fff; text-align: center; background: #f3711a; border-radius: 2px; overflow: hidden; font-size: 20px;}
+#article_detail .delivery_box .disable input{  background: #c5c5c5;}
+
+
+
+#article_list{ background: #f5f6f8; padding: 0px 0px 70px 0px;}
+#article_list .search_box{ height: 25px; width: 100%; padding: 10px 0px 10px 0px; background: #188eee;}
+#article_list .search_box .district{ margin:0px 0px 0px 10px; position: relative; text-align: center; height: 25px; line-height: 25px; float: left; width: 90px;}
+#article_list .search_box .district span{ color: #fff; font-size: 14px; max-width: 70px; height: 25px; line-height: 25px; overflow: hidden; display: inline-block;}
+#article_list .search_box .district i{ display: inline-block; background: url(../images/to_down2.png) no-repeat; height: 8px; width: 12px; background-size: 12px 8px; position: relative; top: 0px; left: 0;}
+#article_list .search_box .district select{ position: absolute; top: 0; left: 0px; display: block; height: 100%; width: 100%; opacity: 0;}
+#article_list .search_box .search{ margin:0px 10px 0px 0px; height: 25px; float: right; width: calc(100% - 120px);}
+#article_list .search_box .search input.key{ height: 25px; line-height: 25px; border-radius: 10px; background: #fff; float: left; font-size: 14px; color: #333; width: calc(100% - 45px); padding: 0 5px 0px 5px;}
+#article_list .search_box .search input.submit{ height: 25px; line-height: 25px; text-align: center; width: 30px; background: none; float: right; font-size: 14px; color: #fff;}
+#article_list .article_list li{ width:calc(100% - 20px); background: #fff; float: left; margin: 0px 0px 10px 0px; padding: 10px;}
+#article_list .article_list li div.article_title{ width: 100%; margin: 0px 0px 5px 0px;}
+#article_list .article_list li div.article_title a{ line-height: 25px; font-size: 16px; color: #313131;}
+#article_list .article_list li div.article_info{ width: 100%; margin: 0px 0px 5px 0px; float: left;}
+#article_list .article_list li div.article_info p{ color: #999;}
+#article_list .article_list li div.article_info span{ color: #f3711a;}
+
+
+#select_box .select{ bottom: 50px;}
+
+

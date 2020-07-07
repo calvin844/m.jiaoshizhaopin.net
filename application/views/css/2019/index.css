@@ -1,0 +1,89 @@
+
+
+#index #content{ background: #fff;}
+/* main_img */
+#index #content .top_box{ position: relative;}
+#index #content .top_box .img_gallery{border-top:1px solid #d7d7d7;overflow:hidden;position:relative;}
+#index #content .top_box .main_img{overflow:hidden;position:relative;}
+#index #content .top_box .main_img ul{width:9999px;height:160px;overflow:hidden;position:absolute;top:0;left:0}
+#index #content .top_box .main_img li{float:left;width:100%;}
+#index #content .top_box .main_img li span{display:block;width:100%;}
+#index #content .top_box .main_img li a{display:block;width:100%;}
+
+#index #content .top_box div.point{position:absolute;bottom:5px;left:50%;z-index:2;width:140px;height:21px;margin:0 0 0 -50px;}
+#index #content .top_box div.point a{float:left;width:21px;height:21px;margin:0;padding:0;background:url('../../images/2019/btn_main_img.png') 0 0 no-repeat;display:block;text-indent:-1000px}
+#index #content .top_box div.point a.on{background-position:0 -21px}
+
+#index #content .top_box .search_box{ position: absolute; top: 10px; left: 13px; width: 93%; height: 35px; border-radius: 17px; overflow: hidden; background: #fff; z-index: 3;}
+#index #content .top_box .search_box input.key{ color: #202020; float: left; padding: 5px 10px; width: calc(100% - 50px); height: 35px; line-height: 35px; background: #fff;}
+#index #content .top_box .search_box input.submit{ float: right; width: 20px; height: 20px; line-height: 35px; text-align: center; background: url(../../images/2019/search.png); background-size: 20px; text-indent: 9999px; margin: 7px 10px 0px 0px;}
+
+
+#index #content .menu_box{ background: #fff; padding: 12px 0px 12px 0px; float: left; width: 100%; border-bottom: 10px solid #f0f1f2}
+#index #content .menu_box ul li{ float: left; width: 25%; text-align: center;}
+#index #content .menu_box ul li i{ display: inline-block; width: 37px; height: 37px;}
+#index #content .menu_box ul li span{ color: #999999;}
+
+#index #content .menu_box ul li.my i{ background: url(../../images/2019/index_my.png) no-repeat; background-size: 37px;}
+#index #content .menu_box ul li.jobs i{ background: url(../../images/2019/index_jobs.png) no-repeat; background-size: 37px;}
+#index #content .menu_box ul li.article i{ background: url(../../images/2019/index_article.png) no-repeat; background-size: 37px;}
+#index #content .menu_box ul li.community i{ background: url(../../images/2019/index_community.png) no-repeat; background-size: 37px;}#index{ background: #f0f1f2; padding: 0px 0px 55px 0px;}
+
+#index #content p.box_title { color: #212121; font-size: 16px; margin: 0px 0px 15px 0px; font-weight: bold;}
+#index #content .emergency_box { padding: 15px 15px 0px 15px; background: #fff; margin: 10px 0px 0px 0px; height: 215px;}
+#index #content .emergency_box .item{ width: calc(100% - 30px); height: 38px; padding: 15px 10px 15px 10px; background: #fff; margin: 0px 0px 10px 0px; border-radius: 5px; border:1px solid #ededed; overflow: hidden;}
+#index #content .emergency_box .item .job_box{ width: 100%; float: left;}
+#index #content .emergency_box .item .job_box a{ display: inline-block; font-size:  16px; color: #202020; font-weight: normal; float: left; height: 20px; line-height: 20px; max-width: 65%; overflow: hidden;}
+#index #content .emergency_box .item .job_box span{ float: right; font-weight: bold; font-size: 14px; color: #f3711a;}
+#index #content .emergency_box .item .company_box{ width: 100%; float: left; margin: 5px 0px 0px 0px;}
+#index #content .emergency_box .item .company_box a{ display: inline-block; color: #999; font-weight: normal; float: left; height: 20px; line-height: 20px; max-width: 75%; overflow: hidden;}
+#index #content .emergency_box .item .company_box span{ float: right; color: #999; display: inline-block; max-width: 25%;}
+
+.swiper-container{
+    height:180px;
+}
+.pagination {
+    position: absolute;
+    left: 0;
+    text-align: center;
+    bottom:10px;
+    width: 100%;
+    height: 10px;
+}
+.swiper-pagination-switch{
+    display: inline-block; width: 8px; height: 8px; border: 1px solid #ededed; border-radius: 50px; margin: 0px 5px 0px 5px;
+}
+.swiper-active-switch{
+    background: #ededed;
+}
+
+
+
+#index #content .jobs_box { padding: 18px 15px 0px 15px; background: #fff;}
+#index #content .jobs_box ul li{ width: 100%; height: 38px; padding: 5px 0px 15px 0px; background: #fff; margin: 0px 0px 10px 0px; border-bottom: 1px solid #ededed;}
+#index #content .jobs_box ul li .job_box{ width: 100%; float: left;}
+#index #content .jobs_box ul li .job_box a{ font-size: 16px; color: #202020; font-weight: normal; float: left; height: 20px; line-height: 20px; max-width: 65%; overflow: hidden;}
+#index #content .jobs_box ul li .job_box span{ float: right; font-weight: bold; font-size: 14px; color: #f3711a;}
+#index #content .jobs_box ul li .company_box{ width: 100%; float: left; margin: 5px 0px 0px 0px;}
+#index #content .jobs_box ul li .company_box a{ display: inline-block; color: #999; font-weight: normal; float: left; height: 20px; line-height: 20px; max-width: 75%; overflow: hidden;}
+#index #content .jobs_box ul li .company_box span{ float: right; color: #999; display: inline-block; max-width: 25%;}
+
+#index #content .logo_ad_box { background: #fff; width: calc(100% - 30px); overflow: hidden; padding: 18px 15px 0px 15px;}
+#index #content .logo_ad_box li{ float: left; width: calc(50% - 5px); margin: 0px 10px 0px 0px;}
+#index #content .logo_ad_box li:nth-child(2){ margin: 0px 0px 0px 0px;}
+#index #content .logo_ad_box li:nth-child(4){ margin: 0px 0px 0px 0px;}
+
+#index #content .article_box { padding: 18px 15px 0px 15px; background: #fff;}
+#index #content .article_box ul li{ width: 100%; height: 38px; padding: 5px 0px 15px 0px; background: #fff; margin: 0px 0px 10px 0px; border-bottom: 1px solid #ededed;}
+#index #content .article_box ul li a{ display: inline-block; height: 20px; overflow: hidden; font-size: 16px; color: #202020; line-height: 20px;}
+#index #content .article_box ul li span{ color: #999;}
+
+
+
+#index #content .more_list{ width: 100%; text-align: center; padding: 15px 0px 15px 0px;}
+#index #content .more_list span{ color: #188eee;}
+#index #content .more_list i{ display: inline-block; width: 8px; height: 9px; background: url(../../images/2019/to_right2.png) no-repeat; background-size: 8px 9px; margin: 0px 0px 0px 5px;}
+
+
+
+
