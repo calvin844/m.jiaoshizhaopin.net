@@ -65,7 +65,7 @@
                         <p class="box_title"><i></i>ÕÐÆ¸Ö°Î»</p>
                         <ul class="box_jobs">
                             <?php foreach ($article['article_jobs'] as $article_job): ?>
-                                <li><p><?= $article_job['job_name'] ?>£¨<?= $article_job['amount'] ?>£©</p></li>
+                                <li><p><a href="/article/article_jobs?article_job_id=<?= $article_job['id'] ?>"><?= $article_job['job_name'] ?>£¨<?= $article_job['amount'] ?>£©</a></p></li>
                             <?php endforeach; ?>
                         </ul>
                     <?php endif ?>

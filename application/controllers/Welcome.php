@@ -102,6 +102,14 @@ class Welcome extends CI_Controller {
                 $share_data['des'] = toGBK($des);
                 $share_data['imgurl'] = 'http://' . $_SERVER['HTTP_HOST'] . '/' . VIEW_PATH . 'images/logo2.png';
                 break;
+            case 'article_job':
+                $article_job = $this->article_models->get_article_jobs_by_id($id);
+                $article = $this->article_models->get_article_by_id($article_job['article_id']);
+                $share_data['title'] = toGBK($article_job['job_name'] . "_½ÌÊ¦ÕÐÆ¸Íø");
+                $des = get_page_desc($article['content']);
+                $share_data['des'] = toGBK($des);
+                $share_data['imgurl'] = 'http://' . $_SERVER['HTTP_HOST'] . '/' . VIEW_PATH . 'images/logo2.png';
+                break;
             case 'job':
                 $job = $this->job_models->get_all_job_by_id($id);
                 $company = $this->company_models->get_company($job['company_id']);

@@ -28,6 +28,13 @@ class Article_models extends CI_Model {
         return $query->row_array();
     }
 
+    //根据ID获取简章职位
+    public function get_article_jobs_by_id($article_job_id) {
+        $this->db->where('id', $article_job_id);
+        $query = $this->db->get('jiaoshi_article_jobs');
+        return $query->row_array();
+    }
+
     //根据ID获取简章
     public function get_article_jobs_by_article_id($article_id) {
         $this->db->where('article_id', $article_id);

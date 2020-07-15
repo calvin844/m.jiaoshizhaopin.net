@@ -229,6 +229,26 @@ class Article extends CI_Controller {
         echo $str;
     }
 
+    //简章职位详情页
+    public function article_jobs() {
+        $article_job_id = $this->input->get('article_job_id');
+        $article_jobs = $this->article_models->get_article_jobs_by_id($article_job_id);
+        $article = $this->article_models->get_article_by_id($article_jobs['article_id']);
+        $article['url'] = $this->article_models->get_article_url($article['id']);
+        $other_job = $this->article_models->get_article_jobs_by_article_id($article_jobs['article_id']);
+        if (strstr($article['district_cn'], "/")) {
+            $district_arr = explode("/", $article['district_cn']);
+            $article['district_cn'] = $district_arr[0];
+            $article['sdistrict_cn'] = $district_arr[1];
+        } else {
+            $article['sdistrict_cn'] = $article['district_cn'];
+        }
+        $data['article'] = $article;
+        $data['job'] = $article_jobs;
+        $data['other_job'] = $other_job;
+        $this->load->view('/article/article_job_detail', $data);
+    }
+
     //投递简章职位
     public function apply_article_send() {
         $article_job_id = $this->input->post('article_job_id');
