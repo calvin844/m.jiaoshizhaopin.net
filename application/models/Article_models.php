@@ -35,9 +35,66 @@ class Article_models extends CI_Model {
         return $query->row_array();
     }
 
-    //根据ID获取简章
+    //根据简章ID获取简章职位
     public function get_article_jobs_by_article_id($article_id) {
         $this->db->where('article_id', $article_id);
+        $query = $this->db->get('jiaoshi_article_jobs');
+        return $query->result_array();
+    }
+
+    //根据地区ID获取简章职位
+    public function get_article_jobs_by_sdistrict($sdistrict, $job_id, $limit = 0) {
+        $this->db->select('id');
+        $this->db->where(array('sdistrict' => $sdistrict, 'endtime >' => time()));
+        $this->db->order_by('refreshtime', 'DESC');
+        $query = $this->db->get('article');
+        $article = $query->result_array();
+        foreach ($article as $a) {
+            $article_id = $a['id'];
+        }
+        $this->db->where('id !=', $job_id);
+        $this->db->where_in('article_id', $article_id);
+        if ($limit > 0) {
+            $this->db->limit($limit);
+        }
+        $query = $this->db->get('jiaoshi_article_jobs');
+        return $query->result_array();
+    }
+
+    //根据分类ID获取简章职位
+    public function get_article_jobs_by_subclass($subclass, $job_id, $limit = 0) {
+        $this->db->select('id');
+        $this->db->where('endtime >', time());
+        $this->db->order_by('refreshtime', 'DESC');
+        $query = $this->db->get('article');
+        $article = $query->result_array();
+        foreach ($article as $a) {
+            $article_id = $a['id'];
+        }
+        $this->db->where(array('id !=' => $job_id, 'subclass' => $subclass));
+        $this->db->where_in('article_id', $article_id);
+        if ($limit > 0) {
+            $this->db->limit($limit);
+        }
+        $query = $this->db->get('jiaoshi_article_jobs');
+        return $query->result_array();
+    }
+
+    //根据大职位分类ID获取简章职位
+    public function get_article_jobs_by_category($category, $job_id, $limit = 0) {
+        $this->db->select('id');
+        $this->db->where('endtime >', time());
+        $this->db->order_by('refreshtime', 'DESC');
+        $query = $this->db->get('article');
+        $article = $query->result_array();
+        foreach ($article as $a) {
+            $article_id = $a['id'];
+        }
+        $this->db->where(array('id !=' => $job_id, 'category' => $category));
+        $this->db->where_in('article_id', $article_id);
+        if ($limit > 0) {
+            $this->db->limit($limit);
+        }
         $query = $this->db->get('jiaoshi_article_jobs');
         return $query->result_array();
     }

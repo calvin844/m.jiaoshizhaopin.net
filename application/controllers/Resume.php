@@ -259,6 +259,16 @@ class Resume extends CI_Controller {
                 $resume['certificate_list'][] = $cl;
             }
         }
+        $utpl = $this->resume_models->get_user_resume_tpl_by_resume_id($resume['id']);
+        if (!empty($utpl)) {
+            $tpl = $this->resume_models->get_resume_tpl_by_tpl_id($utpl['tpl_id']);
+            $tpl_dir = !empty($tpl['tpl_dir']) ? $tpl['tpl_dir'] : $this->common_models->get_sys_config('tpl_personal');
+        } else {
+            $tpl_dir = $this->common_models->get_sys_config('tpl_personal');
+        }
+
+
+        $data['tpl_dir'] = $tpl_dir;
         $data['show'] = $show;
         $data['resume'] = $resume;
         $data['utype'] = $utype;

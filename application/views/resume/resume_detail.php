@@ -6,169 +6,172 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
         <meta http-equiv="Content-Type" content="text/html; charset=gbk" />
         <link href="<?= VIEW_PATH; ?>css/2019/base.css" type="text/css" rel="stylesheet">
-        <link href="<?= VIEW_PATH; ?>css/2019/resume.css" type="text/css" rel="stylesheet">
+        <link href="<?= VIEW_PATH; ?>css/2019/resume_css/<?= $tpl_dir ?>/resume.css" type="text/css" rel="stylesheet">
         <script src="<?= VIEW_PATH; ?>js/2019/jq-1.11.1.js"></script>
         <title><?= $resume['name'] ?>的简历</title>
     </head>
 
     <body id="resume_detail">
-        <div class="base_box">
-            <div class="left">
-                <h2 class="name"><?= $resume['name'] ?></h2>
-                <span class="district"><?= !empty($resume['residence_cn']) ? $resume['residence_cn'] : "" ?></span>
-                <div class="clear"></div>
-                <p class="base_str"><?= !empty($resume['experience_cn']) ? $resume['experience_cn'] : "未填写" ?>工作经验 | <?= !empty($resume['education_cn']) ? $resume['education_cn'] : "未填写学历" ?> | <?= $resume['age'] ?>岁 | <?= !empty($resume['marriage_cn']) ? $resume['marriage_cn'] : "保密" ?></p>
-                <?php if ($show == 1): ?>
+        <div class="resume_box">
+            <div class="base_box">
+                <div class="left">
+                    <h2 class="name"><?= $resume['name'] ?></h2>
+                    <span class="district"><?= !empty($resume['residence_cn']) ? $resume['residence_cn'] : "" ?></span>
                     <div class="clear"></div>
-                    <div class="phone">
-                        <i></i><p><?= $resume['telephone'] ?></p>
-                    </div>
-                    <div class="clear"></div>
-                    <div class="email">
-                        <i></i><p><?= $resume['email'] ?></p>
-                    </div>
-                <?php endif; ?>
+                    <p class="base_str"><?= !empty($resume['experience_cn']) ? $resume['experience_cn'] : "未填写" ?>工作经验 | <?= !empty($resume['education_cn']) ? $resume['education_cn'] : "未填写学历" ?> | <?= $resume['age'] ?>岁 | <?= !empty($resume['marriage_cn']) ? $resume['marriage_cn'] : "保密" ?></p>
+                    <?php if ($show == 1): ?>
+                        <div class="clear"></div>
+                        <div class="phone">
+                            <i></i><p><?= $resume['telephone'] ?></p>
+                        </div>
+                        <div class="clear"></div>
+                        <div class="email">
+                            <i></i><p><?= $resume['email'] ?></p>
+                        </div>
+                    <?php endif; ?>
+                </div>
+                <div class="right">
+                    <img src="<?= $resume['photosrc'] ?>" width="90" />
+                    <i class="<?php if ($resume['sex'] == 1): ?>man<?php else: ?>woman<?php endif; ?>"></i>
+                </div>
             </div>
-            <div class="right">
-                <img src="<?= $resume['photosrc'] ?>" width="90" />
-                <i class="<?php if ($resume['sex'] == 1): ?>man<?php else: ?>woman<?php endif; ?>"></i>
-            </div>
-        </div>
-        <div class="clear"></div>
-        <div class="intention_box">
-            <p class="box_title">求职意向</p>
-            <div class="box">
-                <?php if (!empty($resume['nature_cn'])): ?>
-                    <div class="nature">
-                        <i></i>
-                        <span><?= $resume['nature_cn'] ?></span>
-                    </div>
-                <?php endif; ?>
-                <?php if (!empty($resume['district_cn'])): ?>
-                    <div class="district">
-                        <i></i>
-                        <span><?= $resume['district_cn'] ?></span>
-                    </div>
-                <?php endif; ?>
-                <?php if (!empty($resume['wage_cn'])): ?>
-                    <div class="wage">
-                        <i></i>
-                        <span><?= $resume['wage_cn'] ?></span>
-                    </div>
-                <?php endif; ?>
-                <?php if (!empty($resume['intention_jobs'])): ?>
-                    <div class="clear"></div>
-                    <ul class="jobs_ul">
-                        <?php foreach ($resume['intention_jobs'] as $i): ?>
-                            <li><?= $i ?></li>
-                        <?php endforeach; ?>
-                    </ul>
-                <?php endif; ?>
-            </div>
-        </div>
-        <?php if (!empty($resume['education_list'])): ?>
             <div class="clear"></div>
-            <div class="education_box">
-                <p class="box_title">教育经历</p>
-                <div class="clear"></div>
-                <?php foreach ($resume['education_list'] as $re): ?>
-                    <div class="box">
-                        <p class="school"><?= $re['school'] ?></p>
+            <div class="intention_box">
+                <p class="box_title">求职意向</p>
+                <div class="box">
+                    <?php if (!empty($resume['nature_cn'])): ?>
+                        <div class="nature">
+                            <i></i>
+                            <span><?= $resume['nature_cn'] ?></span>
+                        </div>
+                    <?php endif; ?>
+                    <?php if (!empty($resume['district_cn'])): ?>
+                        <div class="district">
+                            <i></i>
+                            <span><?= $resume['district_cn'] ?></span>
+                        </div>
+                    <?php endif; ?>
+                    <?php if (!empty($resume['wage_cn'])): ?>
+                        <div class="wage">
+                            <i></i>
+                            <span><?= $resume['wage_cn'] ?></span>
+                        </div>
+                    <?php endif; ?>
+                    <?php if (!empty($resume['intention_jobs'])): ?>
                         <div class="clear"></div>
-                        <p class="speciality"><?= $re['education_cn'] ?>/<?= $re['speciality'] ?></p>
-                        <div class="clear"></div>
-                        <p class="time"><?= $re['startyear'] ?>-<?= $re['startmonth'] ?>~<?= $re['endyear'] ?>-<?= $re['endmonth'] ?></p>
-                        <div class="clear"></div>
-                    </div>
-                <?php endforeach; ?>
+                        <ul class="jobs_ul">
+                            <?php foreach ($resume['intention_jobs'] as $i): ?>
+                                <li><?= $i ?></li>
+                            <?php endforeach; ?>
+                        </ul>
+                    <?php endif; ?>
+                </div>
             </div>
-        <?php endif; ?>
-
-        <?php if (!empty($resume['work_list'])): ?>
-            <div class="clear"></div>
-            <div class="work_box">
-                <p class="box_title">工作经历</p>
+            <?php if (!empty($resume['education_list'])): ?>
                 <div class="clear"></div>
-                <?php foreach ($resume['work_list'] as $rw): ?>
-                    <div class="box">
-                        <p class="company"><?= $rw['companyname'] ?></p>
-                        <div class="clear"></div>
-                        <p class="jobs"><?= $rw['jobs'] ?></p>
-                        <div class="clear"></div>
-                        <p class="time"><?= $rw['startyear'] ?>-<?= $rw['startmonth'] ?>~<?= $rw['endyear'] ?>-<?= $rw['endmonth'] ?></p>
-                        <div class="clear"></div>
-                        <?php if (!empty($rw['achievements'])): ?>
-                            <p class="achievements_title">工作职责</p>
+                <div class="education_box">
+                    <p class="box_title">教育经历</p>
+                    <div class="clear"></div>
+                    <?php foreach ($resume['education_list'] as $re): ?>
+                        <div class="box">
+                            <p class="school"><?= $re['school'] ?></p>
                             <div class="clear"></div>
-                            <p class="achievements"><?= nl2br($rw['achievements']) ?></p>
-                        <?php endif; ?>
-                        <div class="clear"></div>
-                    </div>
-                <?php endforeach; ?>
-            </div>
-        <?php endif; ?>
-        <?php if (!empty($resume['training_list'])): ?>
-            <div class="clear"></div>
-            <div class="training_box">
-                <p class="box_title">培训经历</p>
-                <div class="clear"></div>
-                <?php foreach ($resume['training_list'] as $rt): ?>
-                    <div class="box">
-                        <p class="agency"><?= $rt['agency'] ?></p>
-                        <div class="clear"></div>
-                        <p class="course"><?= $rt['course'] ?></p>
-                        <div class="clear"></div>
-                        <p class="time"><?= $rt['startyear'] ?>-<?= $rt['startmonth'] ?>~<?= $rt['endyear'] ?>-<?= $rt['endmonth'] ?></p>
-                        <div class="clear"></div>
-                        <?php if (!empty($rt['description'])): ?>
-                            <p class="description_title">培训内容</p>
+                            <p class="speciality"><?= $re['education_cn'] ?>/<?= $re['speciality'] ?></p>
                             <div class="clear"></div>
-                            <p class="description"><?= nl2br($rt['description']) ?></p>
+                            <p class="time"><?= $re['startyear'] ?>-<?= $re['startmonth'] ?>~<?= $re['endyear'] ?>-<?= $re['endmonth'] ?></p>
                             <div class="clear"></div>
-                        <?php endif; ?>
-                    </div>
-                <?php endforeach; ?>
-            </div>
-        <?php endif; ?>
-        <?php if (!empty($resume['tag']) || !empty($resume['specialty'])): ?>
-            <div class="clear"></div>
-            <div class="other_box">
-                <p class="box_title">其他信息</p>
-                <?php if (!empty($resume['tag'])): ?>
-                    <ul class="tag_ul">
-                        <?php foreach ($resume['tag'] as $t): ?>
-                            <li><?= $t ?></li>
-                        <?php endforeach; ?>
-                    </ul>
-                    <div class="clear"></div>
-                <?php endif; ?>
-                <div class="clear"></div>
-                <?php if (!empty($resume['specialty'])): ?>
-                    <p class="specialty_title">自我描述</p>
-                    <div class="clear"></div>
-                    <p class="specialty"><?= nl2br($resume['specialty']) ?></p>
-                <?php endif; ?>
-                <div class="clear"></div>
-            </div>
-        <?php endif; ?>
-        <?php if (!empty($resume['certificate_list'])): ?>
-            <div class="clear"></div>
-            <div class="certificate_box">
-                <p class="box_title">已有证书</p>
-                <ul class="list">
-                    <?php foreach ($resume['certificate_list'] as $rc): ?>
-                        <li>
-                            <div class="img_box">
-                                <a href="/data/resume_certificate/<?= $rc['path'] ?>">
-                                    <img src="/data/resume_certificate/<?= $rc['path'] ?>" />
-                                </a>
-                            </div>
-                            <p><?= $rc['note'] ?></p>
-                        </li>
+                        </div>
                     <?php endforeach; ?>
-                </ul>
-            </div>
-        <?php endif; ?>
+                </div>
+            <?php endif; ?>
+
+            <?php if (!empty($resume['work_list'])): ?>
+                <div class="clear"></div>
+                <div class="work_box">
+                    <p class="box_title">工作经历</p>
+                    <div class="clear"></div>
+                    <?php foreach ($resume['work_list'] as $rw): ?>
+                        <div class="box">
+                            <p class="company"><?= $rw['companyname'] ?></p>
+                            <div class="clear"></div>
+                            <p class="jobs"><?= $rw['jobs'] ?></p>
+                            <div class="clear"></div>
+                            <p class="time"><?= $rw['startyear'] ?>-<?= $rw['startmonth'] ?>~<?= $rw['endyear'] ?>-<?= $rw['endmonth'] ?></p>
+                            <div class="clear"></div>
+                            <?php if (!empty($rw['achievements'])): ?>
+                                <p class="achievements_title">工作职责</p>
+                                <div class="clear"></div>
+                                <p class="achievements"><?= nl2br($rw['achievements']) ?></p>
+                            <?php endif; ?>
+                            <div class="clear"></div>
+                        </div>
+                    <?php endforeach; ?>
+                </div>
+            <?php endif; ?>
+            <?php if (!empty($resume['training_list'])): ?>
+                <div class="clear"></div>
+                <div class="training_box">
+                    <p class="box_title">培训经历</p>
+                    <div class="clear"></div>
+                    <?php foreach ($resume['training_list'] as $rt): ?>
+                        <div class="box">
+                            <p class="agency"><?= $rt['agency'] ?></p>
+                            <div class="clear"></div>
+                            <p class="course"><?= $rt['course'] ?></p>
+                            <div class="clear"></div>
+                            <p class="time"><?= $rt['startyear'] ?>-<?= $rt['startmonth'] ?>~<?= $rt['endyear'] ?>-<?= $rt['endmonth'] ?></p>
+                            <div class="clear"></div>
+                            <?php if (!empty($rt['description'])): ?>
+                                <p class="description_title">培训内容</p>
+                                <div class="clear"></div>
+                                <p class="description"><?= nl2br($rt['description']) ?></p>
+                                <div class="clear"></div>
+                            <?php endif; ?>
+                        </div>
+                    <?php endforeach; ?>
+                </div>
+            <?php endif; ?>
+            <?php if (!empty($resume['tag']) || !empty($resume['specialty'])): ?>
+                <div class="clear"></div>
+                <div class="other_box">
+                    <p class="box_title">其他信息</p>
+                    <?php if (!empty($resume['tag'])): ?>
+                        <ul class="tag_ul">
+                            <?php foreach ($resume['tag'] as $t): ?>
+                                <li><?= $t ?></li>
+                            <?php endforeach; ?>
+                        </ul>
+                        <div class="clear"></div>
+                    <?php endif; ?>
+                    <div class="clear"></div>
+                    <?php if (!empty($resume['specialty'])): ?>
+                        <p class="specialty_title">自我描述</p>
+                        <div class="clear"></div>
+                        <p class="specialty"><?= nl2br($resume['specialty']) ?></p>
+                    <?php endif; ?>
+                    <div class="clear"></div>
+                </div>
+            <?php endif; ?>
+            <?php if (!empty($resume['certificate_list'])): ?>
+                <div class="clear"></div>
+                <div class="certificate_box">
+                    <p class="box_title">已有证书</p>
+                    <ul class="list">
+                        <?php foreach ($resume['certificate_list'] as $rc): ?>
+                            <li>
+                                <div class="img_box">
+                                    <a href="/data/resume_certificate/<?= $rc['path'] ?>">
+                                        <img src="/data/resume_certificate/<?= $rc['path'] ?>" />
+                                    </a>
+                                </div>
+                                <p><?= $rc['note'] ?></p>
+                            </li>
+                        <?php endforeach; ?>
+                    </ul>
+                </div>
+            <?php endif; ?>
+            <div class="clear"></div>
+        </div>
         <?php $this->load->view('public/2019/bottom_help_home.php') ?>
         <?php if ($utype == 1): ?>
             <div class="do_box">

@@ -8,9 +8,10 @@
         <link href="<?= VIEW_PATH; ?>css/2019/base.css" type="text/css" rel="stylesheet">
         <link href="<?= VIEW_PATH; ?>css/2019/article.css" type="text/css" rel="stylesheet">
         <script src="<?= VIEW_PATH; ?>js/2019/jq-1.11.1.js"></script>
-        <title><?= $job['job_name'] ?></title>
-        <meta name="keywords" content="<?= $job['job_name'] ?>招聘,<?= $article['sdistrict_cn'] ?>教师招聘,<?= $article['sdistrict_cn'] ?><?= $job['category_cn'] ?>招聘,<?= $article['sdistrict_cn'] ?>教师招聘网"/>
-        <meta name="description" content="<?= $article['title'] ?>,<?= $article['sdistrict_cn'] ?>招聘<?= $job['job_name'] ?>"/>
+        <title><?= $article['sdistrict_cn'] ?><?= $job['job_name'] ?>招聘_<?= $article['sdistrict_cn'] ?><?= $job['category_cn'] ?>教师职位推荐_<?= $article['sdistrict_cn'] ?>教师招聘网</title>
+        <meta name="keywords" content="<?= $job['job_name'] ?>招聘,<?= $article['sdistrict_cn'] ?>教师招聘,<?= $job['category_cn'] ?>教师招聘,<?= $article['sdistrict_cn'] ?><?= $job['category_cn'] ?>教师职位推荐,<?= $article['sdistrict_cn'] ?>教师招聘网"/>
+        <meta name="description" content="<?= $article['title'] ?>，<?= $article['sdistrict_cn'] ?>招聘<?= $job['job_name'] ?>，<?= $article['sdistrict_cn'] ?><?= $job['category_cn'] ?>教师职位推荐就上教师招聘网（http://www.jiaoshizhaopin.net/）。" />
+
     </head>
 
     <body id="article_job_detail">
@@ -24,62 +25,84 @@
             <h1><?= $job['job_name'] ?></h1>
             <div class="info">
                 <ul>
-                    <li class="district"><i></i><span><?= $article['district_cn'] ?></span></li>
+                    <li class="district"><i></i><span><?= $article['district_cn'] ?>/<?= $article['sdistrict_cn'] ?></span></li>
                     <li class="amount"><i></i><span><?= $job['amount'] ?>人</span></li>
                 </ul>
                 <div class="clear"></div>
                 <div class="click"><p><?= $article['click'] ?>人阅读</p><p><?= date("Y-m-d", $article['endtime']) ?>截止</p></div>
             </div>
         </div>
+
+
         <div class="content_box">
-            <div class="article_box" onclick="window.location.href = '<?= $article['url'] ?>'">
-                <div class="article">
-                    <h2><?= $article['title'] ?></h2>
-                </div>
-                <div class="more">
-                    <a title="<?= $article['title'] ?>" href="<?= $article['url'] ?>"></a>
-                </div>
-            </div>
-            <div class="clear"></div>
             <div class="article_content_box">
                 <p class="box_title"><i></i>简章内容</p>
                 <div class="clear"></div>
-                <div class="box_content">
-                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
-                        <tbody>
-                            <tr>
-                                <td><?= $article['content'] ?></td>
-                            </tr>
-                        </tbody>
-                    </table>
+                <div class="article_box" onclick="window.location.href = '<?= $article['url'] ?>'">
+                    <div class="article">
+                        <h2><?= $article['title'] ?></h2>
+                    </div>
+                    <div class="more">
+                        <a title="<?= $article['title'] ?>" href="<?= $article['url'] ?>"></a>
+                    </div>
                 </div>
             </div>
-            <?php if (!empty($other_job)): ?>
-                <div class="other_jobs_box">			
-                    <div class="other_title_box">
-                        <div class="line"></div>
-                        <p class="title">其他职位推荐</p>
-                    </div>
-                    <ul>
-                        <?php foreach ($other_job as $ot): ?>
-                            <li onclick="window.location.href = '/article/article_jobs?article_job_id=<?= $ot['id'] ?>'">
+            <div class="clear"></div>
+            <?php if (!empty($sdistrict_jobs)): ?>
+                <div class="district_jobs_box">
+                    <p class="box_title"><i></i><?= $article['district_cn'] ?><?= $article['sdistrict_cn'] ?>教师职位推荐</p>
+                    <div class="clear"></div>
+                    <ul class="list_box">
+                        <?php foreach ($sdistrict_jobs as $sj): ?>
+                            <?php if (empty($sj['article'])): ?>
+                                <li onclick="window.location.href = '/job/detail?job_id=<?= $sj['id'] ?>'">
+                                    <div class="job_box">
+                                        <h2 data-bind="<?= strlen($sj['jobs_name']) ?>"><a title="<?= $sj['jobs_name'] ?>" href="/job/detail?job_id=<?= $sj['id'] ?>"><?= strlen($sj['jobs_name']) > 22 ? mb_substr($sj['jobs_name'], 0, 11, "gb2312") . '...' : $sj['jobs_name'] ?></a></h2>
+                                        <span><?= $sj['wage_cn'] ?></span>
+                                    </div>
+                                    <div class="company_box">
+                                        <h3><a title="<?= $sj['companyname'] ?>" href="/company/detail?company_id=<?= $sj['company_id'] ?>">[<?= $sj['district_cn'] ?>]&nbsp;<?= $sj['companyname'] ?></a></h3>
+                                        <span><?= date('Y-m-d', $sj['refreshtime']) ?></span>
+                                    </div>
+                                </li>
+                            <?php else: ?>
+                                <li onclick="window.location.href = '/article/article_jobs?article_job_id=<?= $sj['id'] ?>'">
+                                    <div class="job_box">
+                                        <h2 data-bind="<?= strlen($sj['jobs_name']) ?>"><a title="<?= $sj['job_name'] ?>" href="/article/article_jobs?article_job_id=<?= $sj['id'] ?>"><?= strlen($sj['job_name']) > 22 ? mb_substr($sj['job_name'], 0, 11, "gb2312") . '...' : $sj['job_name'] ?></a></h2>
+                                    </div>
+                                    <div class="company_box">
+                                        <h3><a>[<?= $sj['article']['district_cn'] ?>]&nbsp;<?= $sj['article']['title'] ?></a></h3>
+                                        <span><?= date('Y-m-d', $sj['article']['refreshtime']) ?></span>
+                                    </div>
+                                </li>
+                            <?php endif; ?>
+                        <?php endforeach; ?>
+                    </ul>
+                </div>
+                <div class="clear"></div>
+            <?php endif; ?>
+            <?php if (!empty($subclass_jobs)): ?>
+                <div class="type_jobs_box">
+                    <p class="box_title"><i></i><?= $job['category_cn'] ?>教师职位推荐</p>
+                    <div class="clear"></div>
+                    <ul class="list_box">
+                        <?php foreach ($subclass_jobs as $sj): ?>
+                            <li onclick="window.location.href = '/job/detail?job_id=<?= $sj['id'] ?>'">
                                 <div class="job_box">
-                                    <h3 class="left"><a title="<?= $article['sdistrict_cn'] ?><?= $ot['category_cn'] ?>招聘" href="/article/article_jobs?article_job_id=<?= $ot['id'] ?>"><?= strlen($ot['job_name']) > 20 ? mb_substr($ot['job_name'], 0, 10, "gb2312") . '...' : $ot['job_name'] ?></a></h3>
-                                    <span class="right"><?= date("Y-m-d", $article['endtime']) ?></span>
+                                    <h2 data-bind="<?= strlen($sj['jobs_name']) ?>"><a title="<?= $sj['jobs_name'] ?>" href="/job/detail?job_id=<?= $sj['id'] ?>"><?= strlen($sj['jobs_name']) > 22 ? mb_substr($sj['jobs_name'], 0, 11, "gb2312") . '...' : $sj['jobs_name'] ?></a></h2>
+                                    <span><?= $sj['wage_cn'] ?></span>
                                 </div>
-                                <div class="clear"></div>
-                                <p><?= $article['district_cn'] ?>/<?= $article['sdistrict_cn'] ?>&nbsp;|&nbsp;<?= $ot['amount'] ?>人</p>
+                                <div class="company_box">
+                                    <h3><a title="<?= $sj['companyname'] ?>" href="/company/detail?company_id=<?= $sj['company_id'] ?>">[<?= $sj['district_cn'] ?>]&nbsp;<?= $sj['companyname'] ?></a></h3>
+                                    <span><?= date('Y-m-d', $sj['refreshtime']) ?></span>
+                                </div>
                             </li>
                         <?php endforeach; ?>
                     </ul>
-                    <div class="clear"></div>
-                    <div class="more_jobs">
-                        <a title="更多职位推荐" href="/job"><span>更多职位推荐</span><i></i></a>
-                    </div>
                 </div>
+                <div class="clear"></div>
             <?php endif; ?>
-            <div class="clear"></div>
-        </div>
+        </div>    
         <?php if (!empty($ad['m_page_402'])): ?>
             <div class="clear"></div>
             <a href="http://www.jiaoshizhaopin.net/ad_count/index.php?ad_name=m_page_402&img=<?= $ad['m_page_402'][0]['img_path'] ?>&url=<?= $ad['m_page_402'][0]['img_url'] ?>" target="_blank"><img src="http://www.jiaoshizhaopin.net<?= $ad['m_page_402'][0]['img_path'] ?>" width="100%"/></a>

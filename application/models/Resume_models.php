@@ -353,4 +353,20 @@ class Resume_models extends CI_Model {
         return $query->result_array();
     }
 
+    function get_user_resume_tpl_by_resume_id($resume_id) {
+        $this->db->where('resume_id', $resume_id);
+        $this->db->where('endtime >', time());
+        $this->db->order_by('id', 'desc');
+        $query = $this->db->get('personal_resume_tpl');
+        return $query->row_array();
+    }
+
+    function get_resume_tpl_by_tpl_id($tpl_id) {
+        $this->db->where('tpl_id', $tpl_id);
+        $this->db->where('tpl_type', 2);
+        $this->db->where('tpl_display', 1);
+        $query = $this->db->get('tpl');
+        return $query->row_array();
+    }
+
 }

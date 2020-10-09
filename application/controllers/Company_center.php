@@ -274,7 +274,7 @@ class Company_center extends CI_Controller {
                 $resumeshow['name'] = $resumeshow['fullname'];
             }
             $down = $this->company_models->get_resume_down_by_uid_rid($uid, $resumeshow['id']);
-            if (!$down_id > 0) {
+            if (!empty($down)) {
                 alert_to('该简历已下载！', "history.go(-1);", 1);
             }
             $company = $this->company_models->get_company_by_uid($uid);

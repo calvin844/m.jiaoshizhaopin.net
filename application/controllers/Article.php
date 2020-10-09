@@ -231,6 +231,7 @@ class Article extends CI_Controller {
 
     //¼òÕÂÖ°Î»ÏêÇéÒ³
     public function article_jobs() {
+        $timestamp = time();
         $article_job_id = $this->input->get('article_job_id');
         $article_jobs = $this->article_models->get_article_jobs_by_id($article_job_id);
         $article = $this->article_models->get_article_by_id($article_jobs['article_id']);
@@ -243,6 +244,80 @@ class Article extends CI_Controller {
         } else {
             $article['sdistrict_cn'] = $article['district_cn'];
         }
+        $sdistrict_jobs = $this->job_models->get_jobs_id_arr('jobs', array('sdistrict' => $article['sdistrict'], 'deadline >' => $timestamp), "", 6);
+        if (count($sdistrict_jobs) < 6) {
+            $district_jobs = $this->job_models->get_jobs_id_arr('jobs', array('district' => $article['district'], 'deadline >' => $timestamp), "", intval(6 - count($sdistrict_jobs)));
+            if (!empty($sdistrict_jobs)) {
+                $sdistrict_jobs = !empty($district_jobs) ? array_merge($sdistrict_jobs, $district_jobs) : $sdistrict_jobs;
+            } else {
+                $sdistrict_jobs = $district_jobs;
+            }
+        }
+
+        if (count($sdistrict_jobs) < 6) {
+            $add_article_jobs = "";
+            $article_jobs_tmp = $this->article_models->get_article_jobs_by_sdistrict($article['sdistrict'], $job_id, intval(6 - count($sdistrict_jobs)));
+            if (!empty($article_jobs_tmp)) {
+                foreach ($article_jobs_tmp as $a) {
+                    $a['article'] = $this->article_models->get_article_by_id($a['article_id']);
+                    $add_article_jobs[] = $a;
+                }
+            }
+            if (!empty($sdistrict_jobs)) {
+                $sdistrict_jobs = !empty($add_article_jobs) ? array_merge($sdistrict_jobs, $add_article_jobs) : $sdistrict_jobs;
+            } else {
+                $sdistrict_jobs = $add_article_jobs;
+            }
+        }
+        //var_dump($sdistrict_jobs);
+
+        if ($article_jobs['subclass'] > 0) {
+            $subclass_jobs = $this->job_models->get_jobs_id_arr('jobs', array('subclass' => $article_jobs['subclass'], 'deadline >' => $timestamp), "", 6);
+            if (count($subclass_jobs) < 6) {
+                $category_jobs = $this->job_models->get_jobs_id_arr('jobs', array('category' => $article_jobs['category'], 'deadline >' => $timestamp), "", intval(6 - count($subclass_jobs)));
+                if (!empty($subclass_jobs)) {
+                    $subclass_jobs = !empty($category_jobs) ? array_merge($subclass_jobs, $category_jobs) : $subclass_jobs;
+                } else {
+                    $subclass_jobs = $category_jobs;
+                }
+            }
+            if (count($subclass_jobs) < 6) {
+                $add_article_jobs = $article_jobs_tmp = "";
+                $article_jobs_tmp = $this->article_models->get_article_jobs_by_subclass($article_jobs['sdistrict'], $job_id, intval(6 - count($subclass_jobs)));
+                if (!empty($article_jobs_tmp)) {
+                    foreach ($article_jobs_tmp as $a) {
+                        $a['article'] = $this->article_models->get_article_by_id($a['article_id']);
+                        $add_article_jobs[] = $a;
+                    }
+                }
+                if (!empty($subclass_jobs)) {
+                    $subclass_jobs = !empty($add_article_jobs) ? array_merge($subclass_jobs, $add_article_jobs) : $subclass_jobs;
+                } else {
+                    $subclass_jobs = $add_article_jobs;
+                }
+            }
+        } else {
+            $subclass_jobs = $this->job_models->get_jobs_id_arr('jobs', array('category' => $article_jobs['category'], 'deadline >' => $timestamp), "", 6);
+            if (count($subclass_jobs) < 6) {
+                $add_article_jobs = $article_jobs_tmp = "";
+                $article_jobs_tmp = $this->article_models->get_article_jobs_by_category($article_jobs['category'], $job_id, intval(6 - count($subclass_jobs)));
+                if (!empty($article_jobs_tmp)) {
+                    foreach ($article_jobs_tmp as $a) {
+                        $a['article'] = $this->article_models->get_article_by_id($a['article_id']);
+                        $add_article_jobs[] = $a;
+                    }
+                }
+                if (!empty($subclass_jobs)) {
+                    $subclass_jobs = !empty($article_jobs) ? array_merge($subclass_jobs, $add_article_jobs) : $subclass_jobs;
+                } else {
+                    $subclass_jobs = $add_article_jobs;
+                }
+            }
+        }
+
+
+        $data['sdistrict_jobs'] = $sdistrict_jobs;
+        $data['subclass_jobs'] = $subclass_jobs;
         $data['article'] = $article;
         $data['job'] = $article_jobs;
         $data['other_job'] = $other_job;
