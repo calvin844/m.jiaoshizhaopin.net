@@ -76,12 +76,12 @@ $query_builder = TRUE;
 
 $db['default'] = array(
     'dsn' => '',
-    'hostname' => 'rm-bp19ls7c6h52w61lq.mysql.rds.aliyuncs.com',
-    'username' => 'jiaoshizhaopin',
-    'password' => 'tRfzV6sF',
-    'database' => 'qjjobs',
+    'hostname' => '',
+    'username' => '',
+    'password' => '',
+    'database' => '',
     'dbdriver' => 'mysqli',
-    'dbprefix' => 'qs_',
+    'dbprefix' => '',
     'pconnect' => FALSE,
     'db_debug' => (ENVIRONMENT !== 'production'),
     'cache_on' => FALSE,
