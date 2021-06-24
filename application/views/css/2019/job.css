@@ -1,0 +1,134 @@
+#job_detail #header{ position: fixed; top: 0;  left: 0px; width: 100%; border-bottom: 1px solid #dcdcdc;  z-index: 10;}
+#job_detail{ background: #f0f1f2; padding: 52px 0px 60px 0px;}
+#job_detail .title_box{ float: left; width: calc(100% - 30px); padding: 15px; background: #fff;}
+#job_detail .title_box h1{ font-size: 18px; line-height: 24px; color: #202020; margin: 0px 0px 12px 0px; font-weight: bold; }
+#job_detail .title_box .wage{ margin: 0px 0px 15px 0px;}
+#job_detail .title_box .wage p{ font-size: 14px; color: #f3711a; font-weight: bold;}
+#job_detail .title_box .info ul{float: left; width: 100%; margin: 0px 0px 15px 0px;}
+#job_detail .title_box .info ul li{ float: left; margin: 0px 10px 5px 0px;}
+#job_detail .title_box .info ul li i{ float: left; display: inline-block; height: 13px; margin: 2px 2px 0px 0px;}
+#job_detail .title_box .info ul li span{ float: left; color: #999999;}
+#job_detail .title_box .info ul li.district i{ background: url(../../images/2019/district_icon.png) no-repeat; background-size: 11px 13px; width: 11px;}
+#job_detail .title_box .info ul li.experience i{ background: url(../../images/2019/work_icon.png) no-repeat; background-size: 13px 13px; width: 13px;}
+#job_detail .title_box .info ul li.education i{ background: url(../../images/2019/education_icon.png) no-repeat; background-size: 16px 13px; width: 16px;}
+#job_detail .title_box .info ul li.amount i{ background: url(../../images/2019/amount_icon.png) no-repeat; background-size: 13px 13px; width: 13px;}
+#job_detail .title_box .click p{ color: #999; float: left; margin: 0px 15px 0px 0px;}
+
+#job_detail .content_box { margin: 7px 0px 0px 0px; float: left; width:100%; background: #fff; }
+#job_detail .company_box { background:#fff; margin: 15px 15px 15px 15px; float: left;  width: calc(100% - 30px); position: relative; border-bottom: 1px solid #ededed; padding: 0px 0px 15px 0px;}
+#job_detail .company_box div.logo{ width:50px; height:50px; background:#fff; display: table-cell; text-align: center; max-width: 100%; vertical-align: middle; overflow: visible;}
+#job_detail .company_box div.logo img{  max-width: 100%; vertical-align: middle;}
+#job_detail .company_box div.company{ float: left; margin: 0 0 0 15px; width: calc(100% - 80px);}
+#job_detail .company_box div.company h2{ font-size: 14px; color: #202020; line-height: 20px; height: 20px; overflow: hidden;}
+#job_detail .company_box div.company p{ color: #999999; margin: 3px 0px 0px 0px;}
+#job_detail .company_box div.more{ height: 100%; position:absolute; top:0px; right:0px; width: 10px;}
+#job_detail .company_box div.more a{ background: url(../../images/2019/to_right3.png) no-repeat; display: inline-block; width: 10px; height: 18px; background-size: 10px 18px; position: relative; top: 30%; left: 0px; }
+#job_detail .tag_box { float: left; width:  calc(100% - 30px); margin: 0px 15px 0px 15px;}
+#job_detail .tag_box li{ float: left; margin: 0px 8px 8px 0px;}
+#job_detail .tag_box li p{ display: inline-block; height: 20px; line-height: 20px; color: #96bfdf; border:1px solid #96bfdf; padding: 0px 8px 0px 8px;}
+#job_detail .content_box .job_content_box{ width:  calc(100% - 30px); margin: 0px 15px 0px 15px;}
+#job_detail .content_box .job_content_box p.box_title{ font-size: 14px; color: #313131; margin: 15px 0px 15px 0px;}
+#job_detail .content_box .job_content_box p.box_title i{ display: inline-block; width: 15px; height: 15px; background: url(../../images/2019/title_icon.png) no-repeat; background-size: 15px; margin: 0px 5px 0px 0px;}
+#job_detail .content_box .job_content_box table{ max-width: 100%;}
+#job_detail .content_box .job_content_box table *{  color: #999; font-size: 14px; line-height: 25px; max-width: 100%;}
+#job_detail .content_box .job_content_box div.box_content{ float: left; width: 100%; margin: 0px 0px 10px 0px;}
+#job_detail .other_jobs_box{ float: left; width: 100%; background: #fff;}
+#job_detail .other_jobs_box .other_title_box{ position: relative; text-align: center; background: #f7fbff; width: 100%; height: 50px;}
+#job_detail .other_jobs_box .other_title_box .line{ width: 145px; height: 1px; background: #ccc; margin: 0 auto; position: absolute; top: 50%; left: 50%; margin: 0px 0px 0px -77px;}
+#job_detail .other_jobs_box .title{ text-align: center; color: #cccccc; background: #f7fbff; position: absolute; left: 50%; top: 35%; margin: 0px 0px 0px -45px; padding: 0px 10px 0px 10px;}
+#job_detail .other_jobs_box ul{ float:left; width: calc(100% - 30px); margin: 0px 15px 0px 15px; background: #fff;}
+#job_detail .other_jobs_box ul li{ float:left; width: 100%; border-bottom: 1px solid #ededed; padding: 10px 0px 10px 0px;}
+#job_detail .other_jobs_box li h3{ max-width: 60%; display: inline-block; height: 25px; line-height: 25px; overflow: hidden;}
+#job_detail .other_jobs_box li a{ font-size: 16px; color: #202020;}
+#job_detail .other_jobs_box li span{ float:right; max-width: 35%; color: #f3711a; display: inline-block; font-size: 14px; font-weight: bold; margin: 5px 0px 0px 0px;}
+#job_detail .other_jobs_box li p{ float:left; color: #999; margin: 5px 0px 0px 0px;}
+#job_detail .more_jobs{ width: 100%; text-align: center; padding: 15px 0px 15px 0px;}
+#job_detail .more_jobs span{ color: #188eee;}
+#job_detail .more_jobs i{ display: inline-block; width: 8px; height: 9px; background: url(../../images/2019/to_right2.png) no-repeat; background-size: 8px 9px; margin: 0px 0px 0px 5px;}
+
+#job_detail .delivery_box { position: fixed; bottom: 0; left: 0; width: 100%; height: 65px; background: #fff; border-top: 1px solid #f1f1f1;  box-shadow: 0px 3px 3px 3px #eae7e7;}
+#job_detail .delivery_box .service{ float: left; position: relative; z-index: 2; margin: 18px 0px 0px 10px;}
+#job_detail .delivery_box .service i{ float: left;  display: inline-block; width: 35px;  height: 35px; background: url(../../images/2019/service_icon.png) no-repeat; background-size: 35px;}
+
+#job_detail .delivery_box .share{ float: left; position: relative; z-index: 2; margin: 25px 0px 0px 10px;}
+#job_detail .delivery_box .share i{ float: left; display: inline-block; width: 21px; height: 20px; background: url(../../images/2019/share_icon.png) no-repeat; background-size: 21px 20px;}
+#job_detail .delivery_box .share span{ float: left; display: inline-block; height: 20px; line-height: 20px; font-size: 14px; color: #999; margin: 0 0 0 5px;}
+#job_detail .delivery_box .favorites{ float: left; position: relative; z-index: 2; margin: 25px 0px 0px 10px;}
+#job_detail .delivery_box .favorites i{ float: left; display: inline-block; width: 21px; height: 20px; background: url(../../images/2019/favorites_icon.png) no-repeat; background-size: 21px 20px;}
+#job_detail .delivery_box .favorites span{ float: left; display: inline-block; height: 20px; line-height: 20px; font-size: 14px; color: #999; margin: 0 0 0 5px;}
+#job_detail .delivery_box .hover i{ background: url(../../images/2019/favorites_icon_h.png) no-repeat; background-size: 21px 20px;}
+#job_detail .delivery_box .hover span{  color: #f3711a;}
+#job_detail .delivery_box .delivery { float: right;  width: calc(100% - 215px); position: relative; z-index: 2; margin: 10px 10px 0px 0px;}
+#job_detail .delivery_box .delivery input{ width: 100%; display: inline-block; height: 45px; line-height: 45px; color: #fff; text-align: center; background: #f3711a; border-radius: 2px; overflow: hidden; font-size: 20px;}
+#job_detail .delivery_box .disable input{  background: #c5c5c5;}
+
+#job_detail .wechat_info_box { position: fixed; bottom: 0; left: 0; width: 100%; height: 100%; display: none;}
+#job_detail .wechat_info_box .bg{ position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: #000; opacity: 0.6; z-index: 1;}
+#job_detail .wechat_info_box .wechat_info{ position: absolute; top: 20%; left: 50%; width: 300px; height: 400px; background: #fff; z-index: 2; margin: 0px 0px 0px -150px; border-radius: 10px; overflow: hidden;}
+#job_detail .wechat_info_box .wechat_info .title_box{ width: 300px; height: 70px; background: url(../../images/2019/wechat_info_title_bg.png) no-repeat; background-size: 300px 70px; position: relative; padding: 0;}
+#job_detail .wechat_info_box .wechat_info .title_box a.close{ display: inline-block; width: 20px; height: 20px; background:#1d9bff; position: absolute; right: 0; top: 0; border-radius: 50px; overflow: hidden; text-align: center; line-height: 20px;}
+#job_detail .wechat_info_box .wechat_info .title_box a.close i{ display: inline-block; width: 20px; height: 20px; background: url(../../images/2019/close2.png) no-repeat; background-size: 20px;}
+#job_detail .wechat_info_box .wechat_info .content_box{ margin: 0; width: 270px; padding: 10px 15px 10px 15px; background: #fff;}
+#job_detail .wechat_info_box .wechat_info .content_box p.note{ color: #202020; font-size: 14px; width: 270px; line-height: 22px;}
+#job_detail .wechat_info_box .wechat_info .content_box p.note span{  color: #188eee; font-size: 14px;}
+#job_detail .wechat_info_box .wechat_info .content_box p.tip{ color: #999999; width: 270px; margin: 15px 0px 10px 0px;}
+#job_detail .wechat_info_box .wechat_info .content_box div.wechat_name_box{ margin: 0px 0px 15px 0px; float: left; width: 270px;}
+#job_detail .wechat_info_box .wechat_info .content_box div.wechat_name_box label{ font-size: 14px; color: #202020; float: left; margin: 5px 10px 0px 0px;}
+#job_detail .wechat_info_box .wechat_info .content_box div.wechat_name_box input{ float: left; width: 200px; padding: 8px; background: #f5f5f5; color: #202020; font-size: 14px;}
+#job_detail .wechat_info_box .wechat_info .content_box div.wechat_img_box{ margin: 0px 0px 10px 0px; float: left; width: 270px;}
+#job_detail .wechat_info_box .wechat_info .content_box div.wechat_img_box label{ font-size: 14px; color: #202020; float: left; margin: 0px 0px 10px 0px;}
+#job_detail .wechat_info_box .wechat_info .content_box div.wechat_img_box input{ position: absolute; display: inline-block; width: 80px; height: 80px; left: 15px; opacity: 0;}
+#job_detail .wechat_info_box .wechat_info .content_box input.sure{ display: inline-block; width: 270px; height: 40px; background: #188eee; color: #fff; text-align: center; line-height: 40px; border-radius: 5px; font-size: 14px; margin: 10px 0px 0px 0px;}
+
+
+
+#job_list{ background: #f0f1f2; padding:0px 0px 60px 0px;}
+#job_list #content .top_box{ position: relative;}
+
+/* main_img */
+#job_list #content .top_box .img_gallery{border-top:1px solid #d7d7d7;overflow:hidden;position:relative;}
+#job_list #content .top_box .main_img{overflow:hidden;position:relative;}
+#job_list #content .top_box .main_img ul{width:9999px;height:160px;overflow:hidden;position:absolute;top:0;left:0}
+#job_list #content .top_box .main_img li{float:left;width:100%;}
+#job_list #content .top_box .main_img li span{display:block;width:100%;}
+#job_list #content .top_box .main_img li a{display:block;width:100%;}
+
+#job_list #content .top_box div.point{position:absolute;bottom:5px;left:50%;z-index:2;width:140px;height:21px;margin:0 0 0 -50px;}
+#job_list #content .top_box div.point a{float:left;width:21px;height:21px;margin:0;padding:0;background:url('../../images/2019/btn_main_img.png') 0 0 no-repeat;display:block;text-indent:-1000px}
+#job_list #content .top_box div.point a.on{background-position:0 -21px}
+
+#job_list #content .top_box .search_box{ position: absolute; top: 10px; left: 13px; width: 93%; height: 35px; border-radius: 17px; overflow: hidden; background: #fff; z-index: 3;}
+#job_list #content .top_box .search_box input.key{ color: #202020; float: left; padding: 5px 10px; width: calc(100% - 50px); height: 35px; line-height: 35px; background: #fff;}
+#job_list #content .top_box .search_box input.submit{ float: right; width: 20px; height: 20px; line-height: 35px; text-align: center; background: url(../../images/2019/search.png); background-size: 20px; text-indent: 9999px; margin: 7px 10px 0px 0px;}
+#job_list #content .top_box .select_box{ width: 100%; height: 37px; float: left; background: #fff; position: relative; z-index: 2;}
+#job_list #content .top_box .select_box div.select_bt{ float: left; width: 25%; height:37px; text-align: center; line-height: 37px;}
+#job_list #content .top_box .select_box div.select_bt span{ font-size: 14px; color: #999;}
+#job_list #content .top_box .select_box div.select_bt i{ display: inline-block; width: 8px; height: 5px; background: url(../../images/2019/to_down2.png) no-repeat; background-size: 8px 5px; margin: 0px 0px 0px 5px;}
+#job_list #content .top_box .select_box div.hover span{ color: #188eee;}
+#job_list #content .top_box .select_box div.hover i{ background: url(../../images/2019/to_up2.png) no-repeat; background-size: 8px 5px;}
+#job_list #content .top_box .select_bg{ width: 100%; height: 100%; position: fixed; background: #000; opacity: 0.6; z-index: 1; display: none;}
+
+#job_list #content .top_box .item_box{ background: #fff; position: absolute; z-index: 1; top: 37px; left: 0px; width: 100%; border-bottom: 1px solid #dbdcdd;}
+#job_list #content .top_box .item_box .title_box{ width: 100%; padding: 5px 0px 5px 0px; border-top: 1px solid #dbdcdd; border-bottom: 1px solid #dbdcdd; }
+#job_list #content .top_box .item_box .title_box p{ padding: 0px 0px 0px 10px; color: #999999;}
+#job_list #content .top_box .item_box .options_box ul{ float: left; margin: 5px 0px 5px 0px; width: 100%;}
+#job_list #content .top_box .item_box .options_box li{ text-align: center; width: 33%; float: left; margin: 10px 0px 10px 0px;}
+#job_list #content .top_box .item_box .options_box li.hover{ color: #f3711a;}
+#job_list #content .top_box .item_box .display_none{ display: none;}
+
+#job_list #content .list_box { padding: 18px 15px 0px 15px;}
+#job_list #content .list_box ul li{ width: calc(100% - 20px); height: 38px; padding: 15px 10px 15px 10px; background: #fff; margin: 0px 0px 10px 0px;}
+#job_list #content .list_box ul li .job_box{ width: 100%; float: left;}
+#job_list #content .list_box ul li .job_box h2{ float: left; height: 20px; line-height: 20px; max-width: 65%; overflow: hidden;}
+#job_list #content .list_box ul li .job_box h2 a{ font-size: 16px; color: #202020; font-weight: normal;}
+#job_list #content .list_box ul li .job_box span{ float: right; font-weight: bold; font-size: 14px; color: #f3711a;}
+#job_list #content .list_box ul li .company_box{ width: 100%; float: left; margin: 5px 0px 0px 0px;}
+#job_list #content .list_box ul li .company_box h3{ float: left; height: 20px; line-height: 20px; max-width: 75%; overflow: hidden;}
+#job_list #content .list_box ul li .company_box h3 a{ color: #999; font-weight: normal;}
+#job_list #content .list_box ul li .company_box span{ float: right; color: #999; display: inline-block; max-width: 25%;}
+
+
+
+
+
+

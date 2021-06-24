@@ -1,0 +1,224 @@
+
+.tab_box{ background: #fff; border-bottom: 1px solid #ecedef; height: 50px;}
+.tab_box div.left{ width: 80%; height: 50px;}
+.tab_box div.left a{ float: left; width: 25%; display: inline-block;  height: 48px; border-bottom: 2px solid #fff; text-align: center; line-height: 50px; color: #999999;}
+.tab_box div.left a.hover{ border-bottom: 2px solid #188eee; color: #188eee;}
+.tab_box div.right input{ height: 50px; display: inline-block; line-height: 50px; color: #f3711a; margin: 0px 10px 0px 0px; background: none;}
+
+.top_tab{ background: #fff; border-bottom: 2px solid #dbdcdd; width: 100%; float: left; height: 50px;}
+.top_tab li{ float: left; width: 20%; position: relative;}
+.top_tab li.edit { float: right; display: none;}
+.top_tab li.edit a{ color: #f3711a;}
+.top_tab li a{ display: block; width: 100%; height: 48px; border-bottom: 2px solid #fff; text-align: center; line-height: 50px; color: #999999;}
+.top_tab li a:hover{ border-bottom: 2px solid #188eee; color: #188eee;}
+.top_tab li a.cur{ border-bottom: 2px solid #188eee; color: #188eee;}
+.top_tab li a img{ float: left; margin: 15px 0 0 25%;}
+.top_tab li div.top_more{ position: absolute; right: 25%; top: 40px; width: 150%; z-index: 10; background: none; display: none;}
+.top_tab li div.top_more i{ float: right; margin: 0px 10px 0px 0px; background: url(../images/company_center/top_tab_more_icon.png) no-repeat; display: block; width: 15px; height: 13px; background-size: 15px 13px;}
+.top_tab li div.top_more div.more_list{ float: right; width: 100%; padding: 5px 0px 5px 0px; background: #999;}
+.top_tab li div.top_more div.more_list i{ float: left; display: inline; width: 15px; height: 15px; background: #999; margin: 4px 5px 0 5px;}
+.top_tab li div.top_more div.more_list a{ float: left; color: #fff; display: inline;  height: 25px; width: auto; border-bottom: none; line-height: 25px; text-align: left;}
+.top_tab li div.top_more div.managa i{ background: url(../images/company_center/top_tab_more_manage.png) no-repeat; background-size: 15px;}
+.top_tab li div.top_more div.jobs i{ background: url(../images/company_center/top_tab_more_jobs.png) no-repeat; background-size: 15px;}
+.top_tab li div.top_more div.jobs select{ position: absolute; right: 0;  top: 55px; opacity: 0;}
+
+.all_box{ position:fixed; bottom: 60px; width: 100%; height: 50px; background: #fff; display: none; z-index: 1;}
+.all_box div.left input{ background: url(../images/checkbox.jpg) no-repeat; display: inline-block; width: 20px; height: 20px; background-size: 20px; margin: 15px 0px 0px 10px; float: left;}
+.all_box div.left input:checked{ background: url(../images/checkbox_checked.jpg) no-repeat; background-size: 20px;}
+.all_box div.left span{ float: left; color: #999999; font-size: 14px; margin: 14px 0 0px 5px;}
+.all_box div.right .button{ float: left; color: #f3711a; font-size: 14px; margin: 10px 10px 0px 0px; border: 1px solid #f3711a; border-radius: 20px; padding: 3px 20px 3px 20px; background: #fff;}
+
+
+
+#resume_apply{ background: #f5f6f8;}
+#resume_apply ul.apply_list { margin: 0px 0 100px 0; }
+#resume_apply ul.apply_list li{ width:100%; background: #fff; overflow: hidden; border-bottom: 1px solid #dbdcdd; position:relative;}
+#resume_apply ul.apply_list li div.left{ padding: 0px 10px 0px 10px; height: 100%; position:absolute; top:0px; left:0px; display: none;}
+#resume_apply ul.apply_list li div.left input{ background: url(../images/checkbox.jpg) no-repeat; display: inline-block; width: 20px; height: 20px; background-size: 20px; position: relative; top: 50%; left: 0px; margin: -10px 0px 0px 0px;}
+#resume_apply ul.apply_list li div.left input.checked{ background: url(../images/checkbox_checked.jpg) no-repeat; background-size: 20px;}
+#resume_apply ul.apply_list li div.info_box{ padding: 10px 20px; float: right; width: calc(100% - 40px);}
+#resume_apply ul.apply_list li div.info_box i.no_look{ display: block; width: 7px; height: 7px; border-radius: 50px; background: #188eee; position: absolute; left: 5px; top: 17px;}
+#resume_apply ul.apply_list li div.info_box a{ float: left; display: inline; height: 100%;}
+#resume_apply ul.apply_list li div.info_box a img{ margin: 7px 10px 0px 0px; border-radius: 50px;}
+#resume_apply ul.apply_list li div.info_box span{ display: block; width: 100%; font-size: 12px; color: #999999; margin: 5px 0px 0 0px;}
+#resume_apply ul.apply_list li div.info_box span.name{ display: block; font-size: 16px; color: #333; overflow: hidden; line-height: 20px; width: 100%;}
+#resume_apply #page_box{ position: fixed; bottom: 60px;}
+
+
+#resume_invitation{ background: #f5f6f8;}
+#resume_invitation ul.invitation_list { margin: 0px 0 100px 0; }
+#resume_invitation ul.invitation_list li{ width:100%; background: #fff; overflow: hidden; border-bottom: 1px solid #dbdcdd; position:relative;}
+#resume_invitation ul.invitation_list li div.left{ padding: 0px 10px 0px 10px; height: 100%; position:absolute; top:0px; left:0px; display: none;}
+#resume_invitation ul.invitation_list li div.left input{ background: url(../images/checkbox.jpg) no-repeat; display: inline-block; width: 20px; height: 20px; background-size: 20px; position: relative; top: 50%; left: 0px; margin: -10px 0px 0px 0px;}
+#resume_invitation ul.invitation_list li div.left input.checked{ background: url(../images/checkbox_checked.jpg) no-repeat; background-size: 20px;}
+#resume_invitation ul.invitation_list li div.info_box{ padding: 10px 20px; float: right; width: calc(100% - 40px);}
+#resume_invitation ul.invitation_list li div.info_box i.no_look{ display: block; width: 7px; height: 7px; border-radius: 50px; background: #188eee; position: absolute; left: 5px; top: 17px;}
+#resume_invitation ul.invitation_list li div.info_box a{ float: left; display: inline; height: 100%;}
+#resume_invitation ul.invitation_list li div.info_box a img{ margin: 7px 10px 0px 0px; border-radius: 50px;}
+#resume_invitation ul.invitation_list li div.info_box span{ display: block; width: 100%; font-size: 12px; color: #999999; margin: 5px 0px 0 0px;}
+#resume_invitation ul.invitation_list li div.info_box span.name{ display: block; font-size: 16px; color: #333; overflow: hidden; line-height: 20px; width: 100%;}
+#resume_invitation ul.invitation_list li div.info_box span.time{ display: inline-block; width: auto; margin: 5px 5px 0px 0px;}
+#resume_invitation ul.invitation_list li div.info_box span.look{ display: inline-block; width: auto; margin: 5px 5px 0px 0px;}
+#resume_invitation ul.invitation_list li div.info_box span.nolook{ color: #188eee; display: inline-block; width: auto; margin: 5px 5px 0px 0px;}
+#resume_invitation #page_box{ position: fixed; bottom: 60px;}
+
+
+#resume_down{ background: #f5f6f8;}
+#resume_down .top_tab li.edit { display: block;}
+#resume_down ul.down_list { margin: 0px 0 100px 0; }
+#resume_down ul.down_list li{ width:100%; background: #fff; overflow: hidden; border-bottom: 1px solid #dbdcdd; position:relative;}
+#resume_down ul.down_list li div.left{ padding: 0px 10px 0px 10px; height: 100%; position:absolute; top:0px; left:0px; display: none;}
+#resume_down ul.down_list li div.left input{ background: url(../images/checkbox.jpg) no-repeat; display: inline-block; width: 20px; height: 20px; background-size: 20px; position: relative; top: 50%; left: 0px; margin: -10px 0px 0px 0px;}
+#resume_down ul.down_list li div.left input.checked{ background: url(../images/checkbox_checked.jpg) no-repeat; background-size: 20px;}
+#resume_down ul.down_list li div.info_box{ padding: 10px 20px; float: right; width: calc(100% - 40px);}
+#resume_down ul.down_list li div.info_box a{ float: left; display: inline; height: 100%;}
+#resume_down ul.down_list li div.info_box a img{ margin: 7px 10px 0px 0px; border-radius: 50px;}
+#resume_down ul.down_list li div.info_box span{ display: block; width: 100%; font-size: 12px; color: #999999; margin: 5px 0px 0 0px;}
+#resume_down ul.down_list li div.info_box span.name{ display: block; font-size: 16px; color: #333; overflow: hidden; line-height: 20px; width: 100%;}
+#resume_down ul.down_list li p.no_resume{ color: #999999;}
+#resume_down #page_box{ position: fixed; bottom: 60px;}
+
+
+#resume_collect{ background: #f5f6f8;}
+#resume_collect .top_tab li.edit { display: block;}
+#resume_collect ul.collect_list { margin: 0px 0 100px 0; }
+#resume_collect ul.collect_list li{ width:100%; background: #fff; overflow: hidden; border-bottom: 1px solid #dbdcdd; position:relative;}
+#resume_collect ul.collect_list li div.left{ padding: 0px 10px 0px 10px; height: 100%; position:absolute; top:0px; left:0px; display: none;}
+#resume_collect ul.collect_list li div.left input{ background: url(../images/checkbox.jpg) no-repeat; display: inline-block; width: 20px; height: 20px; background-size: 20px; position: relative; top: 50%; left: 0px; margin: -10px 0px 0px 0px;}
+#resume_collect ul.collect_list li div.left input.checked{ background: url(../images/checkbox_checked.jpg) no-repeat; background-size: 20px;}
+#resume_collect ul.collect_list li div.info_box{ padding: 10px 20px; float: right; width: calc(100% - 40px);}
+#resume_collect ul.collect_list li div.info_box a{ float: left; display: inline; height: 100%;}
+#resume_collect ul.collect_list li div.info_box a img{ margin: 7px 10px 0px 0px; border-radius: 50px;}
+#resume_collect ul.collect_list li div.info_box span{ display: block; width: 100%; font-size: 12px; color: #999999; margin: 5px 0px 0 0px;}
+#resume_collect ul.collect_list li div.info_box span.name{ display: block; font-size: 16px; color: #333; overflow: hidden; line-height: 20px; width: 100%;}
+#resume_collect #page_box{ position: fixed; bottom: 60px;}
+
+
+
+#my_index{ background: #fff;}
+#my_index .top_box{ background: #2490e7; text-align: center; position: relative; padding: 20px 0 30px 0;}
+#my_index .top_box a.logout{ position: absolute; right: 20px; top: 20px; color: #fff; }
+#my_index .top_box div.logo_box{ background: #fff; border-radius: 90px; overflow: hidden; width: 110px; height: 110px; margin: 0 auto 20px; line-height: 125px; position: relative;}
+#my_index .top_box div.logo_box img{ max-height: 100%; max-width: 100%;}
+#my_index .top_box div.logo_box input{ display: block; width: 110px; height: 110px; position: absolute; top: 0px; opacity: 0;}
+#my_index .top_box p.name{ width: 100%; text-align: center; color: #fff; font-size: 16px; line-height: 30px;}
+#my_index .menu_box{ width: 100%; margin: 10px 0px 0px 0px;}
+#my_index .menu_box li{ width: 33.3%; float: left; text-align: center; padding: 20px 0 20px 0;}
+#my_index .menu_box li i{ display: inline-block; width: 50px; height: 50px;}
+#my_index .menu_box li p{ display: block; width: 100%; color: #313131; text-align: center; margin: 10px 0px 0px 0px;}
+
+#my_index .menu_box li.account i{ background: url(../images/company_center/my_account.png); background-size: 50px;}
+#my_index .menu_box li.message i{ background: url(../images/company_center/my_message.png); background-size: 50px;}
+#my_index .menu_box li.info i{ background: url(../images/company_center/my_info.png); background-size: 50px;}
+
+
+#my_account{ background: #f5f6f8; margin: 0px 0px 60px 0px;}
+#my_account ul.setmeal_box { margin: 0px 0px 20px 0px; float:  left; width: 100%;}
+#my_account ul.setmeal_box li{ width: 100%; background: #fff; float: left; border-bottom: 1px solid #dbdcdd;}
+#my_account ul.setmeal_box li div.left{ max-width: 40%; margin: 20px 0px 20px 0px;}
+#my_account ul.setmeal_box li div.left label{ font-size: 14px; color: #333; margin: 0 0 0 10px;}
+#my_account ul.setmeal_box li div.right{ max-width: 60%; margin: 20px 0px 20px 0px; position: relative;}
+#my_account ul.setmeal_box li div.right label{ font-size: 14px; color: #999999; margin: 0 10px 0 0;}
+#my_account div.setmeal_info{ background: #fff; float: left; width: 100%;}
+#my_account div.setmeal_info p{ font-size: 14px; color: #333; margin: 20px 0px 20px 10px;}
+#my_account div.setmeal_info ul{  border-bottom: 1px solid #dbdcdd; float: left; width: 100%;}
+#my_account div.setmeal_info li{ width: 100%; background: #fff; float: left; }
+#my_account div.setmeal_info li div.left{ max-width: 40%; margin: 10px 0px 15px 0px;}
+#my_account div.setmeal_info li div.left label{ font-size: 14px; color: #333; margin: 0 0 0 10px;}
+#my_account div.setmeal_info li div.right{ max-width: 60%; margin: 10px 0px 15px 0px; position: relative;}
+#my_account div.setmeal_info li div.right label{ font-size: 14px; color: #999999; margin: 0 10px 0 0;}
+#my_account img.setmeal_info{ margin: 20px 0px 0px 0px;}
+
+
+#my_message{ background: #f5f6f8; margin: 0px 0 100px 0;}
+#my_message .tab_box{ background: #fff; border-bottom: 1px solid #dbdcdd; height: 50px;}
+#my_message .tab_box div.left a{ float: left; padding: 0px 15px 0px 20px; height: 49px; display: inline-block; border-bottom: 1px solid #fff; line-height: 50px; color: #999;}
+#my_message .tab_box div.left a.hover{ border-bottom: 1px solid #188eee; color: #188eee;}
+#my_message .tab_box div.right input{ height: 50px; display: inline-block; line-height: 50px; color: #f3711a; margin: 0px 10px 0px 0px; background: none;}
+#my_message ul.message_list { }
+#my_message ul.message_list li{ width:100%; background: #fff; overflow: hidden; border-bottom: 1px solid #dbdcdd; position:relative;}
+#my_message ul.message_list li div.left{ padding: 0px 10px 0px 10px; height: 100%; position:absolute; top:0px; left:0px; display: none;}
+#my_message ul.message_list li div.left input{ background: url(../images/checkbox.jpg) no-repeat; display: inline-block; width: 20px; height: 20px; background-size: 20px; position: relative; top: 50%; left: 0px; margin: -10px 0px 0px 0px;}
+#my_message ul.message_list li div.left input.checked{ background: url(../images/checkbox_checked.jpg) no-repeat; background-size: 20px;}
+#my_message ul.message_list li div.info_box{ padding: 10px 20px; float: right; width: calc(100% - 40px); position:relative;}
+#my_message ul.message_list li div.info_box i.no_look{ display: block; width: 7px; height: 7px; border-radius: 50px; background: #188eee; position: absolute; left: 8px; top: 17px;}
+#my_message ul.message_list li div.info_box p{ color: #999999; font-size: 14px; display: block;}
+#my_message ul.message_list li div.info_box p a{ color: #188eee; font-size: 14px;}
+#my_message ul.message_list li div.info_box span{ color: #999999; float: right;}
+
+
+#my_info{ background: #f5f6f8; margin: 0px 0px 50px 0px;}
+#my_info ul.info_box { width: 100%; float: left; margin: 0px 0px 10px 0px;}
+#my_info ul.info_box li{ width: 100%; background: #fff; float: left; }
+#my_info ul.info_box li div.left{ max-width: 40%; margin: 20px 0px 20px 0px;}
+#my_info ul.info_box li div.left label{ font-size: 14px; color: #333; margin: 0 0 0 10px;}
+#my_info ul.info_box li div.left span{ font-size: 12px; color: #f3711a;}
+#my_info ul.info_box li div.right{ max-width: 60%; margin: 20px 0px 20px 0px; position: relative;}
+#my_info ul.info_box li div.right input{ text-align: right; margin: 0px 20px 0px 0px; color: #999999; font-size: 14px;}
+#my_info ul.info_box li div.right select{ direction: rtl; margin: 0px 20px 0px 0px; color: #999999; font-size: 14px; background: #fff;}
+#my_info ul.info_box li div.right textarea{ margin: 0px 20px 0px 0px; color: #999999; font-size: 14px; background: #fff;}
+#my_info ul.info_box li div.right span{ text-align: right; margin: 0px 20px 0px 0px; color: #999999; font-size: 14px;}
+#my_info ul.info_box li div.right i{ color: #ccc; position: absolute; right: 5px; top:3px; height: 10px; width: 6px; background:url(../images/personal_center/index_list_into.png) no-repeat; background-size: 6px 10px;}
+#my_info div.content_box{ background: #fff; float: left; width: 100%;}
+#my_info div.content_box p{ font-size: 14px; color: #333; margin: 20px 0px 20px 10px;}
+#my_info div.content_box textarea{ font-size: 14px; color: #999; margin: 0px 10px 0px 10px; width: calc(100% - 20px); height: 200px;}
+#my_info input.submit{ width: 80%; height: 50px; background: #f3711a; text-align: center; line-height: 50px; margin: 10px 0px 20px 10%; color: #fff; font-size: 18px;  border-radius: 5px;}
+
+
+
+
+#jobs_release{ background: #f5f6f8; margin: 0px 0px 55px 0px;}
+#jobs_release .top_tab li.edit { display: block;}
+#jobs_release ul.jobs_list li{ width: 100%; padding: 10px 0px 10px 0px; background: #fff; margin: 0px 0px 10px 0px; float: left; position: relative;}
+#jobs_release ul.jobs_list li div.left{ padding: 0px 10px 0px 10px; height: 100%; position:absolute; top:0px; left:0px; display: none;}
+#jobs_release ul.jobs_list li div.left input{ background: url(../images/checkbox.jpg) no-repeat; display: inline-block; width: 20px; height: 20px; background-size: 20px; position: relative; top: 50%; left: 0px; margin: -10px 0px 0px 0px;}
+#jobs_release ul.jobs_list li div.left input.checked{ background: url(../images/checkbox_checked.jpg) no-repeat; background-size: 20px;}
+#jobs_release ul.jobs_list li div.info_box{ padding: 10px 20px; float: right; width: calc(100% - 40px);}
+#jobs_release ul.jobs_list li div.info_box a.name{ font-size: 16px; color: #313131; font-weight: bold; line-height: 25px;} 
+#jobs_release ul.jobs_list li div.info_box div.info{ float: left; width: 33%; margin: 10px 0px 0px 0px;} 
+#jobs_release ul.jobs_list li div.info_box div.info p{ color: #999999; width: 100%;} 
+#jobs_release ul.jobs_list li div.info_box div.info span{ display: inline-block; width: 100%; color: #f3711a;} 
+
+
+#jobs_audit{ background: #f5f6f8; margin: 0px 0px 55px 0px;}
+#jobs_audit .top_tab li.edit { display: block;}
+#jobs_audit ul.jobs_list li{ width: 100%; padding: 10px 0px 10px 0px; background: #fff; margin: 0px 0px 10px 0px; float: left; position: relative;}
+#jobs_audit ul.jobs_list li div.left{ padding: 0px 10px 0px 10px; height: 100%; position:absolute; top:0px; left:0px; display: none;}
+#jobs_audit ul.jobs_list li div.left input{ background: url(../images/checkbox.jpg) no-repeat; display: inline-block; width: 20px; height: 20px; background-size: 20px; position: relative; top: 50%; left: 0px; margin: -10px 0px 0px 0px;}
+#jobs_audit ul.jobs_list li div.left input.checked{ background: url(../images/checkbox_checked.jpg) no-repeat; background-size: 20px;}
+#jobs_audit ul.jobs_list li div.info_box{ padding: 10px 20px; float: right; width: calc(100% - 40px);}
+#jobs_audit ul.jobs_list li div.info_box a.name{ font-size: 16px; color: #313131; font-weight: bold; line-height: 25px;} 
+#jobs_audit ul.jobs_list li div.info_box p{ color: #999; margin: 5px 0px 0px 0px;} 
+
+
+#jobs_nopass{ background: #f5f6f8; margin: 0px 0px 55px 0px;}
+#jobs_nopass .top_tab li.edit { display: block;}
+#jobs_nopass ul.jobs_list li{ width: 100%; padding: 10px 0px 10px 0px; background: #fff; margin: 0px 0px 10px 0px; float: left; position: relative;}
+#jobs_nopass ul.jobs_list li div.left{ padding: 0px 10px 0px 10px; height: 100%; position:absolute; top:0px; left:0px; display: none;}
+#jobs_nopass ul.jobs_list li div.left input{ background: url(../images/checkbox.jpg) no-repeat; display: inline-block; width: 20px; height: 20px; background-size: 20px; position: relative; top: 50%; left: 0px; margin: -10px 0px 0px 0px;}
+#jobs_nopass ul.jobs_list li div.left input.checked{ background: url(../images/checkbox_checked.jpg) no-repeat; background-size: 20px;}
+#jobs_nopass ul.jobs_list li div.info_box{ padding: 10px 20px; float: right; width: calc(100% - 40px);}
+#jobs_nopass ul.jobs_list li div.info_box a.name{ font-size: 16px; color: #313131; font-weight: bold; line-height: 25px;} 
+#jobs_nopass ul.jobs_list li div.info_box p{ color: #999; width: calc(100% - 20px); line-height: 20px;} 
+#jobs_nopass ul.jobs_list li div.info_box p.note_short{ display: block; height: 20px; overflow: hidden; color: #333;} 
+#jobs_nopass ul.jobs_list li div.info_box p.note_long{ color: #333; display: none;}  
+#jobs_nopass ul.jobs_list li div.info_box i{ position: absolute; right: 10px; bottom: 25px; display: inline-block; width: 15px; height: 10px; background-size: 15px 10px;}  
+#jobs_nopass ul.jobs_list li div.info_box i.show_note{ background: url(../images/to_down.png) no-repeat; background-size: 15px 10px;} 
+#jobs_nopass ul.jobs_list li div.info_box i.hide_note{ background: url(../images/to_up.png) no-repeat; background-size: 15px 10px;} 
+
+
+#jobs_stop{ background: #f5f6f8; margin: 0px 0px 55px 0px;}
+#jobs_stop .top_tab li.edit { display: block;}
+#jobs_stop ul.jobs_list li{ width: 100%; padding: 10px 0px 10px 0px; background: #fff; margin: 0px 0px 10px 0px; float: left; position: relative;}
+#jobs_stop ul.jobs_list li div.left{ padding: 0px 10px 0px 10px; height: 100%; position:absolute; top:0px; left:0px; display: none;}
+#jobs_stop ul.jobs_list li div.left input{ background: url(../images/checkbox.jpg) no-repeat; display: inline-block; width: 20px; height: 20px; background-size: 20px; position: relative; top: 50%; left: 0px; margin: -10px 0px 0px 0px;}
+#jobs_stop ul.jobs_list li div.left input.checked{ background: url(../images/checkbox_checked.jpg) no-repeat; background-size: 20px;}
+#jobs_stop ul.jobs_list li div.info_box{ padding: 10px 20px; float: right; width: calc(100% - 40px);}
+#jobs_stop ul.jobs_list li div.info_box a.name{ font-size: 16px; color: #313131; font-weight: bold; line-height: 25px;} 
+#jobs_stop ul.jobs_list li div.info_box div.info{ float: left; width: 33%; margin: 10px 0px 0px 0px;} 
+#jobs_stop ul.jobs_list li div.info_box div.info p{ color: #999999; width: 100%;} 
+#jobs_stop ul.jobs_list li div.info_box div.info span{ display: inline-block; width: 100%; color: #f3711a;} 
+
+
+
+

@@ -1,0 +1,204 @@
+#article_detail #header{ position: fixed; top: 0;  left: 0px; width: 100%; border-bottom: 1px solid #dcdcdc;  z-index: 10;}
+#article_detail{ background: #f0f1f2; padding:52px 0px 60px 0px;}
+#article_detail .title_box{ float: left; width: calc(100% - 30px); padding: 15px; background: #fff;}
+#article_detail .title_box h1{ font-size: 16px; line-height: 22px; color: #202020; margin: 0px 0px 12px 0px; }
+#article_detail .title_box .info{ float: left; width: 100%; height: 16px;}
+#article_detail .title_box .info label{ float: left; color: #999999;}
+#article_detail .title_box .info span{ float: left; color: #f3711a; margin: 0px 10px 0px 4px; line-height: 16px;}
+#article_detail .content_box{ float: left; width: calc(100% - 30px); padding: 15px; background: #fff; margin: 10px 0px 0px 0px;}
+#article_detail .content_box .other_jobs_box{ float: left; width: 100%; margin: 0px 0px 30px 0px;}
+#article_detail .content_box .other_jobs_box .title_box{ position: relative; text-align: center;}
+#article_detail .content_box .other_jobs_box .title_box .line{ width: 145px; height: 1px; background: #ccc; margin: 0 auto;}
+#article_detail .content_box .other_jobs_box .title{ text-align: center; color: #cccccc; background: #fff; position: absolute; left: 50%; top: 25%; margin: 0px 0px 0px -45px; padding: 0px 10px 0px 10px;}
+#article_detail .content_box .other_jobs_box li{ float:left; width: 100%; margin: 0px 0px 15px 0px;}
+#article_detail .content_box .other_jobs_box li a{ float:left; max-width: 65%; color: #999999; display: inline-block; height: 15px; overflow: hidden;}
+#article_detail .content_box .other_jobs_box li span{ float:right; max-width: 30%; color: #cccccc; display: inline-block; height: 15px; overflow: hidden; text-align: right;}
+#article_detail p.box_title{ font-size: 14px; color: #313131; margin: 15px 0px 15px 0px;}
+#article_detail p.box_title i{ display: inline-block; width: 15px; height: 15px; background: url(../../images/2019/title_icon.png) no-repeat; background-size: 15px; margin: 0px 5px 0px 0px;}
+#article_detail .content_box .article_content_box table{ max-width: 100%;}
+#article_detail .content_box .article_content_box table *{  color: #999; font-size: 14px; line-height: 25px; max-width: 100%;}
+#article_detail .content_box .article_content_box div.box_content{ float: left; width: 100%; height: 220px; overflow: hidden; margin: 0px 0px 10px 0px;}
+#article_detail .content_box .article_content_box .show_more{ text-align: center;}
+#article_detail .content_box .article_content_box .show_more span{ font-size: 14px; color: #f3711a;}
+#article_detail .content_box .article_content_box .show_more i{ margin: 0px 0px 0px 5px; display: inline-block; width: 13px; height: 7px; background: url(../../images/2019/to_down.png) no-repeat; background-size: 13px 7px;}
+#article_detail .content_box .article_content_box .hide_more{ text-align: center;}
+#article_detail .content_box .article_content_box .hide_more span{ font-size: 14px; color: #f3711a;}
+#article_detail .content_box .article_content_box .hide_more i{ margin: 0px 0px 0px 5px; display: inline-block; width: 13px; height: 7px; background: url(../../images/2019/to_up.png) no-repeat; background-size: 13px 7px;}
+#article_detail .content_box .article_content_box ul.box_jobs{ float: left; width: 100%; overflow: hidden; margin: 0px 0px 10px 0px; }
+#article_detail .content_box .article_content_box ul.box_jobs li{ float: left; padding: 7px 15px 7px 15px; border-radius: 3px; border:1px solid #dbdcdd; margin: 0px 10px 10px 0px;}
+#article_detail .content_box .article_content_box ul.box_jobs li p a{ font-size: 14px; color: #999999;}
+#article_detail .join_box { margin: 15px 0px 10px 0px; background: #fff; padding: 0px 0px 20px 0px; float: left; width: 100%}
+#article_detail .join_box p.box_title{ margin: 15px 0px 15px 15px;}
+#article_detail .join_box .login_box p{ text-align: center; font-size: 14px; color: #313131;}
+#article_detail .join_box .login_box p a{ font-size: 14px; color: #188eee;}
+#article_detail .join_box .contact_box ul{ margin: 0px 15px 0px 15px;}
+#article_detail .join_box .contact_box li { margin: 0px 0px 5px 0px;}
+#article_detail .join_box .contact_box li b{ color: #313131; font-size: 14px;}
+#article_detail .join_box .contact_box li span{ color: #999; font-size: 14px; line-height: 25px;}
+#article_detail .join_box .contact_box div.code_img_box{ background: #ffdfb5; padding: 15px 35px 15px 15px; position: relative; margin: 50px 0px 0px 0px;}
+#article_detail .join_box .contact_box div.code_img_box p{ line-height: 20px; color: #f3711a; width: 230px;}
+#article_detail .join_box .contact_box div.code_img_box img{ border:5px solid #ffdfb5; position: absolute; bottom: 0px; right: 15px;}
+
+#article_detail .jobs_type_box{ padding: 0px 15px 0px 15px; float: left; background: #fff; width: calc(100% - 30px); margin: 0px 0px 10px 0px;}
+#article_detail .jobs_type_box .title_box{ position: relative; text-align: center; margin: 10px 0px 0px 0px;}
+#article_detail .jobs_type_box .title_box .line{ width: 202px; height: 1px; background: #f3711a; margin: 0 auto;}
+#article_detail .jobs_type_box .title{ font-size: 14px; text-align: center; color: #f3711a; background: #fff; position: absolute; left: 50%; top: 20%; margin: 0px 0px 0px -50px; padding: 0px 20px 0px 20px;}
+#article_detail .jobs_type_box ul{ float:left; width: 100%; margin: 15px 0px 0px 0px;}
+#article_detail .jobs_type_box li{ float:left; width: 50%; margin: 0px 0px 15px 0px;}
+#article_detail .jobs_type_box li a{ float:left; color: #666; display: inline-block; height: 20px; overflow: hidden; font-size: 14px;}
+#article_detail .jobs_type_box li span{ float:right; max-width: 30%; color: #cccccc; display: inline-block; height: 15px; overflow: hidden; text-align: right;}
+#article_detail .jobs_type_box .more_jobs{ width: 100%; text-align: center; padding: 15px 0px 15px 0px;}
+#article_detail .jobs_type_box .more_jobs span{ color: #188eee;}
+#article_detail .jobs_type_box .more_jobs i{ display: inline-block; width: 8px; height: 9px; background: url(../../images/2019/to_right2.png) no-repeat; background-size: 8px 9px; margin: 0px 0px 0px 5px;}
+
+
+#article_detail .delivery_box { position: fixed; bottom: 0; left: 0; width: 100%; height: 65px; background: #fff; border-top: 1px solid #f1f1f1;  box-shadow: 0px 3px 3px 3px #eae7e7;}
+#article_detail .delivery_box .service{ float: left; position: relative; z-index: 2; margin: 18px 0px 0px 10px;}
+#article_detail .delivery_box .service i{ float: left; display: inline-block; width: 35px; height: 35px; background: url(../../images/2019/service_icon.png) no-repeat; background-size: 35px;}
+#article_detail .delivery_box .share{ float: left; position: relative; z-index: 2; margin: 25px 0px 0px 10px;}
+#article_detail .delivery_box .share i{ float: left; display: inline-block; width: 21px; height: 20px; background: url(../../images/2019/share_icon.png) no-repeat; background-size: 21px 20px;}
+#article_detail .delivery_box .share span{ float: left; display: inline-block; height: 20px; line-height: 20px; font-size: 14px; color: #999; margin: 0 0 0 5px;}
+#article_detail .delivery_box .favorites{ float: left; position: relative; z-index: 2; margin: 25px 0px 0px 15px;}
+#article_detail .delivery_box .favorites i{ float: left; display: inline-block; width: 21px; height: 20px; background: url(../../images/2019/favorites_icon.png) no-repeat; background-size: 21px 20px;}
+#article_detail .delivery_box .favorites span{ float: left; display: inline-block; height: 20px; line-height: 20px; font-size: 14px; color: #999; margin: 0 0 0 5px;}
+#article_detail .delivery_box .hover i{ background: url(../../images/2019/favorites_icon_h.png) no-repeat; background-size: 21px 20px;}
+#article_detail .delivery_box .hover span{  color: #f3711a;}
+#article_detail .delivery_box .delivery { float: right;  width: calc(100% - 215px); position: relative; z-index: 2; margin: 10px 10px 0px 0px;}
+#article_detail .delivery_box .delivery input{ width: 100%; display: inline-block; height: 45px; line-height: 45px; color: #fff; text-align: center; background: #f3711a; border-radius: 2px; overflow: hidden; font-size: 20px;}
+#article_detail .delivery_box .disable input{  background: #c5c5c5;}
+
+
+
+
+
+#article_list{ background: #f0f1f2; padding:0px 0px 60px 0px;}
+#article_list #content .top_box{ position: relative;}
+
+/* main_img */
+#article_list #content .top_box .img_gallery{border-top:1px solid #d7d7d7;overflow:hidden;position:relative;}
+#article_list #content .top_box .main_img{overflow:hidden;position:relative;}
+#article_list #content .top_box .main_img ul{width:9999px;height:160px;overflow:hidden;position:absolute;top:0;left:0}
+#article_list #content .top_box .main_img li{float:left;width:100%;}
+#article_list #content .top_box .main_img li span{display:block;width:100%;}
+#article_list #content .top_box .main_img li a{display:block;width:100%;}
+
+#article_list #content .top_box div.point{position:absolute;bottom:5px;left:50%;z-index:2;width:140px;height:21px;margin:0 0 0 -50px;}
+#article_list #content .top_box div.point a{float:left;width:21px;height:21px;margin:0;padding:0;background:url('../../images/2019/btn_main_img.png') 0 0 no-repeat;display:block;text-indent:-1000px}
+#article_list #content .top_box div.point a.on{background-position:0 -21px}
+
+#article_list #content .top_box .search_box{ position: absolute; top: 10px; left: 13px; width: 93%; height: 35px; border-radius: 17px; overflow: hidden; background: #fff; z-index: 3;}
+#article_list #content .top_box .search_box input.key{ color: #202020; float: left; padding: 10px; width: calc(100% - 50px); height: 35px; line-height: 35px; background: #fff;}
+#article_list #content .top_box .search_box input.submit{ float: right; width: 20px; height: 20px; line-height: 35px; text-align: center; background: url(../../images/2019/search.png); background-size: 20px; text-indent: 9999px; margin: 7px 10px 0px 0px;}
+#article_list #content .top_box .select_box{ width: 100%; height: 37px; float: left; background: #fff; position: relative; z-index: 2;}
+#article_list #content .top_box .select_box div.select_bt{ float: left; width: 50%; height:37px; text-align: center; line-height: 37px;}
+#article_list #content .top_box .select_box div.select_bt span{ font-size: 14px; color: #999;}
+#article_list #content .top_box .select_box div.select_bt i{ display: inline-block; width: 8px; height: 5px; background: url(../../images/2019/to_down2.png) no-repeat; background-size: 8px 5px; margin: 0px 0px 0px 5px;}
+#article_list #content .top_box .select_box div.hover span{ color: #188eee;}
+#article_list #content .top_box .select_box div.hover i{ background: url(../../images/2019/to_up2.png) no-repeat; background-size: 8px 5px;}
+#article_list #content .top_box .select_bg{ width: 100%; height: 100%; position: fixed; background: #000; opacity: 0.6; z-index: 1; display: none;}
+
+#article_list #content .top_box .item_box{ background: #fff; position: absolute; z-index: 1; top: 37px; left: 0px; width: 100%; border-bottom: 1px solid #dbdcdd;}
+#article_list #content .top_box .item_box .title_box{ width: 100%; padding: 5px 0px 5px 0px; border-top: 1px solid #dbdcdd; border-bottom: 1px solid #dbdcdd; }
+#article_list #content .top_box .item_box .title_box p{ padding: 0px 0px 0px 10px; color: #999999;}
+#article_list #content .top_box .item_box .options_box ul{ float: left; margin: 5px 0px 5px 0px; width: 100%;}
+#article_list #content .top_box .item_box .options_box li{ text-align: center; width: 33%; float: left; margin: 10px 0px 10px 0px;}
+#article_list #content .top_box .item_box .options_box li.hover{ color: #f3711a;}
+#article_list #content .top_box .item_box .display_none{ display: none;}
+
+#article_list #content .list_box { padding: 18px 15px 0px 15px;}
+#article_list #content .list_box ul li{ width: calc(100% - 20px); height: 38px; padding: 15px 10px 15px 10px; background: #fff; margin: 0px 0px 10px 0px;}
+#article_list #content .list_box ul li a{ display: inline-block; height: 20px; overflow: hidden; font-size: 16px; color: #202020; line-height: 20px;}
+#article_list #content .list_box ul li span{ color: #999;}
+
+
+#article_job_detail #header{ position: fixed; top: 0;  left: 0px; width: 100%; border-bottom: 1px solid #dcdcdc;  z-index: 10;}
+#article_job_detail{ background: #f0f1f2; padding: 52px 0px 60px 0px;}
+#article_job_detail .title_box{ float: left; width: calc(100% - 30px); padding: 15px; background: #fff;}
+#article_job_detail .title_box h1{ font-size: 18px; line-height: 24px; color: #202020; margin: 0px 0px 12px 0px; font-weight: bold; }
+#article_job_detail .title_box .info ul{float: left; width: 100%; margin: 0px 0px 15px 0px;}
+#article_job_detail .title_box .info ul li{ float: left; margin: 0px 10px 5px 0px;}
+#article_job_detail .title_box .info ul li i{ float: left; display: inline-block; height: 13px; margin: 2px 2px 0px 0px;}
+#article_job_detail .title_box .info ul li span{ float: left; color: #999999;}
+#article_job_detail .title_box .info ul li.district i{ background: url(../../images/2019/district_icon.png) no-repeat; background-size: 11px 13px; width: 11px;}
+#article_job_detail .title_box .info ul li.amount i{ background: url(../../images/2019/amount_icon.png) no-repeat; background-size: 13px 13px; width: 13px;}
+#article_job_detail .title_box .click p{ color: #999; float: left; margin: 0px 15px 0px 0px;}
+
+#article_job_detail .content_box { margin: 7px 0px 0px 0px; float: left; width:100%; background: #fff; }
+#article_job_detail .article_box { background: #fff; margin: 0px 0px 15px 0px; float: left; width: 100%; position: relative; border-bottom: 1px solid #ededed; padding: 15px 0px 15px 0px;  border-top: 1px solid #ededed;}
+#article_job_detail .article_box div.logo{ width:50px; height:50px; background:#fff; display: table-cell; text-align: center; max-width: 100%; vertical-align: middle; overflow: visible;}
+#article_job_detail .article_box div.logo img{  max-width: 100%; vertical-align: middle;}
+#article_job_detail .article_box div.article{ float: left; margin: 0 0 0 15px; width: calc(100% - 80px);}
+#article_job_detail .article_box div.article h2{ font-size: 14px; color: #202020; line-height: 20px; height: 20px; overflow: hidden;}
+#article_job_detail .article_box div.article p{ color: #999999; margin: 3px 0px 0px 0px;}
+#article_job_detail .article_box div.more{ height: 100%; position:absolute; top:15px; right:0px; width: 10px;}
+#article_job_detail .article_box div.more a{ background: url(../../images/2019/to_right3.png) no-repeat; display: inline-block; width: 10px; height: 18px; background-size: 10px 18px; position: relative; top: 0; left: 0px; }
+#article_job_detail .content_box .article_content_box{ width:  calc(100% - 30px); margin: 0px 15px 10px 15px; float: left;}
+#article_job_detail .content_box .article_content_box p.box_title{ font-size: 14px; color: #313131; margin: 15px 0px 15px 0px;}
+#article_job_detail .content_box .article_content_box p.box_title i{ display: inline-block; width: 15px; height: 15px; background: url(../../images/2019/title_icon.png) no-repeat; background-size: 15px; margin: 0px 5px 0px 0px;}
+#article_job_detail .content_box .article_content_box table{ max-width: 100%;}
+#article_job_detail .content_box .article_content_box table *{  color: #999; font-size: 14px; line-height: 25px; max-width: 100%;}
+#article_job_detail .content_box .article_content_box div.box_content{ float: left; width: 100%; margin: 0px 0px 10px 0px;}
+
+#article_job_detail .content_box .district_jobs_box{ width:  calc(100% - 30px); margin: 0px 15px 30px 15px;}
+#article_job_detail .content_box .district_jobs_box p.box_title{ font-size: 14px; color: #313131; margin: 15px 0px 15px 0px;}
+#article_job_detail .content_box .district_jobs_box p.box_title i{ display: inline-block; width: 15px; height: 15px; background: url(../../images/2019/title_icon.png) no-repeat; background-size: 15px; margin: 0px 5px 0px 0px;}
+#article_job_detail .content_box .district_jobs_box ul li{ width: calc(100% - 20px); height: 38px; padding: 15px 10px 15px 10px; background: #fff; margin: 0px 0px 10px 0px; border: 1px solid #ccc; border-radius: 5px}
+#article_job_detail .content_box .district_jobs_box ul li .job_box{ width: 100%; float: left;}
+#article_job_detail .content_box .district_jobs_box ul li .job_box h2{ float: left; height: 20px; line-height: 20px; max-width: 65%; overflow: hidden;}
+#article_job_detail .content_box .district_jobs_box ul li .job_box h2 a{ font-size: 16px; color: #202020; font-weight: normal;}
+#article_job_detail .content_box .district_jobs_box ul li .job_box span{ float: right; font-weight: bold; font-size: 14px; color: #f3711a;}
+#article_job_detail .content_box .district_jobs_box ul li .company_box{ width: 100%; float: left; margin: 5px 0px 0px 0px;}
+#article_job_detail .content_box .district_jobs_box ul li .company_box h3{ float: left; height: 20px; line-height: 20px; max-width: 75%; overflow: hidden;}
+#article_job_detail .content_box .district_jobs_box ul li .company_box h3 a{ color: #999; font-weight: normal;}
+#article_job_detail .content_box .district_jobs_box ul li .company_box span{ float: right; color: #999; display: inline-block; max-width: 25%;}
+
+
+#article_job_detail .content_box .type_jobs_box{ width:  calc(100% - 30px); margin: 0px 15px 0px 15px;}
+#article_job_detail .content_box .type_jobs_box p.box_title{ font-size: 14px; color: #313131; margin: 15px 0px 15px 0px;}
+#article_job_detail .content_box .type_jobs_box p.box_title i{ display: inline-block; width: 15px; height: 15px; background: url(../../images/2019/title_icon.png) no-repeat; background-size: 15px; margin: 0px 5px 0px 0px;}
+#article_job_detail .content_box .type_jobs_box ul li{ width: calc(100% - 20px); height: 38px; padding: 15px 10px 15px 10px; background: #fff; margin: 0px 0px 10px 0px; border: 1px solid #ccc; border-radius: 5px}
+#article_job_detail .content_box .type_jobs_box ul li .job_box{ width: 100%; float: left;}
+#article_job_detail .content_box .type_jobs_box ul li .job_box h2{ float: left; height: 20px; line-height: 20px; max-width: 65%; overflow: hidden;}
+#article_job_detail .content_box .type_jobs_box ul li .job_box h2 a{ font-size: 16px; color: #202020; font-weight: normal;}
+#article_job_detail .content_box .type_jobs_box ul li .job_box span{ float: right; font-weight: bold; font-size: 14px; color: #f3711a;}
+#article_job_detail .content_box .type_jobs_box ul li .company_box{ width: 100%; float: left; margin: 5px 0px 0px 0px;}
+#article_job_detail .content_box .type_jobs_box ul li .company_box h3{ float: left; height: 20px; line-height: 20px; max-width: 75%; overflow: hidden;}
+#article_job_detail .content_box .type_jobs_box ul li .company_box h3 a{ color: #999; font-weight: normal;}
+#article_job_detail .content_box .type_jobs_box ul li .company_box span{ float: right; color: #999; display: inline-block; max-width: 25%;}
+
+
+
+
+#article_job_detail .other_jobs_box{ float: left; width: 100%; background: #fff;}
+#article_job_detail .other_jobs_box .other_title_box{ position: relative; text-align: center; background: #f7fbff; width: 100%; height: 50px;}
+#article_job_detail .other_jobs_box .other_title_box .line{ width: 145px; height: 1px; background: #ccc; margin: 0 auto; position: absolute; top: 50%; left: 50%; margin: 0px 0px 0px -77px;}
+#article_job_detail .other_jobs_box .title{ text-align: center; color: #cccccc; background: #f7fbff; position: absolute; left: 50%; top: 35%; margin: 0px 0px 0px -45px; padding: 0px 10px 0px 10px;}
+#article_job_detail .other_jobs_box ul{ float:left; width: calc(100% - 30px); margin: 0px 15px 0px 15px; background: #fff;}
+#article_job_detail .other_jobs_box ul li{ float:left; width: 100%; border-bottom: 1px solid #ededed; padding: 10px 0px 10px 0px;}
+#article_job_detail .other_jobs_box li h3{ max-width: 60%; display: inline-block; height: 25px; line-height: 25px; overflow: hidden;}
+#article_job_detail .other_jobs_box li a{ font-size: 16px; color: #202020;}
+#article_job_detail .other_jobs_box li span{ float:right; max-width: 35%; color: #f3711a; display: inline-block; font-size: 14px; font-weight: bold; margin: 5px 0px 0px 0px;}
+#article_job_detail .other_jobs_box li p{ float:left; color: #999; margin: 5px 0px 0px 0px;}
+#article_job_detail .more_jobs{ width: 100%; text-align: center; padding: 15px 0px 15px 0px;}
+#article_job_detail .more_jobs span{ color: #188eee;}
+#article_job_detail .more_jobs i{ display: inline-block; width: 8px; height: 9px; background: url(../../images/2019/to_right2.png) no-repeat; background-size: 8px 9px; margin: 0px 0px 0px 5px;}
+
+#article_job_detail .delivery_box { position: fixed; bottom: 0; left: 0; width: 100%; height: 65px; background: #fff; border-top: 1px solid #f1f1f1;  box-shadow: 0px 3px 3px 3px #eae7e7;}
+#article_job_detail .delivery_box .service{ float: left; position: relative; z-index: 2; margin: 18px 0px 0px 10px;}
+#article_job_detail .delivery_box .service i{ float: left;  display: inline-block; width: 35px;  height: 35px; background: url(../../images/2019/service_icon.png) no-repeat; background-size: 35px;}
+
+#article_job_detail .delivery_box .share{ float: left; position: relative; z-index: 2; margin: 25px 0px 0px 10px;}
+#article_job_detail .delivery_box .share i{ float: left; display: inline-block; width: 21px; height: 20px; background: url(../../images/2019/share_icon.png) no-repeat; background-size: 21px 20px;}
+#article_job_detail .delivery_box .share span{ float: left; display: inline-block; height: 20px; line-height: 20px; font-size: 14px; color: #999; margin: 0 0 0 5px;}
+#article_job_detail .delivery_box .favorites{ float: left; position: relative; z-index: 2; margin: 25px 0px 0px 10px;}
+#article_job_detail .delivery_box .favorites i{ float: left; display: inline-block; width: 21px; height: 20px; background: url(../../images/2019/favorites_icon.png) no-repeat; background-size: 21px 20px;}
+#article_job_detail .delivery_box .favorites span{ float: left; display: inline-block; height: 20px; line-height: 20px; font-size: 14px; color: #999; margin: 0 0 0 5px;}
+#article_job_detail .delivery_box .hover i{ background: url(../../images/2019/favorites_icon_h.png) no-repeat; background-size: 21px 20px;}
+#article_job_detail .delivery_box .hover span{  color: #f3711a;}
+#article_job_detail .delivery_box .delivery { float: right;  width: calc(100% - 215px); position: relative; z-index: 2; margin: 10px 10px 0px 0px;}
+#article_job_detail .delivery_box .delivery input{ width: 100%; display: inline-block; height: 45px; line-height: 45px; color: #fff; text-align: center; background: #f3711a; border-radius: 2px; overflow: hidden; font-size: 20px;}
+#article_job_detail .delivery_box .disable input{  background: #c5c5c5;}
+
+
+
+

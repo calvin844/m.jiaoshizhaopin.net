@@ -1,0 +1,330 @@
+div.submit_box { text-align: center; margin: 30px 0px 30px 0px;}
+div.submit_box .submit_big{ width: 220px; height: 40px; line-height: 40px; text-align: center; font-size: 14px; color: #fff; background: #188eee;}
+div.submit_box .submit{ width: 150px; height: 40px; line-height: 40px; text-align: center; font-size: 14px; color: #fff; background: #188eee;}
+div.submit_box .to_next{ display: inline-block;width: 150px; height: 40px; line-height: 40px; text-align: center; font-size: 14px; color: #fff; background: #c5c5c5; margin: 0px 10px 0px 0px;}
+
+#make_info{background: #fff; padding: 15px;}
+#make_info .step_box{ color: #188eee; font-size: 16px; margin: 0px 0px 15px 0px; font-family: "Helvetica";}
+#make_info .step_box span{ color: #188eee; font-size: 28px; font-family: "Helvetica";}
+#make_info .tips_box{ color: #188eee; font-size: 24px; margin: 0px 0px 15px 0px;}
+#make_info .item_box ul li{ float: left; width: 100%; border-bottom: 1px solid #ededed; padding: 5px 0px 15px 0px; margin: 0px 0px 10px 0px; line-height: 25px; height: 25px;}
+#make_info .item_box ul li i{ float: right; display: inline-block; width: 7px; height: 13px; background: url(../../images/2019/to_right3.png) no-repeat; background-size: 7px 13px; margin: 7px 0px 0px 5px;}
+#make_info .item_box ul li label{ float: left; font-size: 14px; color: #666;}
+#make_info .item_box ul li input.text{ float: right; font-size: 14px; color: #212121; text-align: right; height: 25px; line-height: 25px;}
+#make_info .item_box ul li .radio_box{ float: right; position: relative; height: 25px; width: 110px; border: 1px solid #ededed; border-radius: 50px; overflow: hidden;}
+#make_info .item_box ul li .radio_box span{ float: left; display: inline-block; width: 50%; height: 25px; text-align: center; line-height: 25px; font-size: 14px; color: #666;}
+#make_info .item_box ul li .radio_box span.selected{ background: #dce7fd; color: #188eee;}
+#make_info .item_box ul li .txt_box{ float: right; }
+#make_info .item_box ul li .txt_box span{ font-size: 14px; color: #212121; }
+#make_info .item_box ul li span{ font-size: 14px; color: #212121; line-height: 25px; direction: rtl;}
+#make_info .item_box ul li .time_box{ float: right; }
+#make_info .item_box ul li .time_box span{ float: left; font-size: 14px; color: #212121}
+#make_info .item_box ul li .time_box span.line{ display: inline-block; width: 12px; height: 1px; background: #212121; margin: 12px 10px 0px 10px;}
+#make_info .item_box input.next{ display: inline-block; width: 40px; height: 40px; position: fixed; right: 15px; bottom: 40px; background: url(../../images/2019/next.png) no-repeat; background-size: 40px;}
+#make_info .item_box input.submit{ display: inline-block; width: 40px; height: 40px; position: fixed; right: 15px; bottom: 40px; background: url(../../images/2019/sure.png) no-repeat; background-size: 40px;}
+#make_info p.tip{ color: #999;}
+#make_info .submit_box{ position: fixed; bottom: 20px; left: 0; width: 100%; background: none; text-align: center; padding: 10px 0px 10px 0px;}
+#make_info .submit_box input{ padding: 10px 20px 10px 20px; margin: 0px 10px 0px 10px; font-size: 16px; border: 1px solid #188eee;}
+#make_info .submit_box input.back_job{ color: #188eee; background: none;}
+#make_info .submit_box input.to_resume{ color: #fff; background: #188eee;}
+#make_info .submit_box .resume_tip_box{ position: absolute; bottom: 60px; right: 40px; width: 255px; background: none;}
+#make_info .submit_box .resume_tip_box p{ text-align: center; width: 253px; border: 1px solid #999; color: #888; border-bottom: none; padding: 6px 0px 5px 0px}
+#make_info .submit_box .resume_tip_box i{ display: inline-block; width: 255px; height: 13px; background: url(../../images/2019/tip_box_footer.png) no-repeat; background-size: 255px 13px;}
+
+#index{ background: #f0f1f2; padding: 0px 0px 80px 0px;}
+#index .info_box{ float:left; width: 100%;}
+#index .info_box .top{ float: left; width: 100%; background: url(../../images/2019/personal_center/index_top_bg.png) no-repeat; position: relative;}
+#index .info_box .top img.bg{ float: left; z-index: 1;}
+#index .info_box .top p{ width: 100%; font-size: 16px; color: #fff; text-align: center; bottom: 100px; position: absolute; z-index: 2;}
+#index .info_box .top img.header{ border-radius: 100px; overflow: hidden; border: 3px solid #fff; bottom:10px; left: 50%; margin: 0px 0px 0px -43px; z-index: 2; position: absolute;}
+#index .info_box .bottom{ float: left; width: 100%; height: 75px; background: #fff;}
+#index .info_box .bottom div{ float: left; width: calc(100% / 3 - 2px); height: 45px; text-align: center; padding: 15px 0px 15px 0px;}
+#index .info_box .bottom div span{ display: inline-block; width: 100%; float: left; text-align: center; font-size: 14px; color: #188eee;  margin: 0px 0px 10px 0px;}
+#index .info_box .bottom div p{ font-size: 14px; color: #202020;}
+#index .info_box .bottom i{ display: inline-block; float: left; width: 1px; height: 45px; margin: 18px 0px 15px 0px; background: #ebebeb;}
+#index .function_box{ margin:10px 0px 0px 0px;}
+#index .function_box ul li{ border-bottom: 1px solid #ededed; background: #fff; width: 100%; height: 55px;}
+#index .function_box ul li:last-child{ border-bottom: none; }
+#index .function_box ul li a{ display: inline-block; padding: 15px 15px 13px 15px; float: left; width: calc(100% - 30px)}
+#index .function_box ul li a i{ float:left; display: inline-block; width: 20px; height: 27px; background-size: 20px 27px;}
+#index .function_box ul li a span{ float: left; font-size: 14px; color: #202020; margin: 3px 0px 0px 15px;}
+#index .function_box ul li a b{ float: right; display: inline-block; width: 7px; height: 13px; background: url(../../images/2019/to_right3.png) no-repeat;  background-size: 7px 13px;  margin: 7px 0px 0px 0px;}
+#index .function_box ul li.resume i{ background-image: url( ../../images/2019/personal_center/index_resume.png)}
+#index .function_box ul li.interview i{ background-image: url( ../../images/2019/personal_center/index_interview.png)}
+#index .function_box ul li.apply i{ background-image: url( ../../images/2019/personal_center/index_apply.png)}
+#index .function_box ul li.collection i{ background-image: url( ../../images/2019/personal_center/index_collection.png)}
+#index .function_box ul li.system i{ background-image: url( ../../images/2019/personal_center/index_system.png)}
+#index .function_box a.logout{ display: inline-block; padding: 15px 15px 13px 15px; float: left; width: calc(100% - 30px); background: #fff; margin: 10px 0px 0px 0px;}
+#index .function_box a.logout i{ float:left; display: inline-block; width: 20px; height: 27px; background-size: 20px 27px; background-image: url( ../../images/2019/personal_center/index_logout.png)}
+#index .function_box a.logout span{ float: left; font-size: 14px; color: #202020; margin: 3px 0px 0px 15px;}
+#index .talent_box{ width:100%; height: 100%; position: fixed; z-index: 10; top: 0; left: 0;}
+#index .talent_box .bg{ width:100%; height: 100%; position: absolute; z-index: 1; background: #000; opacity: 0.6;}
+#index .talent_box .talent{ position: absolute; left: 50%; top: 20%; margin: 0px 0px 0px -150px; z-index: 2;}
+#index .talent_box .close{ position: absolute; right: -10px; top: -10px; background: url( ../../images/2019/close3.png) no-repeat; display: inline-block; width: 20px; height: 20px; background-size: 20px;}
+
+
+#system{ background: #f0f1f2;}
+#system ul.system_ul li{ background: #fff; float: left; width: 100% ; border-bottom: 1px solid #ededed;}
+#system ul.system_ul li a{display: inline-block; padding: 15px 15px 13px 15px; float: left; width: calc(100% - 30px);}
+#system ul.system_ul li a span{ float: left; font-size: 14px; color: #333;}
+#system ul.system_ul li a i{ float: right; background: url(../../images/2019/to_right3.png) no-repeat; width: 7px; height: 13px; background-size: 7px 13px; margin: 3px 0 0 0;}
+
+
+
+#my_resume{ background: #f0f1f2;}
+#my_resume ul.my_resume_ul li{ background: #fff; float: left; width: 100% ; border-bottom: 1px solid #ededed;}
+#my_resume ul.my_resume_ul li a{display: inline-block; padding: 15px 15px 13px 15px; float: left; width: calc(100% - 30px);}
+#my_resume ul.my_resume_ul li a span{ float: left; font-size: 14px; color: #333;}
+#my_resume ul.my_resume_ul li a i{ float: right; background: url(../../images/2019/to_right3.png) no-repeat; width: 7px; height: 13px; background-size: 7px 13px; margin: 3px 0 0 0;}
+
+
+
+#system_wechat{ background: #fff;}
+#system_wechat p.tips{ color: #999999; padding: 15px 0 0 15px;}
+#system_wechat ul.wechat_ul{ background: #fff; padding: 0px 15px 0px 15px; float: left; width: calc(100% - 30px); }
+#system_wechat ul.wechat_ul li{ background: #fff; padding: 20px 0px 20px 0px; float: left; width: 100%; border-bottom: 1px solid #ededed;}
+#system_wechat ul.wechat_ul li label{ font-size: 14px; color: #666666;}
+#system_wechat ul.wechat_ul li span{ color: #f3711a;}
+#system_wechat ul.wechat_ul li.wechat_name input{ color: #999999; font-size: 14px; text-align: right; max-width: 45%;}
+#system_wechat ul.wechat_ul li.wechat_code_img input{ width: 65px;}
+#system_wechat ul.wechat_ul li.wechat_img{ border: none;}
+#system_wechat ul.wechat_ul li.wechat_img img{ width: 100px;}
+#system_wechat div.submit_box { text-align: center; margin: 30px 0px 30px 0px;}
+#system_wechat div.submit_box .submit{ width: 220px; height: 40px; line-height: 40px; text-align: center; font-size: 14px; color: #fff; background: #188eee;}
+
+
+#resume{ background: #fff; padding: 0px 0px 80px 0px;}
+#resume ul.list{ background: #fff; padding: 0px 15px 0px 15px; float: left; width: calc(100% - 30px); }
+#resume ul.list>li{ padding: 20px 0px 20px 0px; float: left; width: 100%; border-bottom: 1px solid #ededed;} 
+#resume ul.list li label.title{ font-size: 20px; color: #202020; font-weight: bolder;}
+#resume ul.list li a.right{ font-size: 14px; color: #188eee;}
+
+#resume ul.list li.basic .left p{ font-size: 30px; color: #202020; font-weight: bolder;}
+#resume ul.list li.basic .left a{ font-size: 14px; color: #999999; margin: 10px 0px 0px 0px; float: left;}
+#resume ul.list li.basic .right{ position: relative;}
+#resume ul.list li.basic .right i{ position: absolute; display: inline-block; width: 14px; height: 14px; background: url(../../images/2019/edit.png) no-repeat; background-size: 14px; right: -7px; top:-7px;}
+#resume ul.list li.basic .right input{ position: absolute; display: inline-block; width: 80px; height: 80px; left: 0; top:0; opacity: 0;}
+
+#resume ul.list li.intention .right{ max-width: 60%; height: 20px; overflow: hidden; margin: 3px 0px 0px 0px;}
+#resume ul.list li.intention .right span{ float: left; font-size: 14px; color: #999;}
+#resume ul.list li.intention .right i{ float: left; display: inline-block; background: url(../../images/2019/to_right3.png) no-repeat; width: 7px; height: 13px; background-size: 7px 13px; margin: 4px 0 0 5px;}
+
+#resume ul.list li.education ul.item { margin: 15px 0px 0px 0px;}
+#resume ul.list li.education ul.item li{ width: 100%; position: relative; margin: 0px 0px 15px 0px;}
+#resume ul.list li.education ul.item li .school_name{ font-size: 16px; color: #313131;}
+#resume ul.list li.education ul.item li .speciality{ color: #999; margin: 5px 0px 5px 0px;}
+#resume ul.list li.education ul.item li .time{ color: #999;}
+#resume ul.list li.education ul.item li i{ position: absolute; display: inline-block; background: url(../../images/2019/to_right3.png) no-repeat; width: 7px; height: 13px; background-size: 7px 13px; margin: 4px 0 0 5px; top: 0px; right: 0;}
+
+#resume ul.list li.work ul.item { margin: 15px 0px 0px 0px;}
+#resume ul.list li.work ul.item li{ width: 100%; position: relative; margin: 0px 0px 15px 0px;}
+#resume ul.list li.work ul.item li .company_name{ font-size: 16px; color: #313131;}
+#resume ul.list li.work ul.item li .jobs{ color: #999; margin: 5px 0px 5px 0px;}
+#resume ul.list li.work ul.item li .time{ color: #999;}
+#resume ul.list li.work ul.item li .achievements_title{ font-size: 16px; color: #313131; margin: 10px 0px 5px 0px;}
+#resume ul.list li.work ul.item li .achievements{ color: #999;}
+#resume ul.list li.work ul.item li i{ position: absolute; display: inline-block; background: url(../../images/2019/to_right3.png) no-repeat; width: 7px; height: 13px; background-size: 7px 13px; margin: 4px 0 0 5px; top: 0px; right: 0;}
+
+#resume ul.list li.training ul.item { margin: 15px 0px 0px 0px;}
+#resume ul.list li.training ul.item li{ width: 100%; position: relative; margin: 0px 0px 15px 0px;}
+#resume ul.list li.training ul.item li .agency_name{ font-size: 16px; color: #313131;}
+#resume ul.list li.training ul.item li .course{ color: #999; margin: 5px 0px 5px 0px;}
+#resume ul.list li.training ul.item li .time{ color: #999;}
+#resume ul.list li.training ul.item li .description_title{ font-size: 16px; color: #313131; margin: 10px 0px 5px 0px;}
+#resume ul.list li.training ul.item li .description{ color: #999;}
+#resume ul.list li.training ul.item li i{ position: absolute; display: inline-block; background: url(../../images/2019/to_right3.png) no-repeat; width: 7px; height: 13px; background-size: 7px 13px; margin: 4px 0 0 5px; top: 0px; right: 0;}
+
+#resume ul.list li.other ul.item { margin: 15px 0px 0px 0px;}
+#resume ul.list li.other ul.item li{ width: 100%; margin: 0px 0px 15px 0px;}
+#resume ul.list li.other ul.item li .tag_name{  font-size: 16px; color: #313131; margin: 10px 0px 5px 0px;}
+#resume ul.list li.other ul.item li .tag{  color: #999;}
+#resume ul.list li.other ul.item li .specialty_name{  font-size: 16px; color: #313131; margin: 10px 0px 5px 0px;}
+#resume ul.list li.other ul.item li .specialty{  color: #999;}
+
+
+#resume ul.list li.certificate{ overflow: hidden;}
+#resume ul.list li.certificate ul.item{ width: calc(100% + 85px); float: left; margin: 15px 0px 0px 0px;}
+#resume ul.list li.certificate ul.item li{ width: calc(100% / 3 - 40px); text-align: center; float: left; margin: 0px 20px 20px 0px;}
+#resume ul.list li.certificate ul.item li img{ width: 100%;}
+#resume ul.list li.certificate ul.item li p{ width: 100%; text-align: center; font-size: 14px; color: #999999; height: 20px; line-height: 20px; overflow: hidden;}
+#resume .show_box{ text-align: center; margin: 30px 0px 30px 0px;}
+#resume .show_box a{display: inline-block; width: 220px; height: 40px; line-height: 40px; text-align: center; font-size: 14px; color: #fff; background: #f3711a;}
+
+#edit_basic{ background: #fff; padding: 0px 0px 80px 0px;}
+#edit_basic ul.edit_ul{ background: #fff; padding: 0px 15px 0px 15px; float: left; width: calc(100% - 30px); }
+#edit_basic ul.edit_ul li{ background: #fff; padding: 20px 0px 20px 0px; float: left; width: 100%; border-bottom: 1px solid #ededed;}
+#edit_basic ul.edit_ul li label{ font-size: 14px; color: #666666;}
+#edit_basic ul.edit_ul li span.left{ color: #f3711a; margin: 2px 0px 0px 2px;}
+#edit_basic ul.edit_ul li input{ text-align: right; font-size: 14px; color: #999;}
+#edit_basic ul.edit_ul li .right{ max-width: 60%; overflow: hidden;}
+#edit_basic ul.edit_ul li .right span{ float: left; font-size: 14px; color: #999;}
+#edit_basic ul.edit_ul li .right i{ float: left; display: inline-block; background: url(../../images/2019/to_right3.png) no-repeat; width: 7px; height: 13px; background-size: 7px 13px; margin: 4px 0 0 5px;}
+#edit_basic div.submit_box { text-align: center; margin: 30px 0px 30px 0px;}
+#edit_basic div.submit_box .submit{ width: 220px; height: 40px; line-height: 40px; text-align: center; font-size: 14px; color: #fff; background: #188eee;}
+
+#edit_intention{ background: #fff; padding: 0px 0px 80px 0px;}
+#edit_intention ul.edit_ul{ background: #fff; padding: 0px 15px 0px 15px; float: left; width: calc(100% - 30px); }
+#edit_intention ul.edit_ul li{ background: #fff; padding: 20px 0px 20px 0px; float: left; width: 100%; border-bottom: 1px solid #ededed;}
+#edit_intention ul.edit_ul li label{ font-size: 14px; color: #666666;}
+#edit_intention ul.edit_ul li span.left{ color: #f3711a; margin: 2px 0px 0px 2px;}
+#edit_intention ul.edit_ul li input{ text-align: right; font-size: 14px; color: #999;}
+#edit_intention ul.edit_ul li .right{ max-width: 60%; overflow: hidden;}
+#edit_intention ul.edit_ul li .right span{ float: left; font-size: 14px; color: #999; display: inline-block; height: 20px; max-width: 93%; overflow: hidden;}
+#edit_intention ul.edit_ul li .right i{ float: left; display: inline-block; background: url(../../images/2019/to_right3.png) no-repeat; width: 7px; height: 13px; background-size: 7px 13px; margin: 4px 0 0 5px;}
+#edit_intention ul.edit_ul li.jobs{ border-bottom: none; padding: 20px 0px 0px 0px;}
+#edit_intention ul.edit_ul li.jobs ul{ text-align: center; border-top: 1px solid #ededed; width: 100%; margin: 15px 0px 0px 0px; padding: 10px 0px 0px 0px; float: left;}
+#edit_intention ul.edit_ul li.jobs ul li{ width: calc(90% - 30px); border: 1px solid #ededed; padding: 15px 10px; margin: 0px 0 5px 5%;}
+#edit_intention ul.edit_ul li.jobs ul li span{ float: left; color: #999999; max-width: calc(100% - 15px); overflow: hidden; display: inline-block; height: 16px; line-height: 16px;}
+#edit_intention ul.edit_ul li.jobs ul li i{ float: right; display: inline-block; width: 10px; height: 10px; background: url(../../images/2019/close.png) no-repeat; background-size: 10px; opacity: 0.6; margin: 3px 0px 0px 0px;}
+
+
+
+#edit_education{ background: #fff; padding: 0px 0px 80px 0px;}
+#edit_education .top_del{ float: right; font-size: 16px; color: #188eee; margin: 15px 15px 0px 0px; background: none;}
+#edit_education ul.edit_ul{ background: #fff; padding: 0px 15px 0px 15px; float: left; width: calc(100% - 30px); }
+#edit_education ul.edit_ul li{ background: #fff; padding: 20px 0px 20px 0px; float: left; width: 100%; border-bottom: 1px solid #ededed;}
+#edit_education ul.edit_ul li label{ font-size: 14px; color: #666666;}
+#edit_education ul.edit_ul li span.left{ color: #f3711a; margin: 2px 0px 0px 2px;}
+#edit_education ul.edit_ul li input{ text-align: right; font-size: 14px; color: #999;}
+#edit_education ul.edit_ul li .right{ max-width: 60%; overflow: hidden;}
+#edit_education ul.edit_ul li .right span{ float: left; font-size: 14px; color: #999;}
+#edit_education ul.edit_ul li .right i{ float: left; display: inline-block; background: url(../../images/2019/to_right3.png) no-repeat; width: 7px; height: 13px; background-size: 7px 13px; margin: 4px 0 0 5px;}
+
+
+#edit_work{ background: #fff; padding: 0px 0px 80px 0px;}
+#edit_work .top_del{ float: right; font-size: 16px; color: #188eee; margin: 15px 15px 0px 0px; background: none;}
+#edit_work ul.edit_ul{ background: #fff; padding: 0px 15px 0px 15px; float: left; width: calc(100% - 30px); }
+#edit_work ul.edit_ul li{ background: #fff; padding: 20px 0px 20px 0px; float: left; width: 100%; border-bottom: 1px solid #ededed;}
+#edit_work ul.edit_ul li label{ font-size: 14px; color: #666666;}
+#edit_work ul.edit_ul li span.left{ color: #f3711a; margin: 2px 0px 0px 2px;}
+#edit_work ul.edit_ul li input{ text-align: right; font-size: 14px; color: #999;}
+#edit_work ul.edit_ul li .right{ max-width: 60%; overflow: hidden;}
+#edit_work ul.edit_ul li .right span{ float: left; font-size: 14px; color: #999;}
+#edit_work ul.edit_ul li .right i{ float: left; display: inline-block; background: url(../../images/2019/to_right3.png) no-repeat; width: 7px; height: 13px; background-size: 7px 13px; margin: 4px 0 0 5px;}
+#edit_work ul.edit_ul li textarea{ float: left; width: 100%; height: 200px; margin: 15px 0px 0px 0px; color: #999}
+
+
+#edit_training{ background: #fff; padding: 0px 0px 80px 0px;}
+#edit_training .top_del{ float: right; font-size: 16px; color: #188eee; margin: 15px 15px 0px 0px; background: none;}
+#edit_training ul.edit_ul{ background: #fff; padding: 0px 15px 0px 15px; float: left; width: calc(100% - 30px); }
+#edit_training ul.edit_ul li{ background: #fff; padding: 20px 0px 20px 0px; float: left; width: 100%; border-bottom: 1px solid #ededed;}
+#edit_training ul.edit_ul li label{ font-size: 14px; color: #666666;}
+#edit_training ul.edit_ul li span.left{ color: #f3711a; margin: 2px 0px 0px 2px;}
+#edit_training ul.edit_ul li input{ text-align: right; font-size: 14px; color: #999;}
+#edit_training ul.edit_ul li .right{ max-width: 60%; overflow: hidden;}
+#edit_training ul.edit_ul li .right span{ float: left; font-size: 14px; color: #999;}
+#edit_training ul.edit_ul li .right i{ float: left; display: inline-block; background: url(../../images/2019/to_right3.png) no-repeat; width: 7px; height: 13px; background-size: 7px 13px; margin: 4px 0 0 5px;}
+#edit_training ul.edit_ul li textarea{ float: left; width: 100%; height: 200px; margin: 15px 0px 0px 0px; color: #999}
+
+
+
+#edit_other{ background: #fff; padding: 0px 0px 80px 0px;}
+#edit_other ul.edit_ul{ background: #fff; padding: 0px 15px 0px 15px; float: left; width: calc(100% - 30px); }
+#edit_other ul.edit_ul li{ background: #fff; padding: 20px 0px 20px 0px; float: left; width: 100%; border-bottom: 1px solid #ededed;}
+#edit_other ul.edit_ul li label{ font-size: 14px; color: #666666;}
+#edit_other ul.edit_ul li span.left{ color: #f3711a; margin: 2px 0px 0px 2px;}
+#edit_other ul.edit_ul li .right{ max-width: 60%; overflow: hidden;}
+#edit_other ul.edit_ul li .right span{ float: left; font-size: 14px; color: #999;}
+#edit_other ul.edit_ul li .right i{ float: left; display: inline-block; background: url(../../images/2019/to_right3.png) no-repeat; width: 7px; height: 13px; background-size: 7px 13px; margin: 4px 0 0 5px;}
+#edit_other ul.edit_ul li.tags{ border-bottom: none; padding: 20px 0px 0px 0px;}
+#edit_other ul.edit_ul li.tags ul{ text-align: center; border-top: 1px solid #ededed; width: 100%; margin: 15px 0px 0px 0px; padding: 10px 0px 0px 0px; float: left;}
+#edit_other ul.edit_ul li.tags ul li{ width: calc(90% - 30px); border: 1px solid #ededed; padding: 15px 10px; margin: 0px 0 5px 5%;}
+#edit_other ul.edit_ul li.tags ul li span{ float: left; color: #999999; max-width: calc(100% - 15px); overflow: hidden; display: inline-block; height: 16px; line-height: 16px;}
+#edit_other ul.edit_ul li.tags ul li i{ float: right; display: inline-block; width: 10px; height: 10px; background: url(../../images/2019/close.png) no-repeat; background-size: 10px; opacity: 0.6; margin: 3px 0px 0px 0px;}
+#edit_other ul.edit_ul li textarea{ float: left; width: 100%; height: 200px; margin: 15px 0px 0px 0px; color: #999}
+
+#edit_certificate{ background: #fff; overflow-x: hidden; padding: 0px 0px 80px 0px;}
+#edit_certificate .back_index{ float: left; font-size: 16px; color: #c5c5c5; margin: 15px 0px 0px 15px; background: none;}
+#edit_certificate .top_upload{ float: right; font-size: 16px; color: #188eee; margin: 15px 15px 0px 0px; background: none;}
+#edit_certificate ul.edit_ul{ background: #fff; padding: 0px 15px 0px 15px; float: left; width: calc(100% - 30px); }
+#edit_certificate ul.edit_ul li{ background: #fff; padding: 20px 0px 20px 0px; float: left; width: 100%; border-bottom: 1px solid #ededed;}
+#edit_certificate ul.edit_ul li label{ font-size: 14px; color: #666666;}
+#edit_certificate ul.edit_ul li span.left{ color: #f3711a; margin: 2px 0px 0px 2px;}
+#edit_certificate ul.edit_ul li input{ text-align: right; font-size: 14px; color: #999;}
+#edit_certificate ul.edit_ul li.upload{ border: none; position: relative;}
+#edit_certificate ul.edit_ul li.upload img{ width: 80px; height: 80px;}
+#edit_certificate ul.edit_ul li.upload input{ width: 80px; height: 80px; position: absolute; top: 20px; left: 0px; opacity: 0;}
+#edit_certificate ul.list{ width: calc(100% - 10px); overflow: hidden; border-top: 10px solid #ebebeb; padding: 15px 0px 0px 10px;}
+#edit_certificate ul.list li{ width: calc(100% / 3 - 30px); margin:0 30px 0px 0px; border-bottom: none; float: left; padding: 10px 0px 10px 0px; display: table-cell; text-align: center;}
+#edit_certificate ul.list li div{ width:100px; height:100px; background:#fff; overflow: hidden; text-align: center; vertical-align: middle; border: 1px solid #ccc;}
+#edit_certificate ul.list li .img_box{  max-width: 100%; vertical-align: middle; position: relative; overflow: visible;}
+#edit_certificate ul.list li .img_box a{  max-width: 100px; max-height: 100px; line-height: 100px;}
+#edit_certificate ul.list li .img_box img{  max-width: 100%; max-height: 100%; vertical-align: middle;}
+#edit_certificate ul.list li div.del_box{  width: 20px; height: 20px; background: url(../../images/2019/del.png) no-repeat; background-size: 20px; position: absolute; z-index: 10; top: -10px; right: -10px; border-radius: 50px; border: none;}
+#edit_certificate ul.list li p{ width: 100%; height: 30px; line-height: 15px; overflow: hidden; margin: 5px 0px 0px 0px;}
+#edit_certificate ul.list li p.tip{ color: #f3711a;}
+
+
+#my_invitation{ background: #ededed; padding: 0px 0px 80px 0px;}
+#my_invitation ul.list{ padding: 15px 15px 80px 15px;}
+#my_invitation ul.list li{ width: calc(100% - 20px); background: #fff; float: left; margin: 0px 0px 15px 0px; padding: 15px 10px 15px 10px; overflow: hidden; position: relative;}
+#my_invitation ul.list li a.job_name{ max-width: calc(100% - 80px); float: left; color: #202020; font-size: 16px; height: 20px; display: inline-block; overflow: hidden;}
+#my_invitation ul.list li span.time{ float: right; color: #999999; }
+#my_invitation ul.list li p.company_name{ width: 100%; float: left; color: #999999; margin: 10px 0px 0px 0px;}
+#my_invitation ul.list li i{ display: inline-block; width: 70px; height: 70px; background: url(../../images/2019/personal_center/look.png) no-repeat; background-size: 70px; position: absolute; bottom: -15px; right: 5px;}
+
+
+#my_apply_jobs{ background: #ededed; padding: 0px 0px 80px 0px;}
+#my_apply_jobs .type_tab_box{ float: left; width: 100%; background: #fff;}
+#my_apply_jobs .type_tab_box div{ float: left; position: relative; padding: 15px;}
+#my_apply_jobs .type_tab_box div span{ font-size: 14px; color: #999; font-weight: bold;}
+#my_apply_jobs .type_tab_box div i{ display: inline-block; width: 20px; height: 3px; background: #188eee; position: absolute; bottom: 0px; left: 50%; margin: 0px 0px 0px -10px; opacity: 0;}
+#my_apply_jobs .type_tab_box div.hover span{ color: #188eee;}
+#my_apply_jobs .type_tab_box div.hover i{ opacity: 1;}
+#my_apply_jobs ul.list{ padding: 15px 15px 0px 15px; float: left;}
+#my_apply_jobs ul.list li{ width: calc(100% - 30px); background: #fff; float: left; margin: 0px 0px 10px 0px; padding: 15px; position: relative; overflow: hidden;}
+#my_apply_jobs ul.list li a.job_name{ max-width: calc(100% - 80px); float: left; color: #202020; font-size: 16px; height: 20px; display: inline-block; overflow: hidden;}
+#my_apply_jobs ul.list li span.time{ float: right; color: #999999; margin: 3px 0 0 0;}
+#my_apply_jobs ul.list li p.p_name{ width: 100%; float: left; color: #999999; margin: 10px 0px 0px 0px;}
+#my_apply_jobs ul.list li i{ display: inline-block; width: 70px; height: 70px; background: url(../../images/2019/personal_center/look.png) no-repeat; background-size: 70px; position: absolute; bottom: -15px; right: 5px;}
+
+
+#my_favorites_article{ background: #ededed; padding: 0px 0px 80px 0px;}
+#my_favorites_article .type_tab_box{ float: left; width: 100%; background: #fff;}
+#my_favorites_article .type_tab_box div{ float: left; position: relative; padding: 15px;}
+#my_favorites_article .type_tab_box div span{ font-size: 14px; color: #999; font-weight: bold;}
+#my_favorites_article .type_tab_box div i{ display: inline-block; width: 20px; height: 3px; background: #188eee; position: absolute; bottom: 0px; left: 50%; margin: 0px 0px 0px -10px; opacity: 0;}
+#my_favorites_article .type_tab_box div.hover span{ color: #188eee;}
+#my_favorites_article .type_tab_box div.hover i{ opacity: 1;}
+#my_favorites_article .type_tab_box div.manage{ float: right; position: relative; padding: 0; width: 15px; height: 15px; background: url(../../images/2019/manage.png) no-repeat; background-size: 15px; margin: 18px 15px 0px 0px;}
+#my_favorites_article .type_tab_box div.manage_hover{ background: url(../../images/2019/manage_h.png) no-repeat; background-size: 15px;}
+#my_favorites_article ul.list{ padding: 15px 15px 0px 15px; float: left; width: calc(100% - 30px);}
+#my_favorites_article ul.list li{ width: 100%; background: #fff; position: relative; margin: 0px 0px 15px 0px; float: left;}
+#my_favorites_article ul.list li div.left{ width: 30px; height: 100%; text-align: center; background: #ededed; line-height: 100%; position: absolute; top:0; left: -15px; display: none;}
+#my_favorites_article ul.list li div.left input{ display: inline-block; width: 15px; height: 15px; background: url(../../images/2019/checkbox.png) no-repeat; background-size: 15px; position: relative; top: 50%; left: 0; margin: -10px 0px 0px 0px;}
+#my_favorites_article ul.list li div.left input:checked{ background: url(../../images/2019/checked.png) no-repeat; background-size: 15px;}
+#my_favorites_article ul.list li div.left input.checked{ background: url(../../images/2019/checked.png) no-repeat; background-size: 15px;}
+#my_favorites_article ul.list li div.right{ width: calc(100% - 20px); padding: 15px 10px 15px 10px; overflow: hidden; position: relative;}
+#my_favorites_article ul.list li a.article_name{ width: 100%; float: left; color: #202020; font-size: 16px; margin: 0px 0px 10px 0px;}
+#my_favorites_article ul.list li span.read{ float: left; color: #999999; }
+#my_favorites_article ul.list li span.time{ float: right; color: #999999; }
+
+
+#my_favorites_jobs{ background: #ededed; padding: 0px 0px 80px 0px;}
+#my_favorites_jobs .type_tab_box{ float: left; width: 100%; background: #fff;}
+#my_favorites_jobs .type_tab_box div{ float: left; position: relative; padding: 15px;}
+#my_favorites_jobs .type_tab_box div span{ font-size: 14px; color: #999; font-weight: bold;}
+#my_favorites_jobs .type_tab_box div i{ display: inline-block; width: 20px; height: 3px; background: #188eee; position: absolute; bottom: 0px; left: 50%; margin: 0px 0px 0px -10px; opacity: 0;}
+#my_favorites_jobs .type_tab_box div.hover span{ color: #188eee;}
+#my_favorites_jobs .type_tab_box div.hover i{ opacity: 1;}
+#my_favorites_jobs .type_tab_box div.manage{ float: right; position: relative; padding: 0; width: 15px; height: 15px; background: url(../../images/2019/manage.png) no-repeat; background-size: 15px; margin: 18px 15px 0px 0px;}
+#my_favorites_jobs .type_tab_box div.manage_hover{ background: url(../../images/2019/manage_h.png) no-repeat; background-size: 15px;}
+#my_favorites_jobs ul.list{ padding: 15px 15px 0px 15px; float: left; width: calc(100% - 30px);}
+
+#my_favorites_jobs ul.list li{ width: 100%; background: #fff; position: relative; margin: 0px 0px 15px 0px; float: left;}
+#my_favorites_jobs ul.list li div.left{ width: 30px; height: 100%; text-align: center; background: #ededed; line-height: 100%; position: absolute; top:0; left: -15px; display: none;}
+#my_favorites_jobs ul.list li div.left input{ display: inline-block; width: 15px; height: 15px; background: url(../../images/2019/checkbox.png) no-repeat; background-size: 15px; position: relative; top: 50%; left: 0; margin: -10px 0px 0px 0px;}
+#my_favorites_jobs ul.list li div.left input:checked{ background: url(../../images/2019/checked.png) no-repeat; background-size: 15px;}
+#my_favorites_jobs ul.list li div.left input.checked{ background: url(../../images/2019/checked.png) no-repeat; background-size: 15px;}
+#my_favorites_jobs ul.list li div.right{ width: calc(100% - 20px); padding: 15px 10px 15px 10px; overflow: hidden; position: relative;}
+#my_favorites_jobs ul.list li a.job_name{ max-width: calc(100% - 80px); float: left; color: #202020; font-size: 16px; height: 20px; display: inline-block; overflow: hidden;}
+#my_favorites_jobs ul.list li span.time{ float: right; color: #999999; margin: 3px 0 0 0;}
+#my_favorites_jobs ul.list li p.company_name{ width: 100%; float: left; color: #999999; margin: 10px 0px 0px 0px;}
+
+.all_box{ position: fixed; height: 55px; width: 100%; background: #fff; border-top: 1px solid #ebebeb; z-index: 6; bottom: 0; left: 0; display: none;}
+.all_box input.all_check{ display: inline-block; width: 15px; height: 15px; background: url(../../images/2019/checkbox.png) no-repeat; background-size: 15px; float: left; margin: 20px 10px 0px 10px;}
+.all_box input.checked{  background: url(../../images/2019/checked.png) no-repeat; background-size: 15px;}
+.all_box span.total{ display: inline-block; width: 30px; font-size: 14px; color: #999; float: left; margin: 10px 0px 0px 10px;}
+.all_box span.total b{ font-size: 14px; color: #999;}
+.all_box input.submit{ display: inline-block; width: calc(100% - 110px); height: 40px; line-height: 40px; color: #fff; background: #f3711a; float:right; margin: 10px 15px 0px 10px; border-radius: 5px; font-size: 16px}
+
